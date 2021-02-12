@@ -1,7 +1,5 @@
 # Eurotransit
-Interactive visualizations of the transit in Europe using D3.js and Chart.js.
-
-See the live app on [dvcarrillo.com/eurotransit](http://www.dvcarrillo.com/eurotransit)
+Interactive visualizations of the transit in Europe using D3.js and Chart.js. See the live app on [dvcarrillo.com/eurotransit](http://www.dvcarrillo.com/eurotransit).
 
 ## Development
 Any new development should be done in the ```dev``` branch, then pushed to ```main``` via pull requests.  
@@ -10,3 +8,5 @@ This project uses the package ```gh-pages``` for deployment. Therefore, if you w
 ```
 gh-pages -d build
 ```
+## Found an issue?
+Please, report it on the [Issues page](https://github.com/dvcarrillo/eurotransit/issues).
