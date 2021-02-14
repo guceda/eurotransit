@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: 
+      - feature/ci
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        with:
+          node-version: "10.x"
+      - run: echo 'build'
+      - run: echo 'publish'
+      - run: echo 'done'
