@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "https://dvcarrillo.com/eurotransit/",
+            "request": "launch",
+            "url": "https://dvcarrillo.com/eurotransit/"
+        }
+    ]
+}
