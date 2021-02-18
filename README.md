@@ -11,5 +11,6 @@ This project uses the package ```gh-pages``` for deployment. Therefore, if you w
 ```
 gh-pages -d build
 ```
+**UPDATE:** deployment is automated via a GitHub action on every accepted PR to ```main```. 
 ## Found an issue?
 Please, report it on the [Issues page](https://github.com/dvcarrillo/eurotransit/issues).
