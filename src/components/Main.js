@@ -2,7 +2,6 @@
 
 
 const Main = ({ datasets }) => {
-  debugger;
   return(
     <div>WELCOOOME</div>
   )
