@@ -1,6 +1,6 @@
 const Loading = () => {
   return(
-    <div>eurotransit</div>
+    <h2>eurotransit</h2>
   )
 }
 
