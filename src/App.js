@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Papa from "papaparse";
+import { parse } from "papaparse";
 
 import Main from "./components/Main";
 import Loading from "./components/Loading";
@@ -16,7 +16,7 @@ function App() {
     const promises = DATASETS.map((dataset) =>
       fetch(BASE_URL + dataset)
         .then((response) => response.text())
-        .then((v) => Papa.parse(v))
+        .then((v) => parse(v))
         .catch(setError)
     );
 
