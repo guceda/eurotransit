@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Loading = () => {
   return(
     <div>eurotransit</div>

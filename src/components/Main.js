@@ -1,9 +1,12 @@
-'use strict';
-
+import Map from "./Map";
 
 const Main = ({ datasets }) => {
   return(
-    <div>WELCOOOME</div>
+    <div>
+      <Map datasets = {datasets}/>
+      WELCOOOME
+      </div>
+
   )
 }
 
