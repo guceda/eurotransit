@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { parse } from "papaparse";
 
 import { BASE_URL, DATASETS } from "./constants";
-import { formatDataSets, handle } from "./utils";
+import { formatDataSets } from "./utils";
 
 export const useDatasets = () => {
   const [data, setData] = useState(null);
