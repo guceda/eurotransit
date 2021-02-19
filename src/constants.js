@@ -5,5 +5,5 @@ export const DATASETS = [
   "rail_passengers_2020_cleaned.csv",
   "cleaned_planes.csv",
   "rail_trips_cleaned.csv",
-  "country_codes.csv",
+  // "country_codes.csv",
 ];

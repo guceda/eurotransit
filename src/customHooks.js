@@ -1,12 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { parse } from "papaparse";
 
 import { BASE_URL, DATASETS } from "./constants";
+import { formatDataSets } from './utils';
 
 
 export const useDatasets = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+
+  const format =  useCallback((ds) => formatDataSets(ds),[]);
 
   useEffect(() => {
     const promises = DATASETS.map((dataset) =>
@@ -26,12 +29,13 @@ export const useDatasets = () => {
         } else {
           const data = res.map((x) => x.data);
           setTimeout(() => {
-            setData(data);
+            const formated = format(data);
+            setData(formated);
           }, 1500);
         }
       })
       .catch(setError);
-  }, []);
+  }, [format]);
 
   return [data, error];
 
