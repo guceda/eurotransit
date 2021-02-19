@@ -3,6 +3,7 @@ import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
 import geodata from "../geo.json";
 
 const MapChart = ({ datasets }) => {
+  console.log(datasets);
   return (
     <div style={{ width: "100vw" }}>
       <ComposableMap
@@ -15,11 +16,17 @@ const MapChart = ({ datasets }) => {
         <Geographies geography={geodata}>
           {({ geographies }) =>
             geographies.map((geo) => {
+              const p = datasets.plane[2015][geo.properties.ISO_A2];
+              const amount =  p ? Object.values(
+                  datasets.plane[2014][geo.properties.ISO_A2]
+                ).reduce((acc, v) => acc + v || 0, 0) : 0;
+
+              
               return (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill="#9998A3"
+                  fill={amount && amount > 10000 ? "#9998A3" : "#EAEAEC"}
                   stroke="#EAEAEC"
                 />
               );
