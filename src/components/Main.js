@@ -1,13 +1,11 @@
-import Map from "./Map";
+import MapChart from "./MapChart";
 
 const Main = ({ datasets }) => {
-  return(
-    <div>
-      <Map datasets = {datasets}/>
-      WELCOOOME
-      </div>
-
-  )
-}
+  return (
+    <div style={{ height: "100vh", overflow: "hidden" }}>
+      <MapChart datasets={datasets} />
+    </div>
+  );
+};
 
 export default Main;
