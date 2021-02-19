@@ -24,7 +24,7 @@ export const formatData = (dataset) => {
     const yearIdx = header.indexOf(year);
 
     data.forEach((row) => {
-      if (row === [""]) return; // weird error in a ds;
+      if (row[destination] === undefined) return; // weird error in a ds;
 
       if (row[origin] in formated[year]) {
         formated[year][row[origin]][row[destination]] = parseVal(row[yearIdx]);
