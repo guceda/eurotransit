@@ -58,8 +58,3 @@ export const formatDataSets = (datasets) => {
   const merged = mergeDatasets(formated);
   return merged;
 };
-
-export const handle = async (promise) => {
-  const res = await promise();
-  return res.ok ? [res, null] : [null, res];
-};
