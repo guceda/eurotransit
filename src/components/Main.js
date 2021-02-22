@@ -6,20 +6,24 @@ import Navbar from "./Navbar";
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
 const Main = ({ datasets }) => {
-  const [selectedTransport, setTransport] = useState("plane");
+  const [transport, setTransport] = useState("plane");
   const [year, setYear] = useState(2020);
 
   return (
     <div style={{ height: "100vh", overflow: "hidden" }}>
       <Navbar
-        selected={selectedTransport}
+        selected={transport}
         setSelected={setTransport}
         options={TRANSPORT_OPTS}
       />
-      <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
+      <Navbar
+        selected={year}
+        setSelected={setYear}
+        options={YEAR_OPTS}
+      />
       <MapChart
         datasets={datasets}
-        selectedTransport={selectedTransport}
+        selectedTransport={transport}
         selectedYear={year}
       />
     </div>
