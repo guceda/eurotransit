@@ -37,8 +37,8 @@ const Main = ({ datasets }) => {
     debugger;
     return <p>
       <h3>{name}</h3>
-      <p>Population: <b>{country.geo.properties.POP_EST}</b></p>
-      <p>Total passengers by {transport} in {year}: <b>{total * 1000}</b></p>
+      <p>Population: <b>{(country.geo.properties.POP_EST / 1000000).toFixed(2)}M</b></p>
+      <p>Total passengers by {transport} in {year}: <b>{(total / 1000).toFixed(2)}M</b></p>
     </p>
   };
 
