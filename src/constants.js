@@ -7,3 +7,16 @@ export const DATASETS = {
   train: "rail_trips_cleaned.csv",
   // "country_codes.csv",
 };
+
+export const TRANSPORT_OPTS = [
+  { value: "plane", label: "Flight" },
+  { value: "train", label: "Train" },
+];
+
+export const YEAR_OPTS = Array.from(
+  { length: 2020 - 2004 + 1 },
+  (_, i) => 2004 + i
+).map((year) => ({
+  value: year,
+  label: year,
+}));
