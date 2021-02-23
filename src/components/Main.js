@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import chroma from 'chroma-js';
+import chroma from "chroma-js";
 import ReactTooltip from "react-tooltip";
 
 import MapChart from "./MapChart";
@@ -27,6 +27,21 @@ const Main = ({ datasets }) => {
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
 
+  const tootipContent = (country) => {
+    if (!country) return;
+    const name = hoveredCountry?.geo.properties.NAME;
+    if (!country.data) return <p><h3>{name}</h3></p>
+    const total = Object.values(country.data).reduce((acc, amount) => {
+      return (acc += amount);
+    }, 0);
+    debugger;
+    return <p>
+      <h3>{name}</h3>
+      <p>Population: <b>{country.geo.properties.POP_EST}</b></p>
+      <p>Total passengers by {transport} in {year}: <b>{total * 1000}</b></p>
+    </p>
+  };
+
   return (
     <div style={{ height: "100vh", overflow: "hidden" }}>
       <Navbar
@@ -43,7 +58,7 @@ const Main = ({ datasets }) => {
         setHoveredCountry={setHoveredCountry}
         setSelected={setSelectedCountries}
       />
-      <ReactTooltip>{'test'}</ReactTooltip>
+      <ReactTooltip>{tootipContent(hoveredCountry)}</ReactTooltip>
     </div>
   );
 };
