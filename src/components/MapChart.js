@@ -3,7 +3,7 @@ import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
 import geodata from "../geo.json";
 
 const getCentroid = (data) => {
-  if(!data) return [0, 0];
+  if (!data) return [0, 0];
   const sum = data.reduce(
     (acc, coord) => {
       acc.x += coord[0];
@@ -15,15 +15,21 @@ const getCentroid = (data) => {
   return [sum.x / data.length, sum.y / data.length];
 };
 
-const MapChart = ({ datasets, setSelected, selectedCountries }) => {
-
+const MapChart = ({
+  datasets,
+  setSelected,
+  selectedCountries,
+  selectedTransport,
+  selectedYear,
+}) => {
   const isSelected = (geo) =>
     selectedCountries?.find((c) => c.ISO === geo.properties.ISO_A2);
 
   const isTarget = (geo) => {
-    const val = selectedCountries[0] && selectedCountries[0].data[geo.properties.ISO_A2];
-    return !!val ;
-  }
+    const val =
+      selectedCountries[0] && selectedCountries[0].data[geo.properties.ISO_A2];
+    return !!val;
+  };
 
   return (
     <div style={{ width: "100vw" }}>
@@ -37,24 +43,37 @@ const MapChart = ({ datasets, setSelected, selectedCountries }) => {
         <Geographies geography={geodata}>
           {({ geographies }) =>
             geographies.map((geo) => {
-              const p = datasets.plane[2015][geo.properties.ISO_A2];
+              debugger;
+              const p =
+                datasets ? datasets[selectedTransport][selectedYear][geo.properties.ISO_A2
+                ] : null;
               const amount = p
                 ? Object.values(
-                    datasets.plane[2014][geo.properties.ISO_A2]
+                    datasets[selectedTransport][selectedYear][
+                      geo.properties.ISO_A2
+                    ]
                   ).reduce((acc, v) => acc + v || 0, 0)
                 : 0;
+
               return (
                 <React.Fragment key={geo.rsmKey}>
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#EAEAEC"
+                    fill={
+                      amount > 10000000
+                        ? "#11987F"
+                        : amount > 300000
+                        ? "#14B89A"
+                        : "#323232"
+                    }
                     onClick={() => {
                       setSelected([
                         {
                           geo,
                           ISO: geo.properties.ISO_A2,
-                          data: datasets.plane[2014][geo.properties.ISO_A2],
+                          data: datasets[selectedTransport][selectedYear][geo.properties.ISO_A2],
                         },
                       ]);
                     }}
@@ -62,7 +81,9 @@ const MapChart = ({ datasets, setSelected, selectedCountries }) => {
                       default: {
                         fill: isSelected(geo)
                           ? "#E42"
-                          : (isTarget(geo) ? '#FFAA98' : "#EAEAEC"),
+                          : isTarget(geo)
+                          ? "#FFAA98"
+                          : "#EAEAEC",
                         opacity: 1,
                         outline: "none",
                       },
