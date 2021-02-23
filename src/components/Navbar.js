@@ -13,6 +13,7 @@ const Navbar = ({ options, selected, setSelected }) => {
       <div className="tab">
         {options.map((opt) => (
           <button
+            key={opt.value}
             className={setClass(opt.value)}
             onClick={() => setSelected(opt.value)}
           >
