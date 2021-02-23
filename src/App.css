@@ -1,6 +1,6 @@
 .App{
-  text-align: center;
-  background-color: #282c34;
+  
+  background-color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,35 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+.tab {
+  overflow: hidden;
+}
+
+.tab-btn {
+  width: 100px;
+  transition: 0.4s;
+  border: none;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  background-color: inherit;
+  float: left;
+  color: #FFF;
+}
+
+.tab-btn:hover {
+  color: #00db8e;
+}
+
+.tab-active {
+  width: 100px;
+  transition: 0.4s;
+  border: none;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  background-color: #747474;
+  float: left;
+  color: #FFF;
 }

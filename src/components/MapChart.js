@@ -1,45 +1,75 @@
 import React from "react";
-import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
 import geodata from "../geo.json";
 
-const MapChart = ({ datasets }) => {
-  console.log(datasets);
+const MapChart = ({ dataset, scale, selectedCountries, setHoveredCountry, setSelected }) => {
+  const getAcc = (data) => {
+    const amount = data
+      ? Object.values(data).reduce((acc, v) => acc + v || 0, 0)
+      : 0;
+    return amount;
+  };
+
   return (
     <div style={{ width: "100vw" }}>
       <ComposableMap
+        data-tip=""
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
           rotate: [-20.0, -40.0, 0],
           scale: 500,
         }}
       >
-        <Geographies geography={geodata}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              const p = datasets.plane[2015][geo.properties.ISO_A2];
-              const amount =  p ? Object.values(
-                  datasets.plane[2014][geo.properties.ISO_A2]
-                ).reduce((acc, v) => acc + v || 0, 0) : 0;
-
-              
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  fill={amount && amount > 10000 ? "#9998A3" : "#EAEAEC"}
-                  stroke="#EAEAEC"
-                />
-              );
-            })
-          }
-        </Geographies>
-        <Line
-          from={[40.0457, 50.7128]}
-          to={[19.3499, 48.0703]}
-          stroke="#FF5533"
-          strokeWidth={2}
-          strokeLinecap="round"
-        />
+        <ZoomableGroup>
+          <Geographies geography={geodata}>
+            {({ geographies }) =>
+              geographies.map((geo) => {
+                const amount = getAcc(dataset[geo.properties.ISO_A2]);
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    stroke="#EAEAEC"
+                    onClick={() => {
+                      setSelected([
+                        {
+                          geo,
+                          ISO: geo.properties.ISO_A2,
+                          data: dataset[geo.properties.ISO_A2],
+                        },
+                      ]);
+                    }}
+                    onMouseEnter = {() => {
+                      setHoveredCountry({
+                        geo,
+                        ISO: geo.properties.ISO_A2,
+                        data: dataset[geo.properties.ISO_A2],
+                      });
+                    }}
+                    onMouseLeave = {() => {
+                      setHoveredCountry(null);
+                    }}
+                    style={{
+                      default: {
+                        fill: scale(amount),
+                        opacity: 1,
+                        outline: "none",
+                      },
+                      hover: {
+                        fill: "#0e755d",
+                        outline: "none",
+                      },
+                      pressed: {
+                        fill: "#E42",
+                        outline: "none",
+                      },
+                    }}
+                  />
+                );
+              })
+            }
+          </Geographies>
+        </ZoomableGroup>
       </ComposableMap>
     </div>
   );
