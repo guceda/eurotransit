@@ -2,7 +2,7 @@ import React from "react";
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
 import geodata from "../geo.json";
 
-const MapChart = ({ dataset, scale, selectedTransport, selectedYear }) => {
+const MapChart = ({ dataset, scale, selectedCountries, setHoveredCountry, setSelected }) => {
   const getAcc = (data) => {
     const amount = data
       ? Object.values(data).reduce((acc, v) => acc + v || 0, 0)
@@ -30,6 +30,25 @@ const MapChart = ({ dataset, scale, selectedTransport, selectedYear }) => {
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#EAEAEC"
+                    onClick={() => {
+                      setSelected([
+                        {
+                          geo,
+                          ISO: geo.properties.ISO_A2,
+                          data: dataset[geo.properties.ISO_A2],
+                        },
+                      ]);
+                    }}
+                    onMouseEnter = {() => {
+                      setHoveredCountry({
+                        geo,
+                        ISO: geo.properties.ISO_A2,
+                        data: dataset[geo.properties.ISO_A2],
+                      });
+                    }}
+                    onMouseLeave = {() => {
+                      setHoveredCountry(null);
+                    }}
                     style={{
                       default: {
                         fill: scale(amount),

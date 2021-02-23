@@ -11,6 +11,7 @@ import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 const Main = ({ datasets }) => {
   const [year, setYear] = useState(2020);
   const [selectedCountries, setSelectedCountries] = useState([]);
+  const [hoveredCountry, setHoveredCountry] = useState(null);
   const [transport, setTransport] = useState("plane");
 
   const dataset = useMemo(() => datasets[transport][year], [
@@ -37,9 +38,12 @@ const Main = ({ datasets }) => {
       <MapChart
         dataset={dataset}
         scale={scale}
+        hoveredCountry={hoveredCountry}
         selectedCountries={selectedCountries}
+        setHoveredCountry={setHoveredCountry}
         setSelected={setSelectedCountries}
       />
+      <ReactTooltip>{'test'}</ReactTooltip>
     </div>
   );
 };
