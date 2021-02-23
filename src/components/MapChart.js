@@ -28,8 +28,22 @@ const MapChart = ({ dataset, scale, selectedTransport, selectedYear }) => {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill={scale(amount)}
                   stroke="#EAEAEC"
+                  style={{
+                    default: {
+                      fill: scale(amount),
+                      opacity: 1,
+                      outline: "none",
+                    },
+                    hover: {
+                      fill: '#0e755d',
+                      outline: "none",
+                    },
+                    pressed: {
+                      fill: "#E42",
+                      outline: "none",
+                    },
+                  }}
                 />
               );
             })
