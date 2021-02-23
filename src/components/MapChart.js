@@ -1,9 +1,16 @@
 import React from "react";
-import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import geodata from "../geo.json";
 
-const MapChart = ({ datasets, selectedTransport, selectedYear }) => {
-  console.log(datasets);
+const MapChart = ({ dataset, scale, selectedTransport, selectedYear }) => {
+  
+  const getAcc = (data) => {
+    const amount = data
+      ? Object.values(data).reduce((acc, v) => acc + v || 0, 0)
+      : 0;
+    return amount;
+  };
+
   return (
     <div style={{ width: "100vw" }}>
       <ComposableMap
@@ -16,31 +23,18 @@ const MapChart = ({ datasets, selectedTransport, selectedYear }) => {
         <Geographies geography={geodata}>
           {({ geographies }) =>
             geographies.map((geo) => {
-              const p = datasets.[selectedTransport][selectedYear][geo.properties.ISO_A2];
-              const amount =  p ? Object.values(
-                  datasets.[selectedTransport][selectedYear][geo.properties.ISO_A2]
-                ).reduce((acc, v) => acc + v || 0, 0) : 0;
-
-                console.log(amount);
+              const amount = getAcc(dataset[geo.properties.ISO_A2]);
               return (
-            
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill = {(amount > 10000000) ? "#11987F" : ((amount > 300000) ? "#14B89A" : "#323232")}
+                  fill={scale(amount)}
                   stroke="#EAEAEC"
                 />
               );
             })
           }
         </Geographies>
-        <Line
-         /* from={[40.0457, 50.7128]}
-          to={[19.3499, 48.0703]}
-          stroke="#FF5533"
-          strokeWidth={2}
-          strokeLinecap="round"*/
-        />
       </ComposableMap>
     </div>
   );
