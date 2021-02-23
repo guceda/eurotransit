@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import chroma from 'chroma-js';
+import ReactTooltip from "react-tooltip";
 
 import MapChart from "./MapChart";
 import Navbar from "./Navbar";
@@ -38,6 +39,7 @@ const Main = ({ datasets }) => {
         selectedTransport={transport}
         selectedYear={year}
       />
+      <ReactTooltip>{'test'}</ReactTooltip>
     </div>
   );
 };

@@ -13,6 +13,7 @@ const MapChart = ({ dataset, scale, selectedTransport, selectedYear }) => {
   return (
     <div style={{ width: "100vw" }}>
       <ComposableMap
+        data-tip=""
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
           rotate: [-20.0, -40.0, 0],
