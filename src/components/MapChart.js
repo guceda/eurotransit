@@ -61,13 +61,13 @@ const MapChart = ({
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#EAEAEC"
-                    fill={
-                      amount > 10000000
-                        ? "#11987F"
-                        : amount > 300000
-                        ? "#14B89A"
-                        : "#323232"
-                    }
+                    // fill={
+                    //   amount > 10000000
+                    //     ? "#11987F"
+                    //     : amount > 300000
+                    //     ? "#14B89A"
+                    //     : "#323232"
+                    // }
                     onClick={() => {
                       setSelected([
                         {
@@ -81,9 +81,13 @@ const MapChart = ({
                       default: {
                         fill: isSelected(geo)
                           ? "#E42"
-                          : isTarget(geo)
+                          : (isTarget(geo)
                           ? "#FFAA98"
-                          : "#EAEAEC",
+                          : (amount > 10000000
+                          ? "#11987F"
+                          : amount > 300000
+                          ? "#14B89A"
+                          : "#323232")),
                         opacity: 1,
                         outline: "none",
                       },
