@@ -2,7 +2,7 @@ import React from "react";
 import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
 import geodata from "../geo.json";
 
-const MapChart = ({ datasets, selectedTransport }) => {
+const MapChart = ({ datasets, selectedTransport, selectedYear }) => {
   console.log(datasets);
   return (
     <div style={{ width: "100vw" }}>
@@ -16,9 +16,9 @@ const MapChart = ({ datasets, selectedTransport }) => {
         <Geographies geography={geodata}>
           {({ geographies }) =>
             geographies.map((geo) => {
-              const p = datasets.[selectedTransport][2014][geo.properties.ISO_A2];
+              const p = datasets.[selectedTransport][selectedYear][geo.properties.ISO_A2];
               const amount =  p ? Object.values(
-                  datasets.[selectedTransport][2014][geo.properties.ISO_A2]
+                  datasets.[selectedTransport][selectedYear][geo.properties.ISO_A2]
                 ).reduce((acc, v) => acc + v || 0, 0) : 0;
 
                 console.log(amount);
