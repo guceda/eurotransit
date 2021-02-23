@@ -9,8 +9,9 @@ import { useDatasetsLimits } from "../customHooks";
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
 const Main = ({ datasets }) => {
-  const [transport, setTransport] = useState("plane");
   const [year, setYear] = useState(2020);
+  const [selectedCountries, setSelectedCountries] = useState([]);
+  const [transport, setTransport] = useState("plane");
 
   const dataset = useMemo(() => datasets[transport][year], [
     datasets,
@@ -36,10 +37,9 @@ const Main = ({ datasets }) => {
       <MapChart
         dataset={dataset}
         scale={scale}
-        selectedTransport={transport}
-        selectedYear={year}
+        selectedCountries={selectedCountries}
+        setSelected={setSelectedCountries}
       />
-      <ReactTooltip>{'test'}</ReactTooltip>
     </div>
   );
 };
