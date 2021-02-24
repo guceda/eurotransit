@@ -3,7 +3,7 @@ import chroma from "chroma-js";
 
 import MapChart from "./MapChart";
 import Navbar from "./Navbar";
-import MapTooltip from "./MapTooltip"
+import MapTooltip from "./MapTooltip";
 import { useDatasetsLimits } from "../customHooks";
 
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
@@ -33,8 +33,14 @@ const Main = ({ datasets }) => {
         selected={transport}
         setSelected={setTransport}
         options={TRANSPORT_OPTS}
+        position="top"
       />
-      <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
+      <Navbar
+        selected={year}
+        setSelected={setYear}
+        options={YEAR_OPTS}
+        position="bottom"
+      />
       <MapChart
         dataset={dataset}
         scale={scale}
@@ -43,7 +49,7 @@ const Main = ({ datasets }) => {
         setHoveredCountry={setHoveredCountry}
         setSelected={setSelectedCountries}
       />
-     <MapTooltip country={hoveredCountry} transport={transport} year={year}/>
+      <MapTooltip country={hoveredCountry} transport={transport} year={year} />
     </div>
   );
 };
