@@ -12,11 +12,22 @@
 
 
 .tab {
-  overflow: hidden;
+  display:flex;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 
 .tab-btn {
-  width: 100px;
   transition: 0.4s;
   border: none;
   cursor: pointer;
@@ -31,7 +42,7 @@
 }
 
 .tab-active {
-  width: 100px;
+  outline:none;
   transition: 0.4s;
   border: none;
   cursor: pointer;
