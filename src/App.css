@@ -12,11 +12,11 @@
 
 
 .tab {
-  overflow: hidden;
+  display:flex;
+  justify-content: flex-start;
 }
 
 .tab-btn {
-  width: 100px;
   transition: 0.4s;
   border: none;
   cursor: pointer;
@@ -31,7 +31,7 @@
 }
 
 .tab-active {
-  width: 100px;
+  outline:none;
   transition: 0.4s;
   border: none;
   cursor: pointer;
