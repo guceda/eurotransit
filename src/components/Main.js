@@ -20,7 +20,7 @@ const Main = ({ datasets }) => {
     year,
   ]);
 
-  const [max, min] = useDatasetsLimits(dataset);
+  const [max, min] = useDatasetsLimits(datasets[transport]);
 
   const scale = useMemo(() => {
     const range = ["lightgrey", "#11987F"];
