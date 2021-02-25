@@ -16,7 +16,7 @@ const MapChart = ({ dataset, scale, selectedCountries, setHoveredCountry, setSel
         data-tip=""
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
-          rotate: [-20.0, -40.0, 0],
+          rotate: [-15.0, -30.0, 0],
           scale: 500,
         }}
       >

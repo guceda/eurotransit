@@ -5,7 +5,7 @@ import MapChart from "./MapChart";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import MapTooltip from "./MapTooltip";
-import { useDatasetsLimits } from "../customHooks";
+import useDatasetsLimits from "../hooks/useDatasetLimits";
 
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
