@@ -11,7 +11,7 @@ const MapChart = ({ dataset, scale, selectedCountries, setHoveredCountry, setSel
   };
 
   return (
-    <div style={{ width: "100vw" }}>
+    <div className="map-chart">
       <ComposableMap
         data-tip=""
         projection="geoAzimuthalEqualArea"

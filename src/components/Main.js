@@ -3,6 +3,7 @@ import chroma from "chroma-js";
 
 import MapChart from "./MapChart";
 import Navbar from "./Navbar";
+import Header from "./Header";
 import MapTooltip from "./MapTooltip";
 import { useDatasetsLimits } from "../customHooks";
 
@@ -28,18 +29,12 @@ const Main = ({ datasets }) => {
   }, [max, min]);
 
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div className="main">
+      <Header/>
       <Navbar
         selected={transport}
         setSelected={setTransport}
         options={TRANSPORT_OPTS}
-        position="top"
-      />
-      <Navbar
-        selected={year}
-        setSelected={setYear}
-        options={YEAR_OPTS}
-        position="bottom"
       />
       <MapChart
         dataset={dataset}
@@ -50,6 +45,11 @@ const Main = ({ datasets }) => {
         setSelected={setSelectedCountries}
       />
       <MapTooltip country={hoveredCountry} transport={transport} year={year} />
+      <Navbar
+        selected={year}
+        setSelected={setYear}
+        options={YEAR_OPTS}
+      />
     </div>
   );
 };
