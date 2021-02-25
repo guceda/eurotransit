@@ -1,4 +1,3 @@
-import React from "react";
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
 import geodata from "../geo.json";
 
