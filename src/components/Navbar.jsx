@@ -9,7 +9,7 @@ const Navbar = ({ options, selected, setSelected, position }) => {
   );
 
   return (
-    <div className='tab'>
+    <div className="tab">
       {options.map((opt) => (
         <button
           key={opt.value}

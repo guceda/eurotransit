@@ -1,8 +1,7 @@
-
 const Header = () => {
   return (
     <div className="header">
-     Passengers per year in the EU by type  of transportation
+      Passengers per year in the EU by type of transportation
     </div>
   );
 };

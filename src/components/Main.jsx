@@ -30,7 +30,7 @@ const Main = ({ datasets }) => {
 
   return (
     <div className="main">
-      <Header/>
+      <Header />
       <Navbar
         selected={transport}
         setSelected={setTransport}
@@ -45,11 +45,7 @@ const Main = ({ datasets }) => {
         setSelected={setSelectedCountries}
       />
       <MapTooltip country={hoveredCountry} transport={transport} year={year} />
-      <Navbar
-        selected={year}
-        setSelected={setYear}
-        options={YEAR_OPTS}
-      />
+      <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
     </div>
   );
 };
