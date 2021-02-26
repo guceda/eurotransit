@@ -61,7 +61,9 @@ const MapChart = ({
                     }}
                     style={{
                       default: {
-                        fill: scale(amount),
+                        fill: dataset[geo.properties.ISO_A2]
+                          ? scale(amount)
+                          : "black",
                         opacity: 1,
                         outline: "none",
                       },
