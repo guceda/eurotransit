@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import chroma from "chroma-js";
 
 import Navbar from "./Navbar";
@@ -29,6 +29,16 @@ const Main = ({ datasets }) => {
     const range = ["lightgrey", "#11987F"];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
+
+  useEffect(() => {
+    const countries = selectedCountries.map(country => {
+      return {
+      ...country,
+      data: dataset[country.ISO],
+    }})
+    setSelectedCountries(countries);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [transport, year])
 
   return (
     <SidebarContainer
