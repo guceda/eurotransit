@@ -1,4 +1,7 @@
 import { Doughnut } from "react-chartjs-2";
+const options = {
+    legend: {display: false},
+}
 const DoughnutChart = ({countries}) => {
     const filteredCountries = Object.keys(countries[0].data)
         .filter((x) => countries[0].data[x]);
@@ -28,7 +31,7 @@ const DoughnutChart = ({countries}) => {
             },
         ],
     }
-    return <Doughnut data={data}/>;
+    return <Doughnut options={options} data={data}/>;
 }
 
 export default DoughnutChart
