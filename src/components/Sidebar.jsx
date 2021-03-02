@@ -1,17 +1,18 @@
-const Sidebar = ({ countries, transport, year }) => {
+import {Doughnut} from 'react-chartjs-2';
+import DoughnutChart from './DoughnutChart';
+import StackedBarChart from './StackedBarChart';
 
+const Sidebar = ({ countries, transport, year, dataset}) => {
   return (
     /* Sample content */
     <div style={{ backgroundColor: "lightgrey", height: "100%" }}>
-      <h1>{countries[0]?.geo.properties.NAME}</h1>
-      <h3>{transport}</h3>
-      <h3>{year}</h3>
+      <h1>{countries[0] ?.geo.properties.NAME}</h1>
+      <span>{transport}</span>
+      <span>{year}</span>
       <h2>Connections</h2>
-      {Object.keys(countries[0].data)
-        .filter((x) => countries[0].data[x])
-        .map((target) => (
-          <div key={target}>{`${target}: ${countries[0].data[target]}`}</div>
-        ))}
+      
+<StackedBarChart />
+<DoughnutChart countries={countries} />
     </div>
     /* -------------- */
   );

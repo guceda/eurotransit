@@ -46,6 +46,7 @@ const Main = ({ datasets }) => {
       onClose={() => setSelectedCountries([])}
       sidebarContent={
         <Sidebar
+          dataset={datasets[transport]}
           countries={selectedCountries}
           year={year}
           transport={transport}
