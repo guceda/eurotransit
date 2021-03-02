@@ -90,8 +90,8 @@ h2 {
 .sidebar-left .close {
   position: absolute;
   color: white;
-  top: 0px;
-  right: 0px;
+  top: 15px;
+  right: 15px;
   padding: 3px 10px;
   font-size: 25px;
   cursor: pointer;
