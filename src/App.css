@@ -12,7 +12,7 @@
 
 p {
   font-size: 15px;
-} 
+}
 
 /*----------------------------------- MAIN -----------------------------------*/
 .main {
@@ -75,6 +75,7 @@ p {
 .sidebar-left {
   width: 500px;
   overflow: scroll;
+  position: relative;
 }
 
 .sidebar-right {
@@ -82,9 +83,24 @@ p {
   flex-grow: 1;
 }
 
+.sidebar-left .close {
+  position: absolute;
+  color: white;
+  top: 0px;
+  right: 0px;
+  padding: 3px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  transform: scaleY(0.8);
+}
+
+.sidebar-left .close:hover {
+  background: lightgrey;
+}
+
 .sidebar {
   background-color: grey;
   height: auto;
   padding: 30px;
 }
-

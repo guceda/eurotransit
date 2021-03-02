@@ -16,7 +16,7 @@ const SidebarContainer = ({ open, onClose, sidebarContent, mainContent }) => {
     <div className="sidebar-container">
       {opened && (
         <div className="sidebar-left">
-          <button onClick={close}>X</button>
+          <div className="close" onClick={close}>x</div>
           {sidebarContent}
         </div>
       )}
