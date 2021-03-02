@@ -10,6 +10,10 @@
   color: white;
 }
 
+p {
+  font-size: 15px;
+} 
+
 /*----------------------------------- MAIN -----------------------------------*/
 .main {
   display: flex;
@@ -70,10 +74,17 @@
 }
 .sidebar-left {
   width: 500px;
+  overflow: scroll;
 }
 
 .sidebar-right {
   display: flex;
   flex-grow: 1;
+}
+
+.sidebar {
+  background-color: grey;
+  height: auto;
+  padding: 30px;
 }
 

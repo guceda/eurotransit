@@ -2,21 +2,27 @@ import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
 const Sidebar = ({ countries, transport, year, dataset }) => {
-  const countryName = countries[0]?.geo.properties.NAME;
+  const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
   const imgUrl = `https://www.countryflags.io/${countryCode}/flat/64.png`;
   return (
-    <div style={{ backgroundColor: "lightgrey", height: "100%" }}>
-      <img alt={countryName} src={imgUrl}></img>
-      <h1>{countries[0]?.geo.properties.NAME}</h1>
+    <div className="sidebar">
+      <img alt={countryInfo.NAME} src={imgUrl}></img>
+      <h2>{countries[0]?.geo.properties.NAME}</h2>
       <div>
-        <h2>Population: {countries[0]?.geo.properties.POP_EST}</h2>
-        <h2>Passengers per 1M population:</h2>
+        <p>
+          Population: <b>{(countryInfo.POP_EST / 1000000).toFixed(2)}M</b>
+        </p>
+        <p>Passengers per 1M population:</p>
       </div>
-      <h2>Connections</h2>
-
-      <StackedBarChart />
-      <DoughnutChart countries={countries} />
+      <div>
+        <h5>Outgoing passengers from {countryInfo.NAME}</h5>
+        <DoughnutChart countries={countries} />
+      </div>
+      <div>
+        <h5>Outgoing passengers by year</h5>
+        <StackedBarChart />
+      </div>
     </div>
   );
 };
