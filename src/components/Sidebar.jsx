@@ -13,7 +13,7 @@ const Sidebar = ({ countries, transport, year, dataset }) => {
         <p>
           Population: <b>{(countryInfo.POP_EST / 1000000).toFixed(2)}M</b>
         </p>
-        <p>Passengers per 1M population:</p>
+        <p>Passengers per 1M population: <b>N/A</b></p>
       </div>
       <div>
         <h5>Outgoing passengers from {countryInfo.NAME}</h5>

@@ -1,6 +1,18 @@
 import { Bar } from "react-chartjs-2";
 import { YEAR_OPTS } from "../constants";
+import chroma from "chroma-js";
+
 const StackedBarChart = ({ countries }) => {
+
+  // const filteredCountries = Object.keys(countries[0].data).filter(
+  //   (x) => countries[0].data[x]
+  // );
+
+  // const colors = chroma
+  //   .scale(["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"])
+  //   .mode("lch")
+  //   .colors(filteredCountries.length);
+
   const data = {
     labels: YEAR_OPTS.map((year) => year.value),
     datasets: [
@@ -23,6 +35,7 @@ const StackedBarChart = ({ countries }) => {
   };
 
   const options = {
+    legend: { display: false },
     scales: {
       yAxes: [
         {
