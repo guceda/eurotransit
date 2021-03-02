@@ -1,3 +1,5 @@
+import chroma from "chroma-js";
+
 import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
@@ -13,7 +15,9 @@ const Sidebar = ({ countries, transport, year, dataset }) => {
         <p>
           Population: <b>{(countryInfo.POP_EST / 1000000).toFixed(2)}M</b>
         </p>
-        <p>Passengers per 1M population: <b>N/A</b></p>
+        <p>
+          Passengers per 1M population: <b>N/A</b>
+        </p>
       </div>
       <div>
         <h5>Outgoing passengers from {countryInfo.NAME}</h5>
@@ -21,7 +25,7 @@ const Sidebar = ({ countries, transport, year, dataset }) => {
       </div>
       <div>
         <h5>Outgoing passengers by year</h5>
-        <StackedBarChart />
+        <StackedBarChart dataset={dataset} countryCode={countryCode} />
       </div>
     </div>
   );

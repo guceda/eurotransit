@@ -2,15 +2,15 @@ import { Doughnut } from "react-chartjs-2";
 import chroma from "chroma-js";
 
 const DoughnutChart = ({ countries }) => {
-  
+
   const filteredCountries = Object.keys(countries[0].data).filter(
     (x) => countries[0].data[x]
   );
 
   const colors = chroma
-    .scale(["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"])
-    .mode("lch")
-    .colors(filteredCountries.length);
+  .scale(["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"])
+  .mode("lch")
+  .colors(filteredCountries.length);
 
   const data = {
     labels: filteredCountries,
