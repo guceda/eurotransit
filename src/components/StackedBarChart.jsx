@@ -4,7 +4,6 @@ import { Bar } from "react-chartjs-2";
 import { YEAR_OPTS } from "../constants";
 
 const StackedBarChart = ({ dataset, countryCode }) => {
-  console.log(YEAR_OPTS[0]);
   const countries = Object.keys(dataset[YEAR_OPTS[0].value]);
   const colors = chroma
     .scale(["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"])
