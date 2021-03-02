@@ -1,10 +1,12 @@
 import { useState, useMemo } from "react";
 import chroma from "chroma-js";
 
-import MapChart from "./MapChart";
 import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 import Header from "./Header";
+import MapChart from "./MapChart";
 import MapTooltip from "./MapTooltip";
+import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
@@ -29,24 +31,41 @@ const Main = ({ datasets }) => {
   }, [max, min]);
 
   return (
-    <div className="main">
-      <Header />
-      <Navbar
-        selected={transport}
-        setSelected={setTransport}
-        options={TRANSPORT_OPTS}
-      />
-      <MapChart
-        dataset={dataset}
-        scale={scale}
-        hoveredCountry={hoveredCountry}
-        selectedCountries={selectedCountries}
-        setHoveredCountry={setHoveredCountry}
-        setSelected={setSelectedCountries}
-      />
-      <MapTooltip country={hoveredCountry} transport={transport} year={year} />
-      <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
-    </div>
+    <SidebarContainer
+      open={selectedCountries.length > 0}
+      onClose={() => setSelectedCountries([])}
+      sidebarContent={
+        <Sidebar
+          countries={selectedCountries}
+          year={year}
+          transport={transport}
+        />
+      }
+      mainContent={
+        <div className="main">
+          <Header />
+          <Navbar
+            selected={transport}
+            setSelected={setTransport}
+            options={TRANSPORT_OPTS}
+          />
+          <MapChart
+            dataset={dataset}
+            scale={scale}
+            hoveredCountry={hoveredCountry}
+            selectedCountries={selectedCountries}
+            setHoveredCountry={setHoveredCountry}
+            setSelected={setSelectedCountries}
+          />
+          <MapTooltip
+            country={hoveredCountry}
+            transport={transport}
+            year={year}
+          />
+          <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
+        </div>
+      }
+    />
   );
 };
 
