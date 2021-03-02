@@ -60,3 +60,20 @@
   float: left;
   color: #fff;
 }
+
+/*---------------------------------- SIDEBAR ---------------------------------*/
+.sidebar-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+}
+.sidebar-left {
+  width: 500px;
+}
+
+.sidebar-right {
+  display: flex;
+  flex-grow: 1;
+}
+
