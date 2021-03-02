@@ -1,5 +1,5 @@
 const Sidebar = ({ countries, transport, year }) => {
-  debugger;
+
   return (
     /* Sample content */
     <div style={{ backgroundColor: "lightgrey", height: "100%" }}>
