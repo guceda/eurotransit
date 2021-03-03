@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import { useCallback } from "react";
 
 const Navbar = ({ options, selected, setSelected, position }) => {
   const setClass = useCallback(
@@ -9,7 +9,7 @@ const Navbar = ({ options, selected, setSelected, position }) => {
   );
 
   return (
-    <div className={`tab ${position}`}>
+    <div className="tab">
       {options.map((opt) => (
         <button
           key={opt.value}

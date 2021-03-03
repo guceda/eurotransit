@@ -1,10 +1,8 @@
-import React from "react";
-
 import Main from "./components/Main";
 import Loading from "./components/Loading";
 import Error from "./components/Error";
 
-import { useDatasets } from './customHooks';
+import useDatasets from "./hooks/useDatasets";
 
 import "./App.css";
 

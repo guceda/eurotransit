@@ -1,5 +1,5 @@
-.App{
-  
+/*------------------------------------ APP -----------------------------------*/
+.App {
   background-color: #1a1a1a;
   min-height: 100vh;
   display: flex;
@@ -10,21 +10,38 @@
   color: white;
 }
 
+p {
+  font-size: 15px;
+}
 
+h2 {
+  margin-top: 20px;
+}
+
+/*----------------------------------- MAIN -----------------------------------*/
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+/*--------------------------------- HEADER -----------------------------------*/
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*----------------------------------- MAP ------------------------------------*/
+.map-chart {
+  overflow: hidden;
+}
+
+/*---------------------------------- NAVBAR ----------------------------------*/
 .tab {
-  display:flex;
-  justify-content: flex-start;
-  position: absolute;
   background-color: #1a1a1a;
   width: 100%;
-}
-
-.top {
-  top: 0;
-}
-
-.bottom {
-  bottom: 0;
 }
 
 .tab-btn {
@@ -34,7 +51,7 @@
   padding: 15px 17px 15px 17px;
   background-color: inherit;
   float: left;
-  color: #FFF;
+  color: #fff;
 }
 
 .tab-btn:hover {
@@ -42,12 +59,53 @@
 }
 
 .tab-active {
-  outline:none;
+  outline: none;
   transition: 0.4s;
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
   background-color: #747474;
   float: left;
-  color: #FFF;
+  color: #fff;
+}
+
+/*---------------------------------- SIDEBAR ---------------------------------*/
+.sidebar-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+}
+.sidebar-left {
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sidebar-right {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar-left .close {
+  position: absolute;
+  color: white;
+  top: 15px;
+  right: 15px;
+  padding: 3px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  transform: scaleY(0.8);
+}
+
+.sidebar-left .close:hover {
+  background: lightgrey;
+}
+
+.sidebar {
+  background-color: grey;
+  height: auto;
+  padding: 30px;
+  height: 100%;
 }
