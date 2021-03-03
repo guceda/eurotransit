@@ -1,7 +1,7 @@
 import chroma from "chroma-js";
 
 import { Bar } from "react-chartjs-2";
-import { YEAR_OPTS } from "../constants";
+import { YEAR_OPTS } from "../../constants";
 
 const StackedBarChart = ({ dataset, countryCode }) => {
   const countries = Object.keys(dataset[YEAR_OPTS[0].value]);

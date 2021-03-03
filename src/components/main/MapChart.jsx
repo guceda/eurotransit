@@ -5,7 +5,7 @@ import {
   ZoomableGroup,
   Line,
 } from "react-simple-maps";
-import geodata from "../geo.json";
+import geodata from "../../geo.json";
 
 const MapChart = ({
   dataset,
@@ -58,6 +58,7 @@ const MapChart = ({
                     geography={geo}
                     stroke="#EAEAEC"
                     onClick={() => {
+                      if(!dataset[geo.properties.ISO_A2]) return
                       setSelected([
                         {
                           geo,
@@ -79,13 +80,15 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? scale(amount)
-                          : "black",
+                          ? ( isSelected(geo) ? '#0e755d' : scale(amount))
+                          : "#1a1a1a",
                         opacity: 1,
                         outline: "none",
                       },
                       hover: {
-                        fill: "#0e755d",
+                        fill: dataset[geo.properties.ISO_A2]
+                        ? "#0e755d"
+                        : "#1a1a1a",
                         outline: "none",
                       },
                       pressed: {
