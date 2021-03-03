@@ -5,7 +5,7 @@ import {
   ZoomableGroup,
   Line,
 } from "react-simple-maps";
-import geodata from "../geo.json";
+import geodata from "../../geo.json";
 
 const MapChart = ({
   dataset,

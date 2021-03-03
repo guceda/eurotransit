@@ -1,11 +1,11 @@
 import { useState, useMemo, useEffect } from "react";
 import chroma from "chroma-js";
 
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
-import Header from "./Header";
-import MapChart from "./MapChart";
-import MapTooltip from "./MapTooltip";
+import Navbar from "./main/Navbar";
+import Sidebar from "./sidebar/Sidebar";
+import Header from "./main/Header";
+import MapChart from "./main/MapChart";
+import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 
