@@ -1,7 +1,11 @@
 {
     "colors": {
-        "white" : "#FFFFFF",
-        "blue" : "#0000FF"
+        "flightmincolor" : "#DEEBF7",
+        "flightmaxcolor" : "#3182BD",
+        "flightaccentcolor" : "#219AF3",
+        "trainmincolor" : "#E5F5E0",
+        "trainmaxcolor" : "#31A354",
+        "trainaccentcolor" : "#39DB67"
     }   
 
 }

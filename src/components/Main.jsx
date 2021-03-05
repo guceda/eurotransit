@@ -9,6 +9,8 @@ import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 
+import theme from "../../src/theme.json";
+
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
 const Main = ({ datasets }) => {
@@ -26,7 +28,7 @@ const Main = ({ datasets }) => {
   const [max, min] = useDatasetsLimits(datasets[transport]);
 
   const scale = useMemo(() => {
-    const range = ["lightgrey", "#11987F"];
+    const range = [theme.colors.flightmincolor, theme.colors.flightmaxcolor];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
 

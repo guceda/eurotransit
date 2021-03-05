@@ -6,6 +6,8 @@ import {
   Line,
 } from "react-simple-maps";
 import geodata from "../../geo.json";
+import theme from "../../theme.json"
+
 
 const MapChart = ({
   dataset,
@@ -13,6 +15,7 @@ const MapChart = ({
   selectedCountries,
   setHoveredCountry,
   setSelected,
+
 }) => {
   const getAcc = (data) => {
     const amount = data
@@ -20,10 +23,8 @@ const MapChart = ({
       : 0;
     return amount;
   };
-
   const isSelected = (geo) =>
     selectedCountries?.find((c) => c.ISO === geo.properties.ISO_A2);
-
   const getCentroid = (data) => {
     if (!data) return [0, 0];
     const sum = data.reduce(
@@ -80,19 +81,19 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? ( isSelected(geo) ? '#0e755d' : scale(amount))
+                          ? ( isSelected(geo) ? theme.colors.flightaccentcolor : scale(amount))
                           : "#1a1a1a",
                         opacity: 1,
                         outline: "none",
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                        ? "#0e755d"
+                        ? theme.colors.flightaccentcolor
                         : "#1a1a1a",
                         outline: "none",
                       },
                       pressed: {
-                        fill: "#E42",
+                        fill: theme.colors.flightaccentcolor,
                         outline: "none",
                       },
                     }}
