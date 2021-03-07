@@ -9,19 +9,19 @@
     "map": {
         "plane_trips": {
             "disabled_light": "#EBEBEB",
-            "disabled_dark": "#595C5E",
+            "disabled_dark": "#2F3032",
             "min": "#DEEBF7",
             "max": "#3182BD"
         },
         "train_trips": {
             "disabled_light": "#EBEBEB",
-            "disabled_dark": "#595C5E",
+            "disabled_dark": "#2F3032",
             "min": "#E5F5E0",
             "max": "#31A354"
         },
         "background": {
             "light": "#FAFAFA",
-            "dark": "#222324"
+            "dark": "#141415"
         }
     },
     "UI": {

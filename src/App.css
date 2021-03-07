@@ -44,18 +44,34 @@ h2 {
   width: 100%;
 }
 
+.navbar {
+  position: absolute;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+}
+
+.year-selector {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+}
+
 .tab-btn {
   transition: 0.4s;
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
-  background-color: inherit;
+  background-color: transparent;
   float: left;
   color: #fff;
 }
 
-.tab-btn:hover {
-  color: #00db8e;
+.tab-btn:hover{
+  background-color: #39DB67;
 }
 
 .tab-active {
@@ -67,6 +83,8 @@ h2 {
   background-color: #747474;
   float: left;
   color: #fff;
+  background-color: #39DB67;
+  font-weight: bold;
 }
 
 /*---------------------------------- SIDEBAR ---------------------------------*/

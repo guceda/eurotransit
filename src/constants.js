@@ -9,8 +9,8 @@ export const DATASETS = {
 };
 
 export const TRANSPORT_OPTS = [
-  { value: "plane", label: "Flight" },
-  { value: "train", label: "Train" },
+  { value: "plane", label: "Plane trips" },
+  { value: "train", label: "Train trips" },
 ];
 
 export const YEAR_OPTS = Array.from(

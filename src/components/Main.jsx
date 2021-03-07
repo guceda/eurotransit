@@ -62,11 +62,13 @@ const Main = ({ datasets }) => {
       }
       mainContent={
         <div className="main">
-          <Header />
+          {/* <Header /> */}
           <Navbar
             selected={transport}
             setSelected={setTransport}
             options={TRANSPORT_OPTS}
+            colorSet={colorSet}
+            position={'top'}
           />
           <MapChart
             dataset={dataset}
