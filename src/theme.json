@@ -1,11 +1,33 @@
 {
-    "colors": {
-        "flightmincolor" : "#DEEBF7",
-        "flightmaxcolor" : "#3182BD",
-        "flightaccentcolor" : "#219AF3",
-        "trainmincolor" : "#E5F5E0",
-        "trainmaxcolor" : "#31A354",
-        "trainaccentcolor" : "#39DB67"
-    }   
-
+    "main": {
+        "lavender_floral": "#A379C9",
+        "sky_blue": "#A379C9",
+        "fire_opal": "#E5625E",
+        "key_lime": "#E3F09B",
+        "oxford_blue": "#091540"
+    },
+    "map": {
+        "plane_trips": {
+            "disabled_light": "#EDEDED",
+            "disabled_dark": "#595C5E",
+            "min": "#DEEBF7",
+            "max": "#3182BD"
+        },
+        "train_trips": {
+            "disabled_light": "#EDEDED",
+            "disabled_dark": "#595C5E",
+            "min": "#E5F5E0",
+            "max": "#31A354"
+        },
+        "background": {
+            "light": "#FAFAFA",
+            "dark": "#222324"
+        }
+    },
+    "UI": {
+        "accent": {
+            "plane_trips" : "#219AF3",
+            "train_trips" : "#39DB67"
+        }
+    }
 }
