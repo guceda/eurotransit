@@ -1,7 +1,33 @@
 {
-    "colors": {
-        "white" : "#FFFFFF",
-        "blue" : "#0000FF"
-    }   
-
+    "main": {
+        "lavender_floral": "#A379C9",
+        "sky_blue": "#A379C9",
+        "fire_opal": "#E5625E",
+        "key_lime": "#E3F09B",
+        "oxford_blue": "#091540"
+    },
+    "map": {
+        "plane_trips": {
+            "disabled_light": "#EBEBEB",
+            "disabled_dark": "#2F3032",
+            "min": "#DEEBF7",
+            "max": "#3182BD"
+        },
+        "train_trips": {
+            "disabled_light": "#EBEBEB",
+            "disabled_dark": "#2F3032",
+            "min": "#E5F5E0",
+            "max": "#31A354"
+        },
+        "background": {
+            "light": "#FAFAFA",
+            "dark": "#141415"
+        }
+    },
+    "UI": {
+        "accent": {
+            "plane_trips" : "#219AF3",
+            "train_trips" : "#39DB67"
+        }
+    }
 }

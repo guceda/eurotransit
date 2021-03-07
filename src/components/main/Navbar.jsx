@@ -8,8 +8,12 @@ const Navbar = ({ options, selected, setSelected, position }) => {
     [selected]
   );
 
+  const setStyles = () => {
+    return position === 'top' ? 'navbar' : 'year-selector';
+  }
+
   return (
-    <div className="tab">
+    <div className={"tab" + ' ' + setStyles()}>
       {options.map((opt) => (
         <button
           key={opt.value}
