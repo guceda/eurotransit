@@ -8,13 +8,13 @@
     },
     "map": {
         "plane_trips": {
-            "disabled_light": "#EDEDED",
+            "disabled_light": "#EBEBEB",
             "disabled_dark": "#595C5E",
             "min": "#DEEBF7",
             "max": "#3182BD"
         },
         "train_trips": {
-            "disabled_light": "#EDEDED",
+            "disabled_light": "#EBEBEB",
             "disabled_dark": "#595C5E",
             "min": "#E5F5E0",
             "max": "#31A354"

@@ -11,6 +11,7 @@ import theme from "../../theme.json"
 
 const MapChart = ({
   dataset,
+  colorSet,
   scale,
   selectedCountries,
   setHoveredCountry,
@@ -57,9 +58,9 @@ const MapChart = ({
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    stroke="#EAEAEC"
+                    stroke={colorSet.backgroundColor}
                     onClick={() => {
-                      if(!dataset[geo.properties.ISO_A2]) return
+                      if (!dataset[geo.properties.ISO_A2]) return
                       setSelected([
                         {
                           geo,
@@ -81,19 +82,21 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? ( isSelected(geo) ? theme.UI.accent.plane_trips : scale(amount))
-                          : "#1a1a1a",
+                          ? (isSelected(geo) ? colorSet.UIAccent : scale(amount))
+                          : colorSet.fillDisabled,
                         opacity: 1,
                         outline: "none",
+                        transition: "300ms"
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                        ? theme.UI.accent.plane_trips
-                        : "#1a1a1a",
+                          ? colorSet.UIAccent
+                          : colorSet.fillDisabled,
                         outline: "none",
+                        cursor: "pointer"
                       },
                       pressed: {
-                        fill: theme.UI.accent.plane_trips,
+                        fill: colorSet.UIAccent,
                         outline: "none",
                       },
                     }}
