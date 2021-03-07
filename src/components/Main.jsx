@@ -63,6 +63,7 @@ const Main = ({ datasets }) => {
           <MapChart
             dataset={dataset}
             scale={scale}
+            limits={[max, min]}
             hoveredCountry={hoveredCountry}
             selectedCountries={selectedCountries}
             setHoveredCountry={setHoveredCountry}
