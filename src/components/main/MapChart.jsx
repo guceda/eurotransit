@@ -58,7 +58,7 @@ const MapChart = ({
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    stroke={colorSet.backgroundColor}
+                    stroke={colorSet.background}
                     onClick={() => {
                       if (!dataset[geo.properties.ISO_A2]) return
                       setSelected([
@@ -83,7 +83,7 @@ const MapChart = ({
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
                           ? (isSelected(geo) ? colorSet.UIAccent : scale(amount))
-                          : colorSet.fillDisabled,
+                          : colorSet.disabled,
                         opacity: 1,
                         outline: "none",
                         transition: "300ms"
@@ -91,7 +91,7 @@ const MapChart = ({
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
                           ? colorSet.UIAccent
-                          : colorSet.fillDisabled,
+                          : colorSet.disabled,
                         outline: "none",
                         cursor: "pointer"
                       },

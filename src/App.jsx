@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   const [data, error] = useDatasets();
   const appStyle = {
-    background: useColorSet("plane").backgroundColor
+    background: useColorSet("plane").background
   };
 
   return (
