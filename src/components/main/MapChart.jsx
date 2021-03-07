@@ -113,12 +113,15 @@ const MapChart = ({
                         const country = geographies.find(
                           (g) => g.properties.ISO_A2 === target
                         );
-                        const coords = country?.geometry.coordinates[0];
+                        const originCoords = geo.geometry.coordinates[0][0][0][0] ? geo.geometry.coordinates[0][0] : geo.geometry.coordinates[0];
+                        const targetCoords = country?.geometry.coordinates[0][0][0][0] ? country?.geometry.coordinates[0][0] : country?.geometry.coordinates[0];
+                        
+                        if(!originCoords || !targetCoords) return false;
                         return (
                           <Line
                             key={target}
-                            from={getCentroid(geo.geometry.coordinates[0])}
-                            to={getCentroid(coords)}
+                            from={getCentroid(originCoords)}
+                            to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
                             strokeWidth={2}
                             opacity={0.5}
