@@ -13,6 +13,7 @@ const MapChart = ({
   dataset,
   colorSet,
   scale,
+  limits,
   selectedCountries,
   setHoveredCountry,
   setSelected,
@@ -116,15 +117,36 @@ const MapChart = ({
                         const country = geographies.find(
                           (g) => g.properties.ISO_A2 === target
                         );
-                        const coords = country?.geometry.coordinates[0];
+
+                        const originCoords = geo.geometry
+                          .coordinates[0][0][0][0]
+                          ? geo.geometry.coordinates[0][0]
+                          : geo.geometry.coordinates[0];
+
+                        const targetCoords = country?.geometry
+                          .coordinates[0][0][0][0]
+                          ? country?.geometry.coordinates[0][0]
+                          : country?.geometry.coordinates[0];
+
+                        if (!originCoords || !targetCoords) return false;
+
+                        const [max, min] = limits;
+
+                        const diff = max - min;
+
+                        const originName = geo.properties.ISO_A2;
+                        const targetName = country.properties.ISO_A2;
+                        const passengers = dataset[originName][targetName];
+                        const thickness = (passengers * 100) / diff;
+
                         return (
                           <Line
                             key={target}
-                            from={getCentroid(geo.geometry.coordinates[0])}
-                            to={getCentroid(coords)}
+                            from={getCentroid(originCoords)}
+                            to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
-                            strokeWidth={2}
-                            opacity={0.5}
+                            opacity={.5}
+                            strokeWidth={thickness}
                             strokeLinecap="round"
                           />
                         );
