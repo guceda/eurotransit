@@ -10,6 +10,7 @@ import geodata from "../../geo.json";
 const MapChart = ({
   dataset,
   scale,
+  limits,
   selectedCountries,
   setHoveredCountry,
   setSelected,
@@ -58,7 +59,7 @@ const MapChart = ({
                     geography={geo}
                     stroke="#EAEAEC"
                     onClick={() => {
-                      if(!dataset[geo.properties.ISO_A2]) return
+                      if (!dataset[geo.properties.ISO_A2]) return;
                       setSelected([
                         {
                           geo,
@@ -80,15 +81,17 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? ( isSelected(geo) ? '#0e755d' : scale(amount))
+                          ? isSelected(geo)
+                            ? "#0e755d"
+                            : scale(amount)
                           : "#1a1a1a",
                         opacity: 1,
                         outline: "none",
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                        ? "#0e755d"
-                        : "#1a1a1a",
+                          ? "#0e755d"
+                          : "#1a1a1a",
                         outline: "none",
                       },
                       pressed: {
@@ -113,18 +116,36 @@ const MapChart = ({
                         const country = geographies.find(
                           (g) => g.properties.ISO_A2 === target
                         );
-                        const originCoords = geo.geometry.coordinates[0][0][0][0] ? geo.geometry.coordinates[0][0] : geo.geometry.coordinates[0];
-                        const targetCoords = country?.geometry.coordinates[0][0][0][0] ? country?.geometry.coordinates[0][0] : country?.geometry.coordinates[0];
-                        
-                        if(!originCoords || !targetCoords) return false;
+
+                        const originCoords = geo.geometry
+                          .coordinates[0][0][0][0]
+                          ? geo.geometry.coordinates[0][0]
+                          : geo.geometry.coordinates[0];
+
+                        const targetCoords = country?.geometry
+                          .coordinates[0][0][0][0]
+                          ? country?.geometry.coordinates[0][0]
+                          : country?.geometry.coordinates[0];
+
+                        if (!originCoords || !targetCoords) return false;
+
+                        const [max, min] = limits;
+
+                        const diff = max - min;
+
+                        const originName = geo.properties.ISO_A2;
+                        const targetName = country.properties.ISO_A2;
+                        const passengers = dataset[originName][targetName];
+                        const thickness = (passengers * 100) / diff;
+
                         return (
                           <Line
                             key={target}
                             from={getCentroid(originCoords)}
                             to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
-                            strokeWidth={2}
-                            opacity={0.5}
+                            opacity={.5}
+                            strokeWidth={thickness}
                             strokeLinecap="round"
                           />
                         );
