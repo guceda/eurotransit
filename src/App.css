@@ -1,6 +1,5 @@
 /*------------------------------------ APP -----------------------------------*/
 .App {
-  background-color: #222324;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,6 +48,7 @@ h2 {
   width: auto;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .year-selector {
@@ -58,6 +58,7 @@ h2 {
   width: auto;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .tab-btn {
@@ -71,7 +72,7 @@ h2 {
 }
 
 .tab-btn:hover{
-  background-color: #39DB67;
+  background-color: #219AF3;
 }
 
 .tab-active {
@@ -83,7 +84,7 @@ h2 {
   background-color: #747474;
   float: left;
   color: #fff;
-  background-color: #39DB67;
+  background-color: #219AF3;
   font-weight: bold;
 }
 
