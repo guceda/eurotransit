@@ -8,6 +8,9 @@ import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
+import useColorSet from "../hooks/useColorSet"
+
+import theme from "../../src/theme.json";
 
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
@@ -26,18 +29,23 @@ const Main = ({ datasets }) => {
   const [max, min] = useDatasetsLimits(datasets[transport]);
 
   const scale = useMemo(() => {
-    const range = ["lightgrey", "#11987F"];
+    const rangeMin = (transport == 'plane') ? theme.map.plane_trips.min : theme.map.train_trips.min;
+    const rangeMax = (transport == 'plane') ? theme.map.plane_trips.max : theme.map.train_trips.max;
+    const range = [rangeMin, rangeMax];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
+
+  const colorSet = useColorSet(transport);
 
   useEffect(() => {
     const countries = selectedCountries.map(country => {
       return {
-      ...country,
-      data: dataset[country.ISO],
-    }})
+        ...country,
+        data: dataset[country.ISO],
+      }
+    })
     setSelectedCountries(countries);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [transport, year])
 
   return (
@@ -54,14 +62,17 @@ const Main = ({ datasets }) => {
       }
       mainContent={
         <div className="main">
-          <Header />
+          {/* <Header /> */}
           <Navbar
             selected={transport}
             setSelected={setTransport}
             options={TRANSPORT_OPTS}
+            colorSet={colorSet}
+            position={'top'}
           />
           <MapChart
             dataset={dataset}
+            colorSet={colorSet}
             scale={scale}
             limits={[max, min]}
             hoveredCountry={hoveredCountry}

@@ -6,9 +6,12 @@ import {
   Line,
 } from "react-simple-maps";
 import geodata from "../../geo.json";
+import theme from "../../theme.json"
+
 
 const MapChart = ({
   dataset,
+  colorSet,
   scale,
   limits,
   selectedCountries,
@@ -21,10 +24,8 @@ const MapChart = ({
       : 0;
     return amount;
   };
-
   const isSelected = (geo) =>
     selectedCountries?.find((c) => c.ISO === geo.properties.ISO_A2);
-
   const getCentroid = (data) => {
     if (!data) return [0, 0];
     const sum = data.reduce(
@@ -57,9 +58,9 @@ const MapChart = ({
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    stroke="#EAEAEC"
+                    stroke={colorSet.background}
                     onClick={() => {
-                      if (!dataset[geo.properties.ISO_A2]) return;
+                      if (!dataset[geo.properties.ISO_A2]) return
                       setSelected([
                         {
                           geo,
@@ -81,21 +82,21 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? isSelected(geo)
-                            ? "#0e755d"
-                            : scale(amount)
-                          : "#1a1a1a",
+                          ? (isSelected(geo) ? colorSet.UIAccent : scale(amount))
+                          : colorSet.disabled,
                         opacity: 1,
                         outline: "none",
+                        transition: "300ms"
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? "#0e755d"
-                          : "#1a1a1a",
+                          ? colorSet.UIAccent
+                          : colorSet.disabled,
                         outline: "none",
+                        cursor: "pointer"
                       },
                       pressed: {
-                        fill: "#E42",
+                        fill: colorSet.UIAccent,
                         outline: "none",
                       },
                     }}
