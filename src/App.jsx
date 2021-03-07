@@ -8,12 +8,11 @@ import "./App.css";
 
 function App() {
   const [data, error] = useDatasets();
-  const appStyle = {
+  const bgMode = {
     background: useColorSet("plane").background
   };
-
   return (
-    <div className="App" style={appStyle}>
+    <div className="App" style={bgMode}>
       {error ? <Error /> : data ? <Main datasets={data} /> : <Loading />}
     </div>
   );

@@ -16,7 +16,6 @@ const MapChart = ({
   selectedCountries,
   setHoveredCountry,
   setSelected,
-
 }) => {
   const getAcc = (data) => {
     const amount = data
