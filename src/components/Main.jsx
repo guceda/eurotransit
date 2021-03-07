@@ -28,7 +28,7 @@ const Main = ({ datasets }) => {
   const [max, min] = useDatasetsLimits(datasets[transport]);
 
   const scale = useMemo(() => {
-    const range = [theme.colors.flightmincolor, theme.colors.flightmaxcolor];
+    const range = [theme.map.plane_trips.min, theme.map.plane_trips.max];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
 

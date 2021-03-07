@@ -81,19 +81,19 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? ( isSelected(geo) ? theme.colors.flightaccentcolor : scale(amount))
+                          ? ( isSelected(geo) ? theme.UI.accent.plane_trips : scale(amount))
                           : "#1a1a1a",
                         opacity: 1,
                         outline: "none",
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                        ? theme.colors.flightaccentcolor
+                        ? theme.UI.accent.plane_trips
                         : "#1a1a1a",
                         outline: "none",
                       },
                       pressed: {
-                        fill: theme.colors.flightaccentcolor,
+                        fill: theme.UI.accent.plane_trips,
                         outline: "none",
                       },
                     }}
