@@ -88,7 +88,7 @@ const Main = ({ datasets }) => {
             year={year}
           />
           <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
-          <Autoplay setYear={setYear} year={year} play/>
+          <Autoplay setYear={setYear} year={year} play={false}/>
         </div>
       }
     />
