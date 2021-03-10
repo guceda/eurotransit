@@ -6,10 +6,6 @@ export const ReactTooltipStyled = styled(ReactTooltip)`
     background-color: rgba(0, 0, 0, 0.85);
     padding: 0.3rem 1rem;
     border-radius: 0;
-
-    &:after { 
-      display: none;
-    }
   }
 `;
 
