@@ -75,6 +75,7 @@ const Main = ({ datasets }) => {
             dataset={dataset}
             colorSet={colorSet}
             scale={scale}
+            transport={transport}
             limits={[max, min]}
             hoveredCountry={hoveredCountry}
             selectedCountries={selectedCountries}
