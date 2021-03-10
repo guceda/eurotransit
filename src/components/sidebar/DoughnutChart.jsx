@@ -12,12 +12,17 @@ const DoughnutChart = ({ countries, codes }) => {
   .mode("lch")
   .colors(filteredCountries.length);
 
+  // Remove own country
+  countries[0].data[countries[0].geo.properties.ISO_A2] = null;
+
+
   const data = {
     labels: filteredCountries.map(country => codes[country]),
     datasets: [
       {
         label: `Outgoing passengers from ${countries[0].geo.properties.NAME}`,
         data: Object.values(countries[0].data).filter((x) => x),
+        datasetKeyProvider: () => countries[0].geo.properties.NAME, 
         backgroundColor: colors,
         borderColor: colors,
         borderWidth: 1,

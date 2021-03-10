@@ -11,9 +11,14 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
     .colors(countries.length);
 
   const datasets = countries.map((country, idx) => {
+    
     const years = [];
 
     YEAR_OPTS.forEach(({ value }) => {
+
+      // Remove own country
+      if(country === countryCode) return;
+
       years.push(dataset[value][countryCode][country]);
     });
 
