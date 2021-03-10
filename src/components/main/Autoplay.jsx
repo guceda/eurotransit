@@ -18,7 +18,7 @@ const Autoplay = ({ setYear, year, play }) => {
 
   return (
     <div className="auto-play" onClick={() => setPlaying(!playing)}>
-      {playing ? "stop" : "play"}
+      {playing ? "stop" : "autoplay"}
     </div>
   );
 };
