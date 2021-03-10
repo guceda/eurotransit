@@ -102,6 +102,7 @@ h2 {
 }
 
 .sidebar-right {
+  position: relative;
   display: flex;
   flex-grow: 1;
 }
@@ -127,4 +128,21 @@ h2 {
   height: auto;
   padding: 30px;
   height: 100%;
+}
+
+/*--------------------------------- AUTOPLAY ---------------------------------*/
+.auto-play {
+  position: absolute;
+  font-size: 13px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  float: right;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
