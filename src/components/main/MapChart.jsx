@@ -45,7 +45,7 @@ const MapChart = ({
         data-tip=""
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
-          rotate: [-15.0, -30.0, 0],
+          rotate: [-15.0, -47.0, 0],
           scale: 500,
         }}
       >

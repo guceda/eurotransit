@@ -7,6 +7,7 @@ import Header from "./main/Header";
 import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
+import Autoplay from "./main/Autoplay";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet"
 
@@ -15,7 +16,7 @@ import theme from "../../src/theme.json";
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
 
 const Main = ({ datasets }) => {
-  const [year, setYear] = useState(2020);
+  const [year, setYear] = useState(YEAR_OPTS[YEAR_OPTS.length - 1].value);
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [transport, setTransport] = useState("plane");
@@ -38,15 +39,15 @@ const Main = ({ datasets }) => {
   const colorSet = useColorSet(transport);
 
   useEffect(() => {
-    const countries = selectedCountries.map(country => {
+    const countries = selectedCountries.map((country) => {
       return {
         ...country,
         data: dataset[country.ISO],
-      }
-    })
+      };
+    });
     setSelectedCountries(countries);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [transport, year])
+  }, [transport, year]);
 
   return (
     <SidebarContainer
@@ -86,6 +87,7 @@ const Main = ({ datasets }) => {
             year={year}
           />
           <Navbar selected={year} setSelected={setYear} options={YEAR_OPTS} />
+          <Autoplay setYear={setYear} year={year} play={false}/>
         </div>
       }
     />
