@@ -124,10 +124,15 @@ h2 {
 }
 
 .sidebar {
+  overflow:scroll;
   background-color: grey;
   height: auto;
   padding: 30px;
   height: 100%;
+}
+
+.sidebar div:last-of-type {
+  padding-bottom: 60px;
 }
 
 /*--------------------------------- AUTOPLAY ---------------------------------*/
