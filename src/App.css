@@ -43,6 +43,13 @@ button:focus {
 
 .map-chart {
   overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.map-chart>svg {
+  height: 100%;
+  width: 100%;
 }
 
 /*---------------------------------- NAVBAR ----------------------------------*/
@@ -65,7 +72,7 @@ button:focus {
 .year-selector {
   position: absolute;
   bottom: 3%;
-  right:2%;
+  right: 2%;
   width: auto;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px);
@@ -96,7 +103,6 @@ button:focus {
   float: left;
   color: #fff;
   background-color: #219AF3;
-  /* font-weight: bold; */
 }
 
 /*---------------------------------- SIDEBAR ---------------------------------*/
@@ -144,6 +150,7 @@ button:focus {
 }
 
 /*--------------------------------- AUTOPLAY ---------------------------------*/
+
 .auto-play {
   position: absolute;
   font-size: 13px;
