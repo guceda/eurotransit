@@ -1,7 +1,7 @@
 import { Doughnut } from "react-chartjs-2";
 import chroma from "chroma-js";
 
-const DoughnutChart = ({ countries }) => {
+const DoughnutChart = ({ countries, codes }) => {
 
   const filteredCountries = Object.keys(countries[0].data).filter(
     (x) => countries[0].data[x]
@@ -13,7 +13,7 @@ const DoughnutChart = ({ countries }) => {
   .colors(filteredCountries.length);
 
   const data = {
-    labels: filteredCountries,
+    labels: filteredCountries.map(country => codes[country]),
     datasets: [
       {
         label: `Outgoing passengers from ${countries[0].geo.properties.NAME}`,

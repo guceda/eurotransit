@@ -59,6 +59,7 @@ const Main = ({ datasets }) => {
           countries={selectedCountries}
           year={year}
           transport={transport}
+          codes={datasets.codes}
         />
       }
       mainContent={

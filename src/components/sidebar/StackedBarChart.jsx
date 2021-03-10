@@ -3,7 +3,7 @@ import chroma from "chroma-js";
 import { Bar } from "react-chartjs-2";
 import { YEAR_OPTS } from "../../constants";
 
-const StackedBarChart = ({ dataset, countryCode }) => {
+const StackedBarChart = ({ dataset, countryCode, codes }) => {
   const countries = Object.keys(dataset[YEAR_OPTS[0].value]);
   const colors = chroma
     .scale(["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(75, 192, 192)"])
@@ -18,7 +18,7 @@ const StackedBarChart = ({ dataset, countryCode }) => {
     });
 
     return {
-      label: country,
+      label: codes[country],
       data: years,
       backgroundColor: colors[idx],
     }
