@@ -14,11 +14,10 @@ import useColorSet from "../hooks/useColorSet"
 import theme from "../../src/theme.json";
 
 import { TRANSPORT_OPTS, YEAR_OPTS } from "../constants";
-import startingCountry from './main/startingCountry';
 
 const Main = ({ datasets }) => {
   const [year, setYear] = useState(YEAR_OPTS[YEAR_OPTS.length - 1].value);
-  const [selectedCountries, setSelectedCountries] = useState([startingCountry]);
+  const [selectedCountries, setSelectedCountries] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [transport, setTransport] = useState("plane");
 
