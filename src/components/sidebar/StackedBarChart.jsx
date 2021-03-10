@@ -19,7 +19,9 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
       // Remove own country
       if(country === countryCode) return;
 
-      years.push(dataset[value][countryCode][country]);
+      if(dataset?.[value]?.[countryCode]?.[country]) {
+        years.push(dataset[value][countryCode][country]);
+      }
     });
 
     return {
