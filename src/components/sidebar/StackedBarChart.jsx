@@ -18,6 +18,7 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
     });
 
     return {
+      key:`${country}-${idx}`,
       label: codes[country],
       data: years,
       backgroundColor: colors[idx],
