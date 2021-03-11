@@ -273,7 +273,7 @@ button:focus {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    font-size: 3.75rem;
+    transform: translateY(15px);
   }
   100% {
     opacity: 1;
@@ -283,7 +283,7 @@ button:focus {
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
-    font-size: 3.75rem;
+    transform: translateY(15px);
   }
   100% {
     opacity: 1;
@@ -293,7 +293,7 @@ button:focus {
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
-    font-size: 3.75rem;
+    transform: translateY(15px);
   }
   100% {
     opacity: 1;
@@ -303,7 +303,7 @@ button:focus {
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
-    font-size: 3.75rem;
+    transform: translateY(15px);
   }
   100% {
     opacity: 1;
@@ -313,7 +313,7 @@ button:focus {
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
-    font-size: 3.75rem;
+    transform: translateY(15px);
   }
   100% {
     opacity: 1;
