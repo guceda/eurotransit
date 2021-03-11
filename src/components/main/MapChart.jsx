@@ -142,7 +142,7 @@ const MapChart = ({
                         const thickness = (passengers * 100) / diff;
                         const lineWidth =
                           transport === "train"
-                            ? thickness / 10 + 2
+                            ? thickness / 5 + 2
                             : thickness;
 
                         return (
