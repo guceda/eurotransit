@@ -17,9 +17,12 @@ const Autoplay = ({ setYear, year, play }) => {
   }, 1000);
 
   return (
-    <div className="auto-play" onClick={() => setPlaying(!playing)}>
-      {playing ? "stop" : "play"}
-    </div>
+    <button
+      className={play ? "tab-active" : "tab-btn"}
+      onClick={() => setPlaying(!playing)}
+    >
+      {playing ? "stop" : "autoplay"}
+    </button>
   );
 };
 

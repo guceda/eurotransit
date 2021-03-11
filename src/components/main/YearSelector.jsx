@@ -1,6 +1,7 @@
 import { useCallback } from "react";
+import Autoplay from './Autoplay';
 
-const Navbar = ({ options, selected, setSelected }) => {
+const YearSelector = ({ options, selected, setSelected, }) => {
   const setClass = useCallback(
     (method) => {
       return selected === method ? "tab-active" : "tab-btn";
@@ -9,7 +10,7 @@ const Navbar = ({ options, selected, setSelected }) => {
   );
 
   return (
-    <div className={"tab navbar"}>
+    <div className={"tab year-selector"}>
       {options.map((opt) => (
         <button
           key={opt.value}
@@ -19,9 +20,9 @@ const Navbar = ({ options, selected, setSelected }) => {
           {opt.label}
         </button>
       ))}
-      {/* <button className="tab-btn">About</button> */}
+      <Autoplay setYear={setSelected} year={selected} play={false} />
     </div>
   );
 };
 
-export default Navbar;
+export default YearSelector;
