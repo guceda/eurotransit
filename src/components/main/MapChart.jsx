@@ -139,10 +139,10 @@ const MapChart = ({
                         const originName = geo.properties.ISO_A2;
                         const targetName = country.properties.ISO_A2;
                         const passengers = dataset[originName][targetName];
-                        const thickness = (passengers * 100) / diff;
-                        const lineWidth =
-                          transport === "train"
-                            ? thickness / 5 + 2
+                        const thickness = (passengers * 20) / diff;
+                        const lineWidth = 
+                            transport === "train"
+                            ? thickness / 1.8
                             : thickness;
 
                         return (
