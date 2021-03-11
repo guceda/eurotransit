@@ -115,10 +115,13 @@ button:focus {
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
-  background-color: #747474;
   float: left;
   color: #fff;
   background-color: #219AF3;
+}
+
+.tab-active:active {
+  background-color: #0a75c2;
 }
 
 /*---------------------------------- SIDEBAR ---------------------------------*/

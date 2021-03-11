@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IoPlay } from "react-icons/io5";
 
 import useAutoplay from "../../hooks/useAutoplay";
 import { YEAR_OPTS } from "../../constants";
@@ -18,10 +19,10 @@ const Autoplay = ({ setYear, year, play }) => {
 
   return (
     <button
-      className={play ? "tab-active" : "tab-btn"}
+      className={playing ? "tab-active" : "tab-btn"}
       onClick={() => setPlaying(!playing)}
     >
-      {playing ? "stop" : "autoplay"}
+      <IoPlay />
     </button>
   );
 };
