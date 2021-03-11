@@ -1,8 +1,16 @@
+
+/*------------------------------------ FONTS ----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&display=swap');
+
+
+/*----------------------------------- GENERAL ---------------------------------*/
+
 body {
   overflow: hidden;
 }
 
 #loadingText {
+  font-family: 'Baloo 2', cursive;
   color: lightgrey;
   font-weight: 300;
   font-size: 4rem;
