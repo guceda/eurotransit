@@ -1,6 +1,21 @@
+body {
+  overflow: hidden;
+}
+
+#loadingText {
+  color: lightgrey;
+  font-weight: 300;
+  font-size: 4rem;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
 /*------------------------------------ APP -----------------------------------*/
+
 .App {
-  background-color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +33,12 @@ h2 {
   margin-top: 20px;
 }
 
+button:focus {
+  outline-style: none;
+}
+
 /*----------------------------------- MAIN -----------------------------------*/
+
 .main {
   display: flex;
   height: 100vh;
@@ -27,6 +47,7 @@ h2 {
 }
 
 /*--------------------------------- HEADER -----------------------------------*/
+
 .header {
   display: flex;
   justify-content: center;
@@ -34,14 +55,44 @@ h2 {
 }
 
 /*----------------------------------- MAP ------------------------------------*/
+
 .map-chart {
   overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.map-chart>svg {
+  height: 100%;
+  width: 100%;
 }
 
 /*---------------------------------- NAVBAR ----------------------------------*/
+
 .tab {
   background-color: #1a1a1a;
   width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.year-selector {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .tab-btn {
@@ -49,13 +100,13 @@ h2 {
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
-  background-color: inherit;
+  background-color: transparent;
   float: left;
   color: #fff;
 }
 
 .tab-btn:hover {
-  color: #00db8e;
+  background-color: #219AF3;
 }
 
 .tab-active {
@@ -64,25 +115,35 @@ h2 {
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
-  background-color: #747474;
   float: left;
   color: #fff;
+  background-color: #219AF3;
+}
+
+.tab-active:active {
+  background-color: #0a75c2;
 }
 
 /*---------------------------------- SIDEBAR ---------------------------------*/
+
 .sidebar-container {
   display: flex;
   height: 100vh;
   width: 100%;
   flex-direction: row;
 }
+
 .sidebar-left {
+  height: 100%;
   width: 500px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
 }
 
 .sidebar-right {
+  position: relative;
   display: flex;
   flex-grow: 1;
 }
@@ -90,22 +151,157 @@ h2 {
 .sidebar-left .close {
   position: absolute;
   color: white;
-  top: 15px;
-  right: 15px;
-  padding: 3px 10px;
-  font-size: 25px;
+  background-color: #0b84da;
+  height: 120px;
+  width: 30px;
+  top: 45px;
+  left: 470px;
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  border-radius: 2px;
-  transform: scaleY(0.8);
+  z-index: 1000;
+  transition: 300ms;
+}
+
+.close svg {
+  color: #e7f4fe;
 }
 
 .sidebar-left .close:hover {
-  background: lightgrey;
+  background-color: #0a75c2;
+}
+
+.sidebar-left .close:active {
+  background-color: #0967aa;
 }
 
 .sidebar {
-  background-color: grey;
+  overflow:scroll;
   height: auto;
-  padding: 30px;
   height: 100%;
+  padding-top: 45px;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.countryNameContainer {
+  width: 100%;
+  height: 120px;
+  padding-left: 30px;
+  background-color: #219AF3;
+  display: flex;
+  align-items: center;
+}
+
+.countryNameContainer>img {
+  margin-right: 30px;
+  height: 90px;
+  width: auto;
+}
+
+.countryNameContainer>h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.sidebarContent {
+  padding: 30px 30px 0 20px;
+}
+
+.sidebarContent h5 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.indicatorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.indicatorContainer h2 {
+  font-weight: 300;
+  z-index: 2000;
+}
+
+.indicatorContainer div {
+  width: 210px;
+}
+
+.sidebar div:last-of-type {
+  padding-bottom: 60px;
+}
+
+/*--------------------------------- AUTOPLAY ---------------------------------*/
+
+.auto-play {
+  position: absolute;
+  font-size: 13px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  float: right;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/*--------------------------------- EFFECTS ----------------------------------*/
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    font-size: 3.75rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    font-size: 3.75rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    font-size: 3.75rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    font-size: 3.75rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    font-size: 3.75rem;
+  }
+  100% {
+    opacity: 1;
+  }
 }

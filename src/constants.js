@@ -5,12 +5,12 @@ export const DATASETS = {
   train2020: "rail_passengers_2020_cleaned.csv",
   planes: "cleaned_planes.csv",
   train: "rail_trips_cleaned.csv",
-  // "country_codes.csv",
+  codes:"country_codes.csv",
 };
 
 export const TRANSPORT_OPTS = [
-  { value: "plane", label: "Flight" },
-  { value: "train", label: "Train" },
+  { value: "plane", label: "Plane trips" },
+  { value: "train", label: "Train trips" },
 ];
 
 export const YEAR_OPTS = Array.from(

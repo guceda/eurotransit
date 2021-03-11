@@ -6,10 +6,15 @@ import {
   Line,
 } from "react-simple-maps";
 import geodata from "../../geo.json";
+import theme from "../../theme.json"
+
 
 const MapChart = ({
   dataset,
+  colorSet,
   scale,
+  limits,
+  transport,
   selectedCountries,
   setHoveredCountry,
   setSelected,
@@ -20,10 +25,8 @@ const MapChart = ({
       : 0;
     return amount;
   };
-
   const isSelected = (geo) =>
     selectedCountries?.find((c) => c.ISO === geo.properties.ISO_A2);
-
   const getCentroid = (data) => {
     if (!data) return [0, 0];
     const sum = data.reduce(
@@ -43,7 +46,7 @@ const MapChart = ({
         data-tip=""
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
-          rotate: [-15.0, -30.0, 0],
+          rotate: [-15.0, -47.0, 0],
           scale: 500,
         }}
       >
@@ -56,9 +59,9 @@ const MapChart = ({
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    stroke="#EAEAEC"
+                    stroke={colorSet.background}
                     onClick={() => {
-                      if(!dataset[geo.properties.ISO_A2]) return
+                      if (!dataset[geo.properties.ISO_A2]) return
                       setSelected([
                         {
                           geo,
@@ -80,19 +83,21 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? ( isSelected(geo) ? '#0e755d' : scale(amount))
-                          : "#1a1a1a",
+                          ? (isSelected(geo) ? colorSet.UIAccent : scale(amount))
+                          : colorSet.disabled,
                         opacity: 1,
                         outline: "none",
+                        transition: "300ms"
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
-                        ? "#0e755d"
-                        : "#1a1a1a",
+                          ? colorSet.UIAccent
+                          : colorSet.disabled,
                         outline: "none",
+                        cursor: "pointer"
                       },
                       pressed: {
-                        fill: "#E42",
+                        fill: colorSet.UIAccent,
                         outline: "none",
                       },
                     }}
@@ -113,15 +118,39 @@ const MapChart = ({
                         const country = geographies.find(
                           (g) => g.properties.ISO_A2 === target
                         );
-                        const coords = country?.geometry.coordinates[0];
+
+                        const originCoords = geo.geometry
+                          .coordinates[0][0][0][0]
+                          ? geo.geometry.coordinates[0][0]
+                          : geo.geometry.coordinates[0];
+
+                        const targetCoords = country?.geometry
+                          .coordinates[0][0][0][0]
+                          ? country?.geometry.coordinates[0][0]
+                          : country?.geometry.coordinates[0];
+
+                        if (!originCoords || !targetCoords) return false;
+
+                        const [max, min] = limits;
+
+                        const diff = max - min;
+
+                        const originName = geo.properties.ISO_A2;
+                        const targetName = country.properties.ISO_A2;
+                        const passengers = dataset[originName][targetName];
+                        const thickness = (passengers * 100) / diff;
+                        const lineWidth =
+                          thickness + (transport === 'train' ? 2 : 0);
+                        
+
                         return (
                           <Line
                             key={target}
-                            from={getCentroid(geo.geometry.coordinates[0])}
-                            to={getCentroid(coords)}
+                            from={getCentroid(originCoords)}
+                            to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
-                            strokeWidth={2}
-                            opacity={0.5}
+                            opacity={.5}
+                            strokeWidth={lineWidth}
                             strokeLinecap="round"
                           />
                         );

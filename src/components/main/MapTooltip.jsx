@@ -1,4 +1,14 @@
 import ReactTooltip from "react-tooltip";
+import styled from 'styled-components';
+
+export const ReactTooltipStyled = styled(ReactTooltip)`
+  &.type-dark.place-top {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 0.3rem 1rem;
+    border-radius: 0;
+  }
+`;
+
 
 const MapTooltip = ({ country, transport, year }) => {
   const tootipContent = () => {
@@ -33,7 +43,7 @@ const MapTooltip = ({ country, transport, year }) => {
     );
   };
 
-  return <ReactTooltip>{tootipContent()}</ReactTooltip>;
+  return <ReactTooltipStyled>{tootipContent()}</ReactTooltipStyled>;
 };
 
 export default MapTooltip;
