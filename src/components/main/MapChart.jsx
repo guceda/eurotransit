@@ -6,8 +6,7 @@ import {
   Line,
 } from "react-simple-maps";
 import geodata from "../../geo.json";
-import theme from "../../theme.json"
-
+import theme from "../../theme.json";
 
 const MapChart = ({
   dataset,
@@ -61,7 +60,7 @@ const MapChart = ({
                     geography={geo}
                     stroke={colorSet.background}
                     onClick={() => {
-                      if (!dataset[geo.properties.ISO_A2]) return
+                      if (!dataset[geo.properties.ISO_A2]) return;
                       setSelected([
                         {
                           geo,
@@ -83,18 +82,20 @@ const MapChart = ({
                     style={{
                       default: {
                         fill: dataset[geo.properties.ISO_A2]
-                          ? (isSelected(geo) ? colorSet.UIAccent : scale(amount))
+                          ? isSelected(geo)
+                            ? colorSet.UIAccent
+                            : scale(amount)
                           : colorSet.disabled,
                         opacity: 1,
                         outline: "none",
-                        transition: "300ms"
+                        transition: "300ms",
                       },
                       hover: {
                         fill: dataset[geo.properties.ISO_A2]
                           ? colorSet.UIAccent
                           : colorSet.disabled,
                         outline: "none",
-                        cursor: "pointer"
+                        cursor: "pointer",
                       },
                       pressed: {
                         fill: colorSet.UIAccent,
@@ -140,8 +141,9 @@ const MapChart = ({
                         const passengers = dataset[originName][targetName];
                         const thickness = (passengers * 100) / diff;
                         const lineWidth =
-                          thickness + (transport === 'train' ? 2 : 0);
-                        
+                          transport === "train"
+                            ? thickness / 5 + 2
+                            : thickness;
 
                         return (
                           <Line
@@ -149,7 +151,7 @@ const MapChart = ({
                             from={getCentroid(originCoords)}
                             to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
-                            opacity={.5}
+                            opacity={0.5}
                             strokeWidth={lineWidth}
                             strokeLinecap="round"
                           />
