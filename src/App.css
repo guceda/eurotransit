@@ -176,13 +176,19 @@ button:focus {
 }
 
 .sidebar {
-  overflow:scroll;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   height: auto;
   height: 100%;
   padding-top: 45px;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .countryNameContainer {
@@ -232,8 +238,8 @@ button:focus {
   width: 210px;
 }
 
-.sidebar div:last-of-type {
-  padding-bottom: 60px;
+.sidebar>div:last-of-type {
+  padding-bottom: 100px;
 }
 
 /*--------------------------------- AUTOPLAY ---------------------------------*/
