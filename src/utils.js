@@ -44,7 +44,7 @@ export const formatData = (dataset) => {
 
 const formatCC = (codesDataset) => {
   // eslint-disable-next-line no-unused-vars
-  const [_trash, ...data] = codesDataset.content
+  const [_trash, ...data] = codesDataset.content;
   const formatted = Object.values(data).reduce((acc, country) => {
     acc[country[1]] = country[0];
     return acc;
@@ -73,5 +73,17 @@ export const formatDataSets = (datasets) => {
   const countryCodesFormatted = formatCC(...countryCodes);
   const all = [countryCodesFormatted, ...formated];
   const merged = mergeDatasets(all);
+
+  // FIXME: shitty fix to remove countries in trains that are not in planes
+  const countries = Object.keys(merged.plane[2020]);
+  Object.values(merged.train).forEach((year) => {
+    Object.keys(year).forEach((country) => {
+      if (!countries.includes(country)) {
+        delete year[country];
+      }
+    });
+  });
+  // -----------------------------------------------------------------------
+
   return merged;
 };

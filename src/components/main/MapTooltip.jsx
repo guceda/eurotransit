@@ -27,7 +27,7 @@ const MapTooltip = ({ country, transport, year }) => {
     }, 0);
 
     const population = (country.geo.properties.POP_EST / 1000000).toFixed(2);
-    const passengers = (total / 1000000).toFixed(2);
+    const passengers = transport === 'train' ? total : (total / 1000000).toFixed(2);
 
     return (
       <div>
@@ -37,7 +37,7 @@ const MapTooltip = ({ country, transport, year }) => {
         </p>
         <p>
           Total passengers leaving by {transport} in {year}:{" "}
-          <b>{passengers}M</b>
+          <b>{passengers}{transport === 'plane' ? 'M' : ''}</b>
         </p>
       </div>
     );
