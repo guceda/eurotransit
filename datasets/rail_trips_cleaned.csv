@@ -1,353 +1,353 @@
 ﻿origin,destination,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004
-AT,BE,null,null,null,null,null,null,null,null ,2,2,5,3,0,1,3,1
-AT,BG,null,null,null,8,11,11,14,14,15,14,14,13,9,null,null ,null 
-AT,CH,570,522,505,498,518,215,220,225,195,193,170,179,null ,null ,null ,null 
-AT,CZ,822,691,595,482,318,210,192,201,null ,160,149,169,183,144,18,38
-AT,DE,1604,1584,1690,1434,1051,1362,1314,1302,1409,1060,1040,900,928,929,896,975
-AT,DK,6,5,8,9,8,6,8,11,17,12,9,9,9,9,1,3
+AT,BE,0,null,null,null,null,null,null,null ,2000,2000,5000,3000,0,1000,3000,1000
+AT,BG,null,null,null,8000,11000,11000,14000,14000,15000,14000,14000,13000,9000,null,null ,null 
+AT,CH,570000,522000,505000,498000,518000,215000,220000,225000,195000,193000,170000,179000,null ,null ,null ,null 
+AT,CZ,822000,691000,595000,482000,318000,210000,192000,201000,null ,160000,149000,169000,183000,144000,18000,38000
+AT,DE,1604000,1584000,1690000,1434000,1051000,1362000,1314000,1302000,1409000,1060000,1040000,900000,928000,929000,896000,975000
+AT,DK,6000,5000,8000,9000,8000,6000,8000,11000,17000,12000,9000,9000,9000,9000,1000,3000
 AT,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
-AT,FR,null,null,null,null,null,null,null,null,null,null,2,2,3,10,12,7
-AT,HR,22,21,26,21,22,24,25,28,28,28,27,29,27,26,25,28
-AT,HU,null,null,null,null,null,376,498,477,415,309,307,279,270,268,267,174
-AT,IT,null,null,null,null,null,null,null,null,null,null,null,null,259,323,414,195
+AT,FR,null,null,null,null,null,null,null,null,null,null,2000,2000,3000,10000,12000,7000
+AT,HR,22000,21000,26000,21000,22000,24000,25000,28000,28000,28000,27000,29000,27000,26000,25000,28000
+AT,HU,null,null,null,null,null,376000,498000,477000,415000,309000,307000,279000,270000,268000,267000,174000
+AT,IT,null,null,null,null,null,null,null,null,null,null,null,null,259000,323000,414000,195000
 AT,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0
-AT,LU,0,0,0,0,0,0,1,1,1,1,null ,0,1,0,0,1
+AT,LU,0,0,0,0,0,0,1000,1000,1000,1000,null ,0,1000,0,0,1000
 AT,MK,null ,null ,null ,null ,0,null ,0,null ,0,0,0,null ,null ,null ,null ,null 
-AT,NL,null,null,null,null,null,null,null,null,null,null,null,null,20,31,40,40
-AT,PL,34,28,30,31,46,58,51,53,56,60,49,63,63,63,66,54
-AT,RO,18,16,11,5,3,4,7,8,11,17,17,16,13,9,13,12
-AT,SI,97,80,68,53,49,54,57,68,65,68,73,53,48,38,38,47
-AT,SK,1000,918,761,732,760,799,767,735,684,599,729,726,698,514,88,84
-AT,TR,null ,null ,0,0,6,6,5,9,7,7,7,7,6,2,2,3
+AT,NL,null,null,null,null,null,null,null,null,null,null,null,null,20000,31000,40000,40000
+AT,PL,34000,28000,30000,31000,46000,58000,51000,53000,56000,60000,49000,63000,63000,63000,66000,54000
+AT,RO,18000,16000,11000,5000,3000,4000,7000,8000,11000,17000,17000,16000,13000,9000,13000,12000
+AT,SI,97000,80000,68000,53000,49000,54000,57000,68000,65000,68000,73000,53000,48000,38000,38000,47000
+AT,SK,1000000,918000,761000,732000,760000,799000,767000,735000,684000,599000,729000,726000,698000,514000,88000,84000
+AT,TR,null ,null ,0,0,6000,6000,5000,9000,7000,7000,7000,7000,6000,2000,2000,3000
 BA,AT,null ,null,null ,null,null,null,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
 BA,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null 
 BA,BG,null,null,null,0,0,0,0,0,0,0,0,null ,null ,null ,null ,null 
 BA,CZ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
-BA,HR,null ,null ,0,7,7,7,14,27,27,30,30,48,41,36,18,31
-BA,HU,null ,null ,null ,null ,null,1,23,3,3,2,2,2,2,2,3,2
-BA,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,2,null 
+BA,HR,null ,null ,0,7000,7000,7000,14000,27000,27000,30000,30000,48000,41000,36000,18000,31000
+BA,HU,null ,null ,null ,null ,null,1000,23000,3000,3000,2000,2000,2000,2000,2000,3000,2000
+BA,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,2000,null 
 BA,MK,null ,null ,null ,null ,null ,null ,null ,0,0,0,null ,null ,null ,null ,null ,null 
 BA,RO,null ,null ,null ,0,null ,null ,null ,0,null ,null ,null ,null ,0,0,0,0
-BA,SI,null ,null ,0,0,0,0,0,1,1,1,3,3,2,2,2,1
+BA,SI,null ,null ,0,0,0,0,0,1000,1000,1000,3000,3000,2000,2000,2000,1000
 BA,SK,null ,null ,0,null ,0,0,0,0,0,null ,0,null ,0,null ,null ,null 
 BA,TR,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0,null ,null 
 BE,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-BE,BG,null,null,null,5,6,10,10,10,11,10,13,5,2,null,null ,null 
-BE,CH,23,21,21,20,21,82,84,86,74,74,65,68,null ,null ,null ,null 
-BE,CZ,2,1,0,0,0,0,0,0,null ,0,0,0,0,0,1,0
-BE,DE,426,506,418,287,226,254,209,223,51,42,58,81,69,75,29,70
-BE,DK,1,1,1,1,1,null ,1,3,1,null ,null ,null ,null ,null ,0,0
+BE,BG,null,null,null,5000,6000,10000,10000,10000,11000,10000,13000,5000,2000,null,null ,null 
+BE,CH,23000,21000,21000,20000,21000,82000,84000,86000,74000,74000,65000,68000,null ,null ,null ,null 
+BE,CZ,2000,1000,0,0,0,0,0,0,null ,0,0,0,0,0,1000,0
+BE,DE,426000,506000,418000,287000,226000,254000,209000,223000,51000,42000,58000,81000,69000,75000,29000,70000
+BE,DK,1000,1000,1000,1000,1000,null ,1000,3000,1000,null ,null ,null ,null ,null ,0,0
 BE,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
-BE,FR,null,null,null,null,null,null,null,null,null,null,3594,2089,2005,1994,2009,1196
+BE,FR,null,null,null,null,null,null,null,null,null,null,3594000,2089000,2005000,1994000,2009000,1196000
 BE,HR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-BE,HU,null,null,null,null,null,2,3,3,4,3,7,4,2,3,3,1
-BE,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2,4
-BE,LU,1092,728,760,877,1110,1184,874,840,877,912,null ,771,678,659,545,505
-BE,NL,null,null,null,null,null,null,null,null,null,null,null,null,1310,987,850,580
-BE,PL,null ,0,0,0,1,1,0,1,1,1,1,2,2,3,3,3
-BE,RO,0,0,0,0,0,0,0,0,0,3,null ,null ,0,0,0,0
-BE,SI,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0
-BE,SK,0,0,0,0,0,null ,0,0,0,0,0,1,0,1,1,1
-BE,TR,null ,null ,null ,0,4,4,3,5,6,4,8,4,2,null ,1,1
-BE,UK,1702,1426,1447,1266,1344,1164,1090,1135,1001,911,916,927,827,692,659,647
+BE,HU,null,null,null,null,null,2000,3000,3000,4000,3000,7000,4000,2000,3000,3000,1000
+BE,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000,4000
+BE,LU,1092000,728000,760000,877000,1110000,1184000,874000,840000,877000,912000,null ,771000,678000,659000,545000,505000
+BE,NL,null,null,null,null,null,null,null,null,null,null,null,null,1310000,987000,850000,580000
+BE,PL,null ,0,0,0,1000,1000,0,1000,1000,1000,1000,2000,2000,3000,3000,3000
+BE,RO,0,0,0,0,0,0,0,0,0,3000,null ,null ,0,0,0,0
+BE,SI,0,0,0,0,0,1000,0,0,0,0,1000,0,0,1000,0,0
+BE,SK,0,0,0,0,0,null ,0,0,0,0,0,1000,0,1000,1000,1000
+BE,TR,null ,null ,null ,0,4000,4000,3000,5000,6000,4000,8000,4000,2000,null ,1000,1000
+BE,UK,1702000,1426000,1447000,1266000,1344000,1164000,1090000,1135000,1001000,911000,916000,927000,827000,692000,659000,647000
 BG,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-BG,CZ,0,0,0,0,0,0,0,0,null ,1,1,1,2,1,null ,0
-BG,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,1,0,2,3
+BG,CZ,0,0,0,0,0,0,0,0,null ,1000,1000,1000,2000,1000,null ,0
+BG,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,1000,0,2000,3000
 BG,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-BG,EL,1,3,6,6,6,14,2,0,5,5,6,0,8,21,10,8
+BG,EL,1000,3000,6000,6000,6000,14000,2000,0,5000,5000,6000,0,8000,21000,10000,8000
 BG,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-BG,HR,null ,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
-BG,HU,null,null,null,null,null,3,3,3,3,4,4,5,6,5,7,6
+BG,HR,null ,0,0,0,0,0,0,0,0,0,0,0,1000,1000,0,0
+BG,HU,null,null,null,null,null,3000,3000,3000,3000,4000,4000,5000,6000,5000,7000,6000
 BG,MK,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null 
 BG,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
 BG,PL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-BG,RO,4,4,7,11,7,7,6,7,7,14,15,15,13,26,16,19
-BG,SI,0,0,0,0,0,1,1,0,1,2,3,1,1,1,0,3
-BG,SK,0,0,0,0,1,1,1,1,1,1,2,1,1,2,2,1
-BG,TR,2,1,4,1,2,2,2,2,4,3,4,6,5,9,8,6
+BG,RO,4000,4000,7000,11000,7000,7000,6000,7000,7000,14000,15000,15000,13000,26000,16000,19000
+BG,SI,0,0,0,0,0,1000,1000,0,1000,2000,3000,1000,1000,1000,0,3000
+BG,SK,0,0,0,0,1000,1000,1000,1000,1000,1000,2000,1000,1000,2000,2000,1000
+BG,TR,2000,1000,4000,1000,2000,2000,2000,2000,4000,3000,4000,6000,5000,9000,8000,6000
 BH,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 BY,BE,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0
-BY,BG,null,null,null,0,1,2,5,5,4,2,2,2,1,null,null ,null 
-BY,CZ,0,0,0,0,0,1,1,1,null ,0,0,0,2,5,null ,1
-BY,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,2,2,0,null 
+BY,BG,null,null,null,0,1000,2000,5000,5000,4000,2000,2000,2000,1000,null,null ,null 
+BY,CZ,0,0,0,0,0,1000,1000,1000,null ,0,0,0,2000,5000,null ,1000
+BY,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,2000,2000,0,null 
 BY,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 BY,FR,null ,null ,null ,null ,null ,null,null,null,null ,null ,null ,null ,null ,null ,null ,null 
 BY,HR,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0
-BY,HU,null ,null ,null ,null,null,0,0,0,0,null ,null ,1,null ,null ,null ,null 
-BY,LT,170,167,145,151,157,177,196,158,106,69,62,63,60,54,20,40
+BY,HU,null ,null ,null ,null,null,0,0,0,0,null ,null ,1000,null ,null ,null ,null 
+BY,LT,170000,167000,145000,151000,157000,177000,196000,158000,106000,69000,62000,63000,60000,54000,20000,40000
 BY,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,null ,null 
-BY,LV,10,10,8,8,9,17,19,16,11,null ,null ,null ,8,21,20,18
+BY,LV,10000,10000,8000,8000,9000,17000,19000,16000,11000,null ,null ,null ,8000,21000,20000,18000
 BY,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-BY,PL,146,128,209,251,219,294,443,470,444,247,182,275,682,555,575,666
-BY,RO,null ,null ,null ,null ,null ,0,0,0,0,3,null ,null ,0,0,0,0
+BY,PL,146000,128000,209000,251000,219000,294000,443000,470000,444000,247000,182000,275000,682000,555000,575000,666000
+BY,RO,null ,null ,null ,null ,null ,0,0,0,0,3000,null ,null ,0,0,0,0
 BY,SI,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,null ,0,null ,0
-BY,SK,null ,null ,0,0,0,0,0,0,0,null ,0,1,0,1,1,1
+BY,SK,null ,null ,0,0,0,0,0,0,0,null ,0,1000,0,1000,1000,1000
 CH,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-CH,BE,null,null,null,null,null,null,null,null ,7,7,10,6,9,11,1,2
-CH,BG,null,null,null,22,27,26,28,24,18,10,2,1,4,null,null ,null 
-CH,CZ,6,7,6,5,1,1,1,1,null ,2,2,2,0,1,5,1
-CH,DE,2074,2056,2008,2231,2061,1992,1955,1909,2073,1532,1498,1551,1425,1467,1403,1441
-CH,DK,9,8,12,11,10,12,12,15,15,9,6,7,5,5,0,7
-CH,ES,null ,null ,0,null ,null ,null ,null ,10,15,16,18,16,19,24,25,24
-CH,FR,null,null,null,null,null,null,null,null,null,null,2281,2161,2139,2103,2250,1060
-CH,HR,9,7,8,8,9,10,6,8,8,8,8,9,11,11,6,9
-CH,HU,null,null,null,null,null,41,41,44,39,39,41,43,32,28,32,20
-CH,IT,null,null,null,null,null,null,null,null,null,null,null,null,962,1011,673,687
+CH,BE,null,null,null,null,null,null,null,null ,7000,7000,10000,6000,9000,11000,1000,2000
+CH,BG,null,null,null,22000,27000,26000,28000,24000,18000,10000,2000,1000,4000,null,null ,null 
+CH,CZ,6000,7000,6000,5000,1000,1000,1000,1000,null ,2000,2000,2000,0,1000,5000,1000
+CH,DE,2074000,2056000,2008000,2231000,2061000,1992000,1955000,1909000,2073000,1532000,1498000,1551000,1425000,1467000,1403000,1441000
+CH,DK,9000,8000,12000,11000,10000,12000,12000,15000,15000,9000,6000,7000,5000,5000,0,7000
+CH,ES,null ,null ,0,null ,null ,null ,null ,10000,15000,16000,18000,16000,19000,24000,25000,24000
+CH,FR,null,null,null,null,null,null,null,null,null,null,2281000,2161000,2139000,2103000,2250000,1060000
+CH,HR,9000,7000,8000,8000,9000,10000,6000,8000,8000,8000,8000,9000,11000,11000,6000,9000
+CH,HU,null,null,null,null,null,41000,41000,44000,39000,39000,41000,43000,32000,28000,32000,20000
+CH,IT,null,null,null,null,null,null,null,null,null,null,null,null,962000,1011000,673000,687000
 CH,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,null ,0,0,null ,null 
-CH,LU,7,7,5,5,5,5,11,10,10,13,null ,10,8,8,10,8
+CH,LU,7000,7000,5000,5000,5000,5000,11000,10000,10000,13000,null ,10000,8000,8000,10000,8000
 CH,MK,null ,null ,null ,null ,0,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null 
-CH,NL,null,null,null,null,null,null,null,null,null,null,null,null,40,59,70,80
-CH,PL,1,1,1,1,2,1,2,3,2,3,3,3,3,4,4,3
-CH,RO,0,0,0,0,0,0,0,0,0,13,55,33,19,9,11,24
-CH,SI,9,7,7,6,6,8,7,8,7,8,8,7,7,7,4,7
-CH,SK,4,3,2,1,1,1,1,1,1,1,1,2,1,2,2,2
-CH,TR,null ,null ,null ,1,14,14,10,11,11,11,9,9,5,2,2,1
-CI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,11,8,null 
+CH,NL,null,null,null,null,null,null,null,null,null,null,null,null,40000,59000,70000,80000
+CH,PL,1000,1000,1000,1000,2000,1000,2000,3000,2000,3000,3000,3000,3000,4000,4000,3000
+CH,RO,0,0,0,0,0,0,0,0,0,13000,55000,33000,19000,9000,11000,24000
+CH,SI,9000,7000,7000,6000,6000,8000,7000,8000,7000,8000,8000,7000,7000,7000,4000,7000
+CH,SK,4000,3000,2000,1000,1000,1000,1000,1000,1000,1000,1000,2000,1000,2000,2000,2000
+CH,TR,null ,null ,null ,1000,14000,14000,10000,11000,11000,11000,9000,9000,5000,2000,2000,1000
+CI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,11000,8000,null 
 CN,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null 
 CY,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 CZ,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 CZ,BE,null,null,null,null ,null ,null ,null,null ,0,0,0,0,0,0,0,0
-CZ,BG,null,null,null,1,2,2,2,2,1,3,2,2,2,null,null ,null 
-CZ,DE,569,560,442,608,527,352,396,406,373,224,249,203,207,278,240,229
-CZ,DK,5,4,6,6,3,5,7,12,9,9,6,6,12,12,0,1
+CZ,BG,null,null,null,1000,2000,2000,2000,2000,1000,3000,2000,2000,2000,null,null ,null 
+CZ,DE,569000,560000,442000,608000,527000,352000,396000,406000,373000,224000,249000,203000,207000,278000,240000,229000
+CZ,DK,5000,4000,6000,6000,3000,5000,7000,12000,9000,9000,6000,6000,12000,12000,0,1000
 CZ,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 CZ,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
-CZ,FR,null ,null,null,null,null,null,null,null,null,null,0,0,0,0,0,1
-CZ,HR,0,0,1,1,1,1,1,1,1,2,3,4,3,1,1,1
-CZ,HU,null,null,null,null,null,95,78,69,61,53,51,60,55,52,58,39
-CZ,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null,10,40,4,5
+CZ,FR,null ,null,null,null,null,null,null,null,null,null,0,0,0,0,0,1000
+CZ,HR,0,0,1000,1000,1000,1000,1000,1000,1000,2000,3000,4000,3000,1000,1000,1000
+CZ,HU,null,null,null,null,null,95000,78000,69000,61000,53000,51000,60000,55000,52000,58000,39000
+CZ,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null,10000,40000,4000,5000
 CZ,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0
 CZ,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,0,0
 CZ,MK,null ,null ,null ,null ,0,0,0,null ,0,0,0,null ,null ,null ,null ,null 
-CZ,NL,null,null,null,null,null,null,null,null,null,null,null,null,null ,9,10,10
-CZ,PL,142,148,101,86,47,51,91,102,107,104,96,137,131,115,101,88
-CZ,RO,1,1,1,1,2,2,2,3,2,3,4,7,4,5,12,4
-CZ,SI,2,1,3,2,3,4,5,5,5,5,7,5,5,6,2,4
-CZ,SK,697,676,675,675,664,651,641,621,625,201,564,668,666,539,617,513
-CZ,TR,null ,null ,null ,0,1,1,0,1,1,null ,1,1,1,0,0,0
+CZ,NL,null,null,null,null,null,null,null,null,null,null,null,null,null ,9000,10000,10000
+CZ,PL,142000,148000,101000,86000,47000,51000,91000,102000,107000,104000,96000,137000,131000,115000,101000,88000
+CZ,RO,1000,1000,1000,1000,2000,2000,2000,3000,2000,3000,4000,7000,4000,5000,12000,4000
+CZ,SI,2000,1000,3000,2000,3000,4000,5000,5000,5000,5000,7000,5000,5000,6000,2000,4000
+CZ,SK,697000,676000,675000,675000,664000,651000,641000,621000,625000,201000,564000,668000,666000,539000,617000,513000
+CZ,TR,null ,null ,null ,0,1000,1000,0,1000,1000,null ,1000,1000,1000,0,0,0
 DE,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-DE,BE,null,null,null,null,null,null,null,null ,101,101,137,101,102,105,75,58
-DE,BG,null,null,null,28,34,41,46,53,52,39,31,19,5,null,null ,null 
-DE,CH,2642,2418,2340,2306,2402,2545,2604,2662,2309,2284,2011,2117,null ,null ,null ,null 
-DE,CZ,764,656,609,442,605,534,484,350,null ,230,151,222,98,166,209,29
-DE,DK,321,296,417,438,486,432,367,438,437,355,253,253,209,192,145,186
+DE,BE,null,null,null,null,null,null,null,null ,101000,101000,137000,101000,102000,105000,75000,58000
+DE,BG,null,null,null,28000,34000,41000,46000,53000,52000,39000,31000,19000,5000,null,null ,null 
+DE,CH,2642000,2418000,2340000,2306000,2402000,2545000,2604000,2662000,2309000,2284000,2011000,2117000,null ,null ,null ,null 
+DE,CZ,764000,656000,609000,442000,605000,534000,484000,350000,null ,230000,151000,222000,98000,166000,209000,29000
+DE,DK,321000,296000,417000,438000,486000,432000,367000,438000,437000,355000,253000,253000,209000,192000,145000,186000
 DE,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 DE,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
-DE,FR,null,null,null,null,null,null,null,null,null,null,619,434,346,341,342,335
-DE,HR,24,19,24,22,25,28,35,36,33,28,33,28,26,28,33,40
-DE,HU,null,null,null,null,null,173,247,254,200,163,143,115,112,106,114,77
-DE,IT,null,null,null,null,null,null,null,null,null,null,null,null,334,380,323,319
-DE,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,1,1,1,1,2
-DE,LU,373,333,278,321,267,224,323,310,342,309,null ,240,216,213,163,159
+DE,FR,null,null,null,null,null,null,null,null,null,null,619000,434000,346000,341000,342000,335000
+DE,HR,24000,19000,24000,22000,25000,28000,35000,36000,33000,28000,33000,28000,26000,28000,33000,40000
+DE,HU,null,null,null,null,null,173000,247000,254000,200000,163000,143000,115000,112000,106000,114000,77000
+DE,IT,null,null,null,null,null,null,null,null,null,null,null,null,334000,380000,323000,319000
+DE,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,1000,1000,1000,1000,2000
+DE,LU,373000,333000,278000,321000,267000,224000,323000,310000,342000,309000,null ,240000,216000,213000,163000,159000
 DE,MK,null ,null ,null ,null ,null ,0,null ,null ,0,0,0,null ,null ,null ,null ,null 
-DE,NL,null,null,null,null,null,null,null,null,null,null,null,null,987,723,925,1166
-DE,PL,453,411,414,358,392,465,526,510,581,490,342,295,307,326,391,465
-DE,RO,1,1,1,1,1,2,2,2,2,31,21,24,8,11,15,14
-DE,SE,10,7,6,5,5,4,4,null ,17,17,21,1,16,14,17,23
-DE,SI,35,26,22,22,28,28,34,32,28,20,24,21,25,19,24,18
-DE,SK,19,16,17,10,19,15,14,15,12,4,12,8,10,20,19,9
-DE,TR,null ,null ,0,1,17,16,14,18,22,13,14,16,9,4,4,3
+DE,NL,null,null,null,null,null,null,null,null,null,null,null,null,987000,723000,925000,1166000
+DE,PL,453000,411000,414000,358000,392000,465000,526000,510000,581000,490000,342000,295000,307000,326000,391000,465000
+DE,RO,1000,1000,1000,1000,1000,2000,2000,2000,2000,31000,21000,24000,8000,11000,15000,14000
+DE,SE,10000,7000,6000,5000,5000,4000,4000,null ,17000,17000,21000,1000,16000,14000,17000,23000
+DE,SI,35000,26000,22000,22000,28000,28000,34000,32000,28000,20000,24000,21000,25000,19000,24000,18000
+DE,SK,19000,16000,17000,10000,19000,15000,14000,15000,12000,4000,12000,8000,10000,20000,19000,9000
+DE,TR,null ,null ,0,1000,17000,16000,14000,18000,22000,13000,14000,16000,9000,4000,4000,3000
 DK,AT,null,null,null,null,null,null,null ,null ,null ,null ,null ,null ,null ,null ,null ,null
 DK,BE,null,null,null,null ,null ,null ,null,null ,0,0,0,0,0,0,0,0
-DK,BG,null,null,null,8,9,9,10,12,13,14,14,13,8,null,null ,null 
-DK,CZ,2,1,1,1,1,2,2,3,null ,2,2,3,0,1,6,0
-DK,DE,164,245,286,269,250,220,278,280,397,275,264,211,134,142,142,243
+DK,BG,null,null,null,8000,9000,9000,10000,12000,13000,14000,14000,13000,8000,null,null ,null 
+DK,CZ,2000,1000,1000,1000,1000,2000,2000,3000,null ,2000,2000,3000,0,1000,6000,0
+DK,DE,164000,245000,286000,269000,250000,220000,278000,280000,397000,275000,264000,211000,134000,142000,142000,243000
 DK,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
 DK,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,0,null ,0,0,0,0
-DK,HR,0,0,null ,null ,null ,null ,null ,0,0,0,1,1,0,1,1,1
-DK,HU,null,null,null,null,null,2,2,4,4,5,5,6,5,4,4,2
-DK,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,4
+DK,HR,0,0,null ,null ,null ,null ,null ,0,0,0,1000,1000,0,1000,1000,1000
+DK,HU,null,null,null,null,null,2000,2000,4000,4000,5000,5000,6000,5000,4000,4000,2000
+DK,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,4000
 DK,LT,null ,null ,null ,null ,null ,null ,0,null ,null ,0,0,null ,0,null,0,0
-DK,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,1,1
+DK,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,1000,1000
 DK,NL,null,null,null,null,null,null,null,null,null,null,null,null,null ,null ,null ,null 
-DK,PL,0,0,null ,0,0,null ,0,1,1,1,2,2,2,1,2,2
-DK,RO,0,null ,null ,null ,null ,null ,null ,null ,null ,6,null ,null ,0,0,0,0
-DK,SE,5995,5348,5801,5731,6092,5890,5885,5662,5381,5241,5588,5447,5007,4112,3625,3476
-DK,SI,0,0,null ,0,0,0,null ,0,0,1,0,0,0,0,1,0
-DK,SK,0,0,0,0,0,0,null ,0,0,0,0,0,0,2,2,2
-DK,TR,null ,null ,null ,0,5,4,4,5,6,5,7,7,4,3,2,2
+DK,PL,0,0,null ,0,0,null ,0,1000,1000,1000,2000,2000,2000,1000,2000,2000
+DK,RO,0,null ,null ,null ,null ,null ,null ,null ,null ,6000,null ,null ,0,0,0,0
+DK,SE,5995000,5348000,5801000,5731000,6092000,5890000,5885000,5662000,5381000,5241000,5588000,5447000,5007000,4112000,3625000,3476000
+DK,SI,0,0,null ,0,0,0,null ,0,0,1000,0,0,0,0,1000,0
+DK,SK,0,0,0,0,0,0,null ,0,0,0,0,0,0,2000,2000,2000
+DK,TR,null ,null ,null ,0,5000,4000,4000,5000,6000,5000,7000,7000,4000,3000,2000,2000
 EE,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null
 EE,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-EE,LV,7,5,7,5,6,7,7,7,6,6,5,3,null ,null ,null ,null 
+EE,LV,7000,5000,7000,5000,6000,7000,7000,7000,6000,6000,5000,3000,null ,null ,null ,null 
 EE,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-EE,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,4,null ,null ,0,0,0,0
+EE,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,4000,null ,null ,0,0,0,0
 EL,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-EL,BG,null,null,null,5,6,3,1,1,15,58,67,66,37,null,null ,null 
-EL,CZ,null ,0,0,0,0,0,null ,null ,null ,1,1,1,0,0,null ,0
-EL,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,2,0,2,1
+EL,BG,null,null,null,5000,6000,3000,1000,1000,15000,58000,67000,66000,37000,null,null ,null 
+EL,CZ,null ,0,0,0,0,0,null ,null ,null ,1000,1000,1000,0,0,null ,0
+EL,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,2000,0,2000,1000
 EL,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 EL,HR,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0
-EL,HU,null,null,null,null,null,0,0,1,0,1,2,2,2,3,3,3
+EL,HU,null,null,null,null,null,0,0,1000,0,1000,2000,2000,2000,3000,3000,3000
 EL,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null 
-EL,MK,1,0,0,0,0,0,null ,0,0,2,1,null ,null ,null ,null ,null 
+EL,MK,1000,0,0,0,0,0,null ,0,0,2000,1000,null ,null ,null ,null ,null 
 EL,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0
-EL,RO,0,0,0,0,null ,null ,null ,null ,null ,4,4,10,4,6,3,5
+EL,RO,0,0,0,0,null ,null ,null ,null ,null ,4000,4000,10000,4000,6000,3000,5000
 EL,SI,null ,0,null ,null ,0,null ,0,0,0,0,0,0,0,0,0,0
-EL,SK,null ,0,0,0,0,0,null ,null ,0,0,0,1,0,0,0,0
-EL,TR,null ,null ,0,0,0,0,0,0,1,9,11,17,16,14,11,5
+EL,SK,null ,0,0,0,0,0,null ,null ,0,0,0,1000,0,0,0,0
+EL,TR,null ,null ,0,0,0,0,0,0,1000,9000,11000,17000,16000,14000,11000,5000
 ES,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-ES,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,1,0,null ,null 
-ES,BG,null,null,null,2,11,24,21,18,23,17,24,15,1,null,null ,null 
+ES,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,1000,0,null ,null 
+ES,BG,null,null,null,2000,11000,24000,21000,18000,23000,17000,24000,15000,1000,null,null ,null 
 ES,CZ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-ES,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,0,0,1,1
-ES,FR,null,null,null,null,null,null,null,null,null,null,241,263,282,299,328,103
+ES,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,0,0,1000,1000
+ES,FR,null,null,null,null,null,null,null,null,null,null,241000,263000,282000,299000,328000,103000
 ES,HR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-ES,HU,null,null,null,null,null,5,5,7,7,7,9,9,9,9,7,3
-ES,IT,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,20,27,28,30
+ES,HU,null,null,null,null,null,5000,5000,7000,7000,7000,9000,9000,9000,9000,7000,3000
+ES,IT,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,20000,27000,28000,30000
 ES,LU,0,0,0,0,0,0,0,0,0,0,null ,0,null ,null ,null ,null 
 ES,PL,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,0,null ,0,0
-ES,PT,85,85,128,120,115,78,67,64,59,61,63,76,103,85,88,192
-ES,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,12,0,1,1,1,0,0
-ES,SI,0,0,0,0,0,1,null ,1,1,0,0,0,0,0,0,0
-ES,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3,2,2
-ES,TR,null ,null ,null ,0,10,8,8,8,11,12,13,18,12,null ,5,2
+ES,PT,85000,85000,128000,120000,115000,78000,67000,64000,59000,61000,63000,76000,103000,85000,88000,192000
+ES,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,12000,0,1000,1000,1000,0,0
+ES,SI,0,0,0,0,0,1000,null ,1000,1000,0,0,0,0,0,0,0
+ES,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3000,2000,2000
+ES,TR,null ,null ,null ,0,10000,8000,8000,8000,11000,12000,13000,18000,12000,null ,5000,2000
 FI,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-FI,BG,null,null,null,4,5,10,10,11,11,12,12,9,6,null,null ,null 
+FI,BG,null,null,null,4000,5000,10000,10000,11000,11000,12000,12000,9000,6000,null,null ,null 
 FI,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,0
-FI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2,0,0,0,2
+FI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000,0,0,0,2000
 FI,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 FI,HR,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0
-FI,HU,null,null,null,null,null,2,3,4,3,4,5,4,3,3,0,2
+FI,HU,null,null,null,null,null,2000,3000,4000,3000,4000,5000,4000,3000,3000,0,2000
 FI,LT,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,null ,null ,null,0,0
-FI,PL,null ,null ,null ,null ,0,0,0,0,0,0,0,1,0,1,1,1
-FI,RO,null ,null ,null ,null ,0,0,0,0,1,6,null ,null ,0,0,0,0
+FI,PL,null ,null ,null ,null ,0,0,0,0,0,0,0,1000,0,1000,1000,1000
+FI,RO,null ,null ,null ,null ,0,0,0,0,1000,6000,null ,null ,0,0,0,0
 FI,SI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-FI,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2,2,2
-FI,TR,null ,null ,null ,0,4,5,4,5,6,6,4,5,4,null ,1,0
+FI,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000,2000,2000
+FI,TR,null ,null ,null ,0,4000,5000,4000,5000,6000,6000,4000,5000,4000,null ,1000,0
 FR,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-FR,BE,null,null,null,null,null,null,null,null ,3239,3239,3220,3069,2004,1814,1744,1026
-FR,BG,null,null,null,7,34,22,17,21,19,15,17,23,5,null,null ,null 
-FR,CH,1391,1272,1232,1214,1264,1962,2007,2052,1780,1761,1550,1632,null ,null ,null ,null 
-FR,CZ,0,0,0,0,0,0,0,0,null ,1,0,0,0,1,0,0
-FR,DE,790,1353,1116,922,641,705,781,660,852,574,543,448,279,312,334,703
-FR,DK,null ,null ,null ,null ,null ,null ,null ,1,1,1,null ,1,1,1,0,0
-FR,ES,432,416,434,434,445,418,126,152,159,264,278,275,232,283,276,279
-FR,HR,null ,null ,2,4,8,7,8,6,5,3,3,4,2,0,1,1
-FR,HU,null,null,null,null,null,139,115,148,100,98,105,116,82,87,147,52
-FR,IT,null ,null ,null ,null,null,null,null,null,null,null,null,null,827,919,794,846
-FR,LU,2283,2140,2088,1968,1726,1557,1661,1595,1435,1546,null ,1430,1465,1178,1148,1115
-FR,NL,null,null,null,null,null,null,null,null,null,null,null,null,610,461,500,500
-FR,PL,7,11,11,11,9,14,12,10,10,14,10,11,11,3,2,2
-FR,PT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2
-FR,RO,0,0,0,0,0,0,null ,0,null ,18,12,10,7,6,4,3
-FR,SI,4,4,4,3,5,5,5,4,5,3,3,5,8,6,1,3
-FR,SK,null ,null ,0,null ,0,0,0,0,0,null ,0,0,null ,19,11,11
-FR,TR,null ,null ,null ,0,13,11,12,13,16,15,14,15,15,18,17,10
-FR,UK,7984,8292,7902,8019,8178,8463,8324,7982,7756,7611,7148,7226,7255,7059,7104,6885
+FR,BE,null,null,null,null,null,null,null,null ,3239000,3239000,3220000,3069000,2004000,1814000,1744000,1026000
+FR,BG,null,null,null,7000,34000,22000,17000,21000,19000,15000,17000,23000,5000,null,null ,null 
+FR,CH,1391000,1272000,1232000,1214000,1264000,1962000,2007000,2052000,1780000,1761000,1550000,1632000,null ,null ,null ,null 
+FR,CZ,0,0,0,0,0,0,0,0,null ,1000,0,0,0,1000,0,0
+FR,DE,790000,1353000,1116000,922000,641000,705000,781000,660000,852000,574000,543000,448000,279000,312000,334000,703000
+FR,DK,null ,null ,null ,null ,null ,null ,null ,1000,1000,1000,null ,1000,1000,1000,0,0
+FR,ES,432000,416000,434000,434000,445000,418000,126000,152000,159000,264000,278000,275000,232000,283000,276000,279000
+FR,HR,null ,null ,2000,4000,8000,7000,8000,6000,5000,3000,3000,4000,2000,0,1000,1000
+FR,HU,null,null,null,null,null,139000,115000,148000,100000,98000,105000,116000,82000,87000,147000,52000
+FR,IT,null ,null ,null ,null,null,null,null,null,null,null,null,null,827000,919000,794000,846000
+FR,LU,2283000,2140000,2088000,1968000,1726000,1557000,1661000,1595000,1435000,1546000,null ,1430000,1465000,1178000,1148000,1115000
+FR,NL,null,null,null,null,null,null,null,null,null,null,null,null,610000,461000,500000,500000
+FR,PL,7000,11000,11000,11000,9000,14000,12000,10000,10000,14000,10000,11000,11000,3000,2000,2000
+FR,PT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000
+FR,RO,0,0,0,0,0,0,null ,0,null ,18000,12000,10000,7000,6000,4000,3000
+FR,SI,4000,4000,4000,3000,5000,5000,5000,4000,5000,3000,3000,5000,8000,6000,1000,3000
+FR,SK,null ,null ,0,null ,0,0,0,0,0,null ,0,0,null ,19000,11000,11000
+FR,TR,null ,null ,null ,0,13000,11000,12000,13000,16000,15000,14000,15000,15000,18000,17000,10000
+FR,UK,7984000,8292000,7902000,8019000,8178000,8463000,8324000,7982000,7756000,7611000,7148000,7226000,7255000,7059000,7104000,6885000
 GE,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null 
 HR,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 HR,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,0,0
-HR,BG,null,null,null,1,1,1,2,2,1,2,1,1,1,null,null ,null 
-HR,CZ,0,0,1,2,3,2,2,2,null ,2,4,5,5,1,0,0
-HR,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,16,14,9,24,65
-HR,DK,null ,null ,null ,null ,null ,null ,null ,null ,1,null ,null ,null ,null ,null ,0,0
+HR,BG,null,null,null,1000,1000,1000,2000,2000,1000,2000,1000,1000,1000,null,null ,null 
+HR,CZ,0,0,1000,2000,3000,2000,2000,2000,null ,2000,4000,5000,5000,1000,0,0
+HR,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,16000,14000,9000,24000,65000
+HR,DK,null ,null ,null ,null ,null ,null ,null ,null ,1000,null ,null ,null ,null ,null ,0,0
 HR,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 HR,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,0,0,0,0
-HR,HU,null,null,null,null,null,28,26,40,35,36,31,32,29,31,31,37
-HR,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,14,15,6,7
+HR,HU,null,null,null,null,null,28000,26000,40000,35000,36000,31000,32000,29000,31000,31000,37000
+HR,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,14000,15000,6000,7000
 HR,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null,null ,0,null ,0,0
 HR,LU,0,0,0,0,0,0,0,0,null ,0,null ,null ,0,null ,0,null 
 HR,MK,0,0,null ,null ,0,0,0,0,0,0,0,null ,null ,null ,null ,null 
 HR,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-HR,PL,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1
-HR,RO,0,0,0,0,0,0,0,0,0,1,null ,null ,0,0,0,0
-HR,SI,49,50,48,43,46,64,73,78,82,91,107,87,103,99,128,109
-HR,SK,0,1,1,1,1,1,1,1,1,0,2,2,2,1,1,1
-HR,TR,null ,null ,null ,0,0,null ,0,1,1,1,1,1,1,0,0,0
+HR,PL,0,0,0,0,0,0,0,1000,0,1000,1000,1000,1000,1000,1000,1000
+HR,RO,0,0,0,0,0,0,0,0,0,1000,null ,null ,0,0,0,0
+HR,SI,49000,50000,48000,43000,46000,64000,73000,78000,82000,91000,107000,87000,103000,99000,128000,109000
+HR,SK,0,1000,1000,1000,1000,1000,1000,1000,1000,0,2000,2000,2000,1000,1000,1000
+HR,TR,null ,null ,null ,0,0,null ,0,1000,1000,1000,1000,1000,1000,0,0,0
 HU,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 HU,BE,null ,null,null,null ,null ,null ,null,null ,0,0,0,0,0,0,0,0
-HU,BG,null,null,null,2,2,3,2,2,2,3,2,1,2,null,null ,null 
-HU,CZ,158,152,129,73,40,39,36,18,null ,10,9,9,17,36,1,8
-HU,DE,109,80,119,111,139,101,68,96,0,65,66,38,80,30,58,119
-HU,DK,null ,null ,null ,null ,null ,null ,null ,1,1,null ,null ,null ,1,1,0,1
+HU,BG,null,null,null,2000,2000,3000,2000,2000,2000,3000,2000,1000,2000,null,null ,null 
+HU,CZ,158000,152000,129000,73000,40000,39000,36000,18000,null ,10000,9000,9000,17000,36000,1000,8000
+HU,DE,109000,80000,119000,111000,139000,101000,68000,96000,0,65000,66000,38000,80000,30000,58000,119000
+HU,DK,null ,null ,null ,null ,null ,null ,null ,1000,1000,null ,null ,null ,1000,1000,0,1000
 HU,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 HU,FR,null ,null ,null ,null ,null,null,null,null,null,null,0,0,0,0,0,0
-HU,HR,30,30,32,28,31,29,29,35,32,26,28,31,29,32,34,34
-HU,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,17,16,4,2
+HU,HR,30000,30000,32000,28000,31000,29000,29000,35000,32000,26000,28000,31000,29000,32000,34000,34000
+HU,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,17000,16000,4000,2000
 HU,LT,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,null,0,null ,0,0
 HU,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,0,0
 HU,MK,0,0,null ,null ,0,null ,null ,0,0,0,0,null ,null ,null ,null ,null 
 HU,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-HU,PL,5,9,6,5,5,6,3,3,4,4,5,7,11,13,17,16
-HU,RO,65,66,62,57,65,63,54,8,7,48,50,59,67,63,71,67
-HU,SI,12,12,12,12,10,7,6,11,11,10,12,10,8,11,19,17
-HU,SK,179,171,159,156,118,130,126,136,115,45,97,106,85,89,77,62
-HU,TR,null ,null ,null ,0,1,1,1,1,1,1,1,12,1,1,1,1
+HU,PL,5000,9000,6000,5000,5000,6000,3000,3000,4000,4000,5000,7000,11000,13000,17000,16000
+HU,RO,65000,66000,62000,57000,65000,63000,54000,8000,7000,48000,50000,59000,67000,63000,71000,67000
+HU,SI,12000,12000,12000,12000,10000,7000,6000,11000,11000,10000,12000,10000,8000,11000,19000,17000
+HU,SK,179000,171000,159000,156000,118000,130000,126000,136000,115000,45000,97000,106000,85000,89000,77000,62000
+HU,TR,null ,null ,null ,0,1000,1000,1000,1000,1000,1000,1000,12000,1000,1000,1000,1000
 IE,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-IE,BG,null,null,null,2,4,4,4,4,3,5,4,7,1,null,null ,null 
+IE,BG,null,null,null,2000,4000,4000,4000,4000,3000,5000,4000,7000,1000,null,null ,null 
 IE,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 IE,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,null 
 IE,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-IE,HU,null,null,null,null,null,1,1,0,1,7,2,2,3,6,6,3
+IE,HU,null,null,null,null,null,1000,1000,0,1000,7000,2000,2000,3000,6000,6000,3000
 IE,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0
-IE,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,2,null ,null ,0,0,0,0
+IE,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000,null ,null ,0,0,0,0
 IE,SI,0,0,0,0,null ,null ,null ,0,0,0,0,null ,null ,0,0,0
 IE,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
-IE,TR,null ,null ,null ,0,2,2,1,1,5,2,2,4,3,null ,2,2
-IE,UK,454,487,466,429,402,428,407,415,368,396,340,423,451,420,406,400
+IE,TR,null ,null ,null ,0,2000,2000,1000,1000,5000,2000,2000,4000,3000,null ,2000,2000
+IE,UK,454000,487000,466000,429000,402000,428000,407000,415000,368000,396000,340000,423000,451000,420000,406000,400000
 IR,TR,0,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
 IS,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 IT,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-IT,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,0,null ,0,0
-IT,BG,null,null,null,5,5,16,13,15,17,24,16,22,1,null,null ,null 
-IT,CH,1244,1139,1102,1086,1131,1783,1825,1865,1618,1601,1409,1484,null ,null ,null ,null 
-IT,CZ,0,0,0,0,0,0,0,null ,null ,null ,0,1,null ,0,1,1
-IT,DE,465,278,372,304,434,352,354,416,535,298,425,252,358,260,250,526
-IT,DK,null ,null ,null ,null ,null ,null ,null ,1,null ,null ,null ,null ,null ,null ,0,1
-IT,ES,null ,null ,0,null ,null ,null ,null ,9,12,13,16,16,24,28,29,30
-IT,FR,null,null,null,null,null,null,null,null,null,null,870,855,883,913,946,710
-IT,HR,0,null ,null ,null ,null ,0,0,0,11,12,13,12,11,19,6,6
-IT,HU,null,null,null,null,null,7,9,12,42,37,39,37,40,36,23,24
+IT,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,0,null ,0,0
+IT,BG,null,null,null,5000,5000,16000,13000,15000,17000,24000,16000,22000,1000,null,null ,null 
+IT,CH,1244000,1139000,1102000,1086000,1131000,1783000,1825000,1865000,1618000,1601000,1409000,1484000,null ,null ,null ,null 
+IT,CZ,0,0,0,0,0,0,0,null ,null ,null ,0,1000,null ,0,1000,1000
+IT,DE,465000,278000,372000,304000,434000,352000,354000,416000,535000,298000,425000,252000,358000,260000,250000,526000
+IT,DK,null ,null ,null ,null ,null ,null ,null ,1000,null ,null ,null ,null ,null ,null ,0,1000
+IT,ES,null ,null ,0,null ,null ,null ,null ,9000,12000,13000,16000,16000,24000,28000,29000,30000
+IT,FR,null,null,null,null,null,null,null,null,null,null,870000,855000,883000,913000,946000,710000
+IT,HR,0,null ,null ,null ,null ,0,0,0,11000,12000,13000,12000,11000,19000,6000,6000
+IT,HU,null,null,null,null,null,7000,9000,12000,42000,37000,39000,37000,40000,36000,23000,24000
 IT,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null,null ,0,null,0,null 
-IT,LU,0,0,0,0,0,0,0,0,0,0,null ,0,null ,0,1,1
-IT,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,5,10,30
-IT,PL,null ,null ,null ,null ,0,1,1,1,1,1,3,2,3,3,1,2
-IT,RO,null ,null ,null ,null ,null ,0,0,0,0,12,12,6,10,2,6,16
-IT,SI,11,null ,null ,0,0,1,1,1,7,6,12,14,20,25,16,20
-IT,SK,0,0,0,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,4,3,5
-IT,TR,null ,null ,null ,2,4,6,4,6,7,12,10,18,13,null ,2,2
+IT,LU,0,0,0,0,0,0,0,0,0,0,null ,0,null ,0,1000,1000
+IT,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,5000,10000,30000
+IT,PL,null ,null ,null ,null ,0,1000,1000,1000,1000,1000,3000,2000,3000,3000,1000,2000
+IT,RO,null ,null ,null ,null ,null ,0,0,0,0,12000,12000,6000,10000,2000,6000,16000
+IT,SI,11000,null ,null ,0,0,1000,1000,1000,7000,6000,12000,14000,20000,25000,16000,20000
+IT,SK,0,0,0,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,4000,3000,5000
+IT,TR,null ,null ,null ,2000,4000,6000,4000,6000,7000,12000,10000,18000,13000,null ,2000,2000
 KP,BG,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null 
 KZ,BG,null ,null ,null ,null ,null ,0,0,null ,0,0,0,null ,0,null,null ,null 
-KZ,PL,null ,null ,null ,null ,null ,null ,0,0,0,0,1,1,1,1,1,1
+KZ,PL,null ,null ,null ,null ,null ,null ,0,0,0,0,1000,1000,1000,1000,1000,1000
 LI,AT,null ,null ,null,null,null,null,null,null,null,null ,null ,null ,null,null,null,null
 LI,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 LI,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null 
 LT,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
 LT,BG,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,0,null ,null ,null ,null 
 LT,CZ,null ,null ,0,null ,null ,0,0,0,null ,0,0,0,0,0,null ,0
-LT,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,1,1,0,7
+LT,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,1000,1000,0,7000
 LT,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 LT,HR,null ,null ,null ,null ,null ,null ,0,null ,null ,0,0,null ,null ,null ,0,null 
 LT,HU,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,null ,null ,0,0
-LT,LV,0,0,null ,null ,0,1,0,0,0,0,0,0,1,2,1,1
-LT,PL,1,1,0,0,null ,null ,1,3,5,6,6,7,6,5,5,10
-LT,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,null ,null ,0,0,0,0
+LT,LV,0,0,null ,null ,0,1000,0,0,0,0,0,0,1000,2000,1000,1000
+LT,PL,1000,1000,0,0,null ,null ,1000,3000,5000,6000,6000,7000,6000,5000,5000,10000
+LT,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,null ,null ,0,0,0,0
 LT,SI,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,null ,0,null 
 LT,SK,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0
 LU,AT,null,null,null,null,null ,null ,null,null,null,null,null,null,null,null,null,null
-LU,BE,null,null,null,null,null,null,null,null ,520,520,473,380,365,449,18,11
-LU,BG,null,null,null,1,1,1,1,1,1,1,1,0,0,null ,null ,null 
-LU,CH,10,9,9,9,9,43,44,45,39,38,34,36,null ,null ,null ,null 
+LU,BE,null,null,null,null,null,null,null,null ,520000,520000,473000,380000,365000,449000,18000,11000
+LU,BG,null,null,null,1000,1000,1000,1000,1000,1000,1000,1000,0,0,null ,null ,null 
+LU,CH,10000,9000,9000,9000,9000,43000,44000,45000,39000,38000,34000,36000,null ,null ,null ,null 
 LU,CZ,0,0,0,0,null ,null ,0,0,null ,0,0,0,0,0,0,0
-LU,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,54,50,38,41,36
-LU,DK,null ,null ,null ,null ,null ,null ,null ,1,1,1,null ,1,1,1,0,0
+LU,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,54000,50000,38000,41000,36000
+LU,DK,null ,null ,null ,null ,null ,null ,null ,1000,1000,1000,null ,1000,1000,1000,0,0
 LU,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
-LU,FR,null,null,null,null,null,null,null,null,null,null,1364,1354,1473,1451,1821,108
+LU,FR,null,null,null,null,null,null,null,null,null,null,1364000,1354000,1473000,1451000,1821000,108000
 LU,HR,0,0,0,0,0,0,null ,0,0,0,0,0,0,0,0,0
-LU,HU,null,null,null,null,null,0,0,0,1,0,0,0,0,0,0,0
-LU,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,1
+LU,HU,null,null,null,null,null,0,0,0,1000,0,0,0,0,0,0,0
+LU,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,1000
 LU,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 LU,NL,null,null,null,null,null,null,null,null,null,null,null,null,null ,null ,null ,null 
-LU,PL,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-LU,RO,null ,null ,null ,0,null ,0,0,0,0,4,null ,null ,0,0,0,0
+LU,PL,0,0,0,0,0,0,0,0,0,0,0,0,0,1000,0,0
+LU,RO,null ,null ,null ,0,null ,0,0,0,0,4000,null ,null ,0,0,0,0
 LU,SI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 LU,SK,null ,null ,null ,null ,null ,null ,null ,0,0,null ,null ,0,0,0,0,0
-LU,TR,null ,null ,null ,0,1,0,0,0,0,0,0,0,null ,null ,0,0
+LU,TR,null ,null ,null ,0,1000,0,0,0,0,0,0,0,null ,null ,0,0
 LV,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null
 LV,BG,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,0,null ,null ,null ,null 
 LV,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 LV,HU,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null 
-LV,LT,4,4,null ,null ,0,0,1,1,0,0,0,1,2,2,1,2
+LV,LT,4000,4000,null ,null ,0,0,1000,1000,0,0,0,1000,2000,2000,1000,2000
 LV,PL,null ,null ,null ,null ,null ,null ,0,null ,0,0,0,0,0,0,0,0
 LV,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 LV,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,0,0,null ,null 
@@ -358,290 +358,290 @@ MD,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,nu
 MD,BG,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,null,null ,null 
 MD,CZ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,0,null ,null ,null ,0
 MD,HU,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null 
-MD,PL,null ,null ,null ,null ,null ,null ,0,1,1,2,2,3,3,2,2,2
-MD,RO,7,9,12,9,0,0,0,2,3,15,22,38,43,55,36,57
+MD,PL,null ,null ,null ,null ,null ,null ,0,1000,1000,2000,2000,3000,3000,2000,2000,2000
+MD,RO,7000,9000,12000,9000,0,0,0,2000,3000,15000,22000,38000,43000,55000,36000,57000
 MD,SK,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,0,0,null ,0,0,0
 MD,TR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 ME,BE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null 
 ME,BG,null ,null,null,0,0,0,0,0,null ,null ,0,0,null ,null,null ,null 
-ME,CZ,0,0,0,null ,1,1,null ,null ,null ,null ,null ,null ,null ,1,null ,0
-ME,EL,null,null,null,null,null,null,null,null,null,null,null,null,null,4,5,4
+ME,CZ,0,0,0,null ,1000,1000,null ,null ,null ,null ,null ,null ,null ,1000,null ,0
+ME,EL,null,null,null,null,null,null,null,null,null,null,null,null,null,4000,5000,4000
 ME,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-ME,HR,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,65,84,80
-ME,HU,null,null,null,null,null,1,1,1,1,1,0,0,null ,null ,42,34
-ME,MK,null ,null ,null ,null ,0,null ,null ,null ,null ,0,0,null ,null ,1,0,0
+ME,HR,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,65000,84000,80000
+ME,HU,null,null,null,null,null,1000,1000,1000,1000,1000,0,0,null ,null ,42000,34000
+ME,MK,null ,null ,null ,null ,0,null ,null ,null ,null ,0,0,null ,null ,1000,0,0
 ME,IT,null,null,null,null,null,null,null,null,null,null,null,null,null,null ,null ,0
-ME,LT,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1
-ME,PL,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,6,7,6
-ME,RO,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null ,null ,0,20,24,25
-ME,SI,0,0,0,0,0,null ,0,0,null ,null ,0,null ,null ,1,1,1
-ME,SK,null ,0,0,0,0,0,0,0,0,null ,0,0,0,1,1,1
+ME,LT,null,null,null,null,null,null,null,null,null,null,null,null,null,1000,1000,1000
+ME,PL,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,6000,7000,6000
+ME,RO,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null ,null ,0,20000,24000,25000
+ME,SI,0,0,0,0,0,null ,0,0,null ,null ,0,null ,null ,1000,1000,1000
+ME,SK,null ,0,0,0,0,0,0,0,0,null ,0,0,0,1000,1000,1000
 ME,TR,null ,null ,null ,0,0,null ,0,0,null ,null ,null ,null ,null ,null ,null ,null 
 MK,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
 MK,BG,null,null,null,0,0,0,0,0,0,0,0,0,0,null,null ,null 
 MK,CZ,0,0,0,0,0,0,null ,null ,null ,null ,null ,null ,0,0,null ,0
-MK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,0,0,0,0
-MK,EL,1,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,5,11,12,13
-MK,HR,0,0,0,0,0,0,0,0,0,0,1,0,2,2,2,2
-MK,HU,null,null,null,null,null,0,0,0,0,1,1,1,null ,null ,null ,null 
+MK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,0,0,0,0
+MK,EL,1000,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,5000,11000,12000,13000
+MK,HR,0,0,0,0,0,0,0,0,0,0,1000,0,2000,2000,2000,2000
+MK,HU,null,null,null,null,null,0,0,0,0,1000,1000,1000,null ,null ,null ,null 
 MK,PL,null ,null ,0,null ,null ,null ,0,0,0,0,0,0,0,0,0,0
 MK,RO,null ,null ,null ,null ,0,0,0,0,0,null ,null ,null ,0,0,0,0
-MK,SI,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+MK,SI,0,0,0,0,0,0,0,0,0,0,0,0,1000,1000,1000,1000
 MK,SK,null ,null ,0,0,0,0,0,0,0,null ,0,0,0,0,0,0
 MK,TR,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,0,null ,0
 MT,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 MZ,TR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null 
 NL,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-NL,BE,null,null,null,null,null,null,null,null ,375,375,452,466,416,415,63,61
-NL,BG,null,null,null,335,8,6,8,10,12,9,18,10,2,null,null ,null 
-NL,CH,27,25,24,24,25,44,45,46,40,39,35,36,null ,null ,null ,null 
-NL,CZ,3,2,2,1,1,1,0,0,null ,2,1,1,0,2,4,0
-NL,DE,1234,1180,991,1037,1148,971,827,898,1154,760,678,721,584,566,598,613
-NL,DK,11,10,14,13,12,14,13,18,15,13,9,9,5,5,6,7
-NL,FR,null,null,null,null,null,null,null,null,null,null,794,547,540,576,646,166
-NL,HR,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1
-NL,HU,null,null,null,null,null,3,3,4,6,5,6,7,5,6,5,4
-NL,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,1,0,3,5
+NL,BE,null,null,null,null,null,null,null,null ,375000,375000,452000,466000,416000,415000,63000,61000
+NL,BG,null,null,null,335000,8000,6000,8000,10000,12000,9000,18000,10000,2000,null,null ,null 
+NL,CH,27000,25000,24000,24000,25000,44000,45000,46000,40000,39000,35000,36000,null ,null ,null ,null 
+NL,CZ,3000,2000,2000,1000,1000,1000,0,0,null ,2000,1000,1000,0,2000,4000,0
+NL,DE,1234000,1180000,991000,1037000,1148000,971000,827000,898000,1154000,760000,678000,721000,584000,566000,598000,613000
+NL,DK,11000,10000,14000,13000,12000,14000,13000,18000,15000,13000,9000,9000,5000,5000,6000,7000
+NL,FR,null,null,null,null,null,null,null,null,null,null,794000,547000,540000,576000,646000,166000
+NL,HR,0,0,0,0,0,0,0,0,0,0,1000,0,1000,0,1000,1000
+NL,HU,null,null,null,null,null,3000,3000,4000,6000,5000,6000,7000,5000,6000,5000,4000
+NL,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,1000,0,3000,5000
 NL,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-NL,LU,8,7,6,5,6,6,14,13,15,14,null ,19,18,17,18,19
+NL,LU,8000,7000,6000,5000,6000,6000,14000,13000,15000,14000,null ,19000,18000,17000,18000,19000
 NL,MK,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null 
-NL,PL,0,0,0,0,0,1,1,1,2,3,3,4,4,9,7,8
-NL,RO,0,0,0,0,0,0,0,0,0,4,null ,null ,0,0,0,0
-NL,SI,0,0,0,0,0,10,10,0,2,0,0,0,0,1,1,1
-NL,SK,0,0,0,0,0,0,0,0,0,null ,0,0,0,2,1,1
-NL,TR,null ,null ,null ,1,6,3,3,5,6,7,8,8,7,null ,2,2
-NL,UK,131,56,9,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
+NL,PL,0,0,0,0,0,1000,1000,1000,2000,3000,3000,4000,4000,9000,7000,8000
+NL,RO,0,0,0,0,0,0,0,0,0,4000,null ,null ,0,0,0,0
+NL,SI,0,0,0,0,0,10000,10000,0,2000,0,0,0,0,1000,1000,1000
+NL,SK,0,0,0,0,0,0,0,0,0,null ,0,0,0,2000,1000,1000
+NL,TR,null ,null ,null ,1000,6000,3000,3000,5000,6000,7000,8000,8000,7000,null ,2000,2000
+NL,UK,131000,56000,9000,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
 NO,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-NO,BG,null,null,null,6,7,7,8,8,9,12,11,13,6,null,null ,null 
+NO,BG,null,null,null,6000,7000,7000,8000,8000,9000,12000,11000,13000,6000,null,null ,null 
 NO,CZ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-NO,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,0,0,0,0
-NO,DK,1,1,1,1,1,1,1,3,1,null ,null ,null ,null ,null ,0,7
+NO,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,0,0,0,0
+NO,DK,1000,1000,1000,1000,1000,1000,1000,3000,1000,null ,null ,null ,null ,null ,0,7000
 NO,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
 NO,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,0,0,null ,0,null ,0
 NO,HR,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0
-NO,HU,null,null,null,null,null,2,2,3,3,5,4,5,3,3,3,2
+NO,HU,null,null,null,null,null,2000,2000,3000,3000,5000,4000,5000,3000,3000,3000,2000
 NO,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null 
 NO,PL,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-NO,RO,null ,null ,null ,0,null ,null ,null ,0,0,6,null ,null ,0,0,0,0
-NO,SE,223,214,277,273,250,241,247,230,237,215,234,254,184,135,120,160
+NO,RO,null ,null ,null ,0,null ,null ,null ,0,0,6000,null ,null ,0,0,0,0
+NO,SE,223000,214000,277000,273000,250000,241000,247000,230000,237000,215000,234000,254000,184000,135000,120000,160000
 NO,SI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-NO,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,2,2
-NO,TR,null ,null ,null ,0,4,4,3,4,5,5,5,6,3,2,2,0
+NO,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,2000,2000
+NO,TR,null ,null ,null ,0,4000,4000,3000,4000,5000,5000,5000,6000,3000,2000,2000,0
 PL,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
-PL,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,2,0
-PL,BG,null,null,null,0,1,1,1,1,1,1,2,2,2,null,null ,null 
-PL,CZ,104,91,73,67,56,42,59,62,null ,67,56,55,47,60,6,16
-PL,DE,197,216,200,244,263,280,274,248,290,256,178,261,263,361,212,206
-PL,DK,null ,null ,null ,null ,null ,null ,null ,2,2,1,1,1,1,1,0,0
+PL,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,2000,0
+PL,BG,null,null,null,0,1000,1000,1000,1000,1000,1000,2000,2000,2000,null,null ,null 
+PL,CZ,104000,91000,73000,67000,56000,42000,59000,62000,null ,67000,56000,55000,47000,60000,6000,16000
+PL,DE,197000,216000,200000,244000,263000,280000,274000,248000,290000,256000,178000,261000,263000,361000,212000,206000
+PL,DK,null ,null ,null ,null ,null ,null ,null ,2000,2000,1000,1000,1000,1000,1000,0,0
 PL,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 PL,FR,null ,null ,null ,null ,null ,null ,null,null,null,null,0,0,0,0,0,0
 PL,HR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-PL,HU,null,null,null,null,null,17,18,14,15,15,14,22,17,19,24,18
-PL,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3,0,8,1
-PL,LT,3,1,2,2,null ,null ,2,3,4,4,5,7,6,5,5,10
+PL,HU,null,null,null,null,null,17000,18000,14000,15000,15000,14000,22000,17000,19000,24000,18000
+PL,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3000,0,8000,1000
+PL,LT,3000,1000,2000,2000,null ,null ,2000,3000,4000,4000,5000,7000,6000,5000,5000,10000
 PL,LU,0,0,0,0,0,0,0,0,0,0,null ,0,0,null ,0,0
 PL,MK,null ,null ,null ,null ,0,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null 
 PL,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null ,null ,null ,null 
-PL,RO,0,0,0,0,0,0,0,0,0,1,1,5,3,3,3,2
-PL,SI,0,1,0,1,1,1,1,1,1,1,1,2,1,1,2,2
-PL,SK,9,9,10,9,10,9,9,9,11,6,16,27,29,28,26,30
-PL,TR,null ,null ,null ,0,0,0,0,1,1,1,1,1,1,0,0,0
+PL,RO,0,0,0,0,0,0,0,0,0,1000,1000,5000,3000,3000,3000,2000
+PL,SI,0,1000,0,1000,1000,1000,1000,1000,1000,1000,1000,2000,1000,1000,2000,2000
+PL,SK,9000,9000,10000,9000,10000,9000,9000,9000,11000,6000,16000,27000,29000,28000,26000,30000
+PL,TR,null ,null ,null ,0,0,0,0,1000,1000,1000,1000,1000,1000,0,0,0
 PT,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-PT,BG,null,null,null,3,4,7,1,4,7,0,5,3,0,null,null ,null 
+PT,BG,null,null,null,3000,4000,7000,1000,4000,7000,0,5000,3000,0,null,null ,null 
 PT,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-PT,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,1,null 
-PT,ES,88,88,96,107,62,98,69,54,62,60,29,75,76,86,89,90
-PT,FR,null ,null ,null ,null ,null ,null,null,null,null,null,6,6,6,7,8,9
+PT,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,1000,null 
+PT,ES,88000,88000,96000,107000,62000,98000,69000,54000,62000,60000,29000,75000,76000,86000,89000,90000
+PT,FR,null ,null ,null ,null ,null ,null,null,null,null,null,6000,6000,6000,7000,8000,9000
 PT,HR,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,0,null ,null ,null ,0,0
-PT,HU,null,null,null,null,null,2,0,1,1,1,2,2,2,3,3,1
+PT,HU,null,null,null,null,null,2000,0,1000,1000,1000,2000,2000,2000,3000,3000,1000
 PT,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null 
 PT,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0
-PT,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,3,2,1,4,1,2,1
+PT,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,3000,2000,1000,4000,1000,2000,1000
 PT,SI,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0
-PT,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,1,0
-PT,TR,null ,null ,null ,0,2,4,2,2,3,3,1,3,2,null ,1,1
+PT,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,1000,0
+PT,TR,null ,null ,null ,0,2000,4000,2000,2000,3000,3000,1000,3000,2000,null ,1000,1000
 RO,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 RO,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,0,null 
-RO,BG,null,null,null,8,8,10,9,9,14,10,17,24,13,null,null ,null 
-RO,CZ,1,1,2,2,3,2,3,4,null ,2,3,4,4,4,1,1
-RO,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,7,4,3,11,8
+RO,BG,null,null,null,8000,8000,10000,9000,9000,14000,10000,17000,24000,13000,null,null ,null 
+RO,CZ,1000,1000,2000,2000,3000,2000,3000,4000,null ,2000,3000,4000,4000,4000,1000,1000
+RO,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,7000,4000,3000,11000,8000
 RO,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-RO,EL,0,1,1,0,null ,null ,null ,null ,null ,0,0,0,1,2,2,2
+RO,EL,0,1000,1000,0,null ,null ,null ,null ,null ,0,0,0,1000,2000,2000,2000
 RO,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,0,0,0,0,0,0
-RO,HR,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1
-RO,HU,null,null,null,null,null,93,102,101,109,98,103,126,141,191,173,143
-RO,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,4,3,2,3
+RO,HR,0,0,0,0,0,0,0,0,1000,0,1000,1000,1000,1000,1000,1000
+RO,HU,null,null,null,null,null,93000,102000,101000,109000,98000,103000,126000,141000,191000,173000,143000
+RO,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,4000,3000,2000,3000
 RO,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,null ,null,null ,null 
 RO,LU,0,0,0,0,0,0,0,0,null ,0,null ,null ,0,null ,0,null 
 RO,MK,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null 
 RO,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-RO,PL,0,0,0,0,0,1,1,1,1,1,1,3,5,2,5,2
-RO,SI,1,1,1,1,0,1,1,0,0,4,7,4,1,4,1,4
-RO,SK,1,1,1,1,2,2,2,2,2,1,2,2,2,2,3,3
-RO,TR,0,0,0,1,1,2,2,2,3,5,6,10,9,7,7,3
+RO,PL,0,0,0,0,0,1000,1000,1000,1000,1000,1000,3000,5000,2000,5000,2000
+RO,SI,1000,1000,1000,1000,0,1000,1000,0,0,4000,7000,4000,1000,4000,1000,4000
+RO,SK,1000,1000,1000,1000,2000,2000,2000,2000,2000,1000,2000,2000,2000,2000,3000,3000
+RO,TR,0,0,0,1000,1000,2000,2000,2000,3000,5000,6000,10000,9000,7000,7000,3000
 RS,AT,null ,null,null ,null,null ,null ,null,null,null,null ,null ,null ,null ,null ,null ,null 
 RS,BE,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,null ,null ,null 
-RS,BG,null,null,null,5,6,6,7,8,12,10,10,13,14,null ,null ,null 
-RS,CZ,0,0,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,null ,null ,null 
-RS,EL,1,5,5,4,10,9,null ,null ,null ,null ,null ,null ,2,null ,null ,null 
+RS,BG,null,null,null,5000,6000,6000,7000,8000,12000,10000,10000,13000,14000,null ,null ,null 
+RS,CZ,0,0,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,null ,null ,null 
+RS,EL,1000,5000,5000,4000,10000,9000,null ,null ,null ,null ,null ,null ,2000,null ,null ,null 
 RS,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
-RS,HR,12,13,16,17,19,17,21,37,38,41,48,56,59,null ,null ,null 
-RS,HU,null,null,null,null,null,58,34,61,60,52,42,42,46,null ,null ,null 
-RS,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2,null ,null ,null 
+RS,HR,12000,13000,16000,17000,19000,17000,21000,37000,38000,41000,48000,56000,59000,null ,null ,null 
+RS,HU,null,null,null,null,null,58000,34000,61000,60000,52000,42000,42000,46000,null ,null ,null 
+RS,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000,null ,null ,null 
 RS,LU,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null 
-RS,MK,0,1,1,1,2,0,0,1,4,4,5,null ,null ,null ,null ,null 
+RS,MK,0,1000,1000,1000,2000,0,0,1000,4000,4000,5000,null ,null ,null ,null ,null 
 RS,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
-RS,PL,0,0,0,0,0,0,0,0,0,0,0,1,1,null ,null ,null 
-RS,RO,0,0,11,11,10,8,6,6,5,11,6,8,9,null ,null ,null 
-RS,SI,6,7,7,9,9,7,8,19,20,23,22,17,18,null ,null ,null 
-RS,SK,0,0,0,1,1,2,2,2,2,null ,1,1,1,null ,null ,null 
-RS,TR,null ,null ,null ,0,1,1,1,1,1,4,3,3,2,null ,null ,null 
+RS,PL,0,0,0,0,0,0,0,0,0,0,0,1000,1000,null ,null ,null 
+RS,RO,0,0,11000,11000,10000,8000,6000,6000,5000,11000,6000,8000,9000,null ,null ,null 
+RS,SI,6000,7000,7000,9000,9000,7000,8000,19000,20000,23000,22000,17000,18000,null ,null ,null 
+RS,SK,0,0,0,1000,1000,2000,2000,2000,2000,null ,1000,1000,1000,null ,null ,null 
+RS,TR,null ,null ,null ,0,1000,1000,1000,1000,1000,4000,3000,3000,2000,null ,null ,null 
 RU,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
 RU,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,0,0
-RU,BG,null ,null ,null,6,0,3,34,22,17,17,15,7,10,null,null ,null 
-RU,CZ,0,0,1,0,null ,0,null ,null ,null ,null ,null ,null ,22,26,null ,2
-RU,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,8,4,4,6,15
+RU,BG,null ,null ,null,6000,0,3000,34000,22000,17000,17000,15000,7000,10000,null,null ,null 
+RU,CZ,0,0,1000,0,null ,0,null ,null ,null ,null ,null ,null ,22000,26000,null ,2000
+RU,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,8000,4000,4000,6000,15000
 RU,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-RU,EE,55,53,53,51,28,49,61,49,42,50,49,79,75,69,72,58
+RU,EE,55000,53000,53000,51000,28000,49000,61000,49000,42000,50000,49000,79000,75000,69000,72000,58000
 RU,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
-RU,FI,325,277,276,226,214,258,302,250,222,173,170,216,200,168,133,125
+RU,FI,325000,277000,276000,226000,214000,258000,302000,250000,222000,173000,170000,216000,200000,168000,133000,125000
 RU,FR,null ,null ,null ,null ,null ,null,null,null,null,null,0,null ,null ,null ,null ,null 
-RU,HR,null ,null ,null ,null ,null ,0,0,0,0,1,1,0,1,0,0,0
-RU,HU,null ,null ,null,null,null,1,9,12,13,11,11,10,9,7,4,3
-RU,LT,35,13,15,16,23,54,88,92,95,90,83,123,139,134,141,113
+RU,HR,null ,null ,null ,null ,null ,0,0,0,0,1000,1000,0,1000,0,0,0
+RU,HU,null ,null ,null,null,null,1000,9000,12000,13000,11000,11000,10000,9000,7000,4000,3000
+RU,LT,35000,13000,15000,16000,23000,54000,88000,92000,95000,90000,83000,123000,139000,134000,141000,113000
 RU,LU,0,0,0,0,0,0,0,null ,0,0,null ,0,null ,null ,null ,null 
-RU,LV,66,67,69,66,75,103,129,127,127,138,121,150,152,157,149,138
+RU,LV,66000,67000,69000,66000,75000,103000,129000,127000,127000,138000,121000,150000,152000,157000,149000,138000
 RU,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-RU,PL,0,0,0,1,0,0,50,97,84,87,89,133,151,194,102,106
-RU,RO,null ,null ,null ,0,0,1,2,2,2,11,15,17,12,9,7,9
+RU,PL,0,0,0,1000,0,0,50000,97000,84000,87000,89000,133000,151000,194000,102000,106000
+RU,RO,null ,null ,null ,0,0,1000,2000,2000,2000,11000,15000,17000,12000,9000,7000,9000
 RU,SI,null ,null ,null ,null ,null ,0,null ,null ,0,0,0,0,0,0,0,0
-RU,SK,null ,null ,0,0,0,0,2,3,6,null ,0,7,1,6,3,2
+RU,SK,null ,null ,0,0,0,0,2000,3000,6000,null ,0,7000,1000,6000,3000,2000
 RU,TR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null 
 SE,AT,null,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
 SE,BE,null ,null,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,null ,null 
-SE,BG,null,null,null,13,13,31,32,33,37,29,23,42,21,null,null ,null 
+SE,BG,null,null,null,13000,13000,31000,32000,33000,37000,29000,23000,42000,21000,null,null ,null 
 SE,CZ,0,0,null ,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-SE,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,23,48,10,11,18,14
-SE,DK,6600,6163,5749,5723,6001,5732,5768,5543,5275,5394,5613,5457,4797,3959,4367,2909
+SE,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,23000,48000,10000,11000,18000,14000
+SE,DK,6600000,6163000,5749000,5723000,6001000,5732000,5768000,5543000,5275000,5394000,5613000,5457000,4797000,3959000,4367000,2909000
 SE,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
 SE,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-SE,HR,0,null ,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-SE,HU,null,null,null,null,null,10,10,13,11,12,14,12,10,5,5,3
+SE,HR,0,null ,0,1000,0,0,0,0,1000,0,0,0,0,0,0,0
+SE,HU,null,null,null,null,null,10000,10000,13000,11000,12000,14000,12000,10000,5000,5000,3000
 SE,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 SE,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,null ,0,null,0,0
 SE,LU,0,0,0,0,0,0,0,0,null ,0,null ,null ,0,null ,null ,null 
 SE,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-SE,NO,248,221,292,268,250,238,245,238,222,253,null ,110,74,142,135,null 
-SE,PL,0,1,0,1,1,1,1,1,1,1,1,2,1,1,1,2
-SE,RO,0,null ,null ,null ,0,0,0,0,0,15,null ,null ,0,0,0,0
-SE,SI,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SE,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3,3,3
-SE,TR,null ,null ,null ,0,10,15,11,15,18,null ,18,22,11,3,2,3
+SE,NO,248000,221000,292000,268000,250000,238000,245000,238000,222000,253000,null ,110000,74000,142000,135000,null 
+SE,PL,0,1000,0,1000,1000,1000,1000,1000,1000,1000,1000,2000,1000,1000,1000,2000
+SE,RO,0,null ,null ,null ,0,0,0,0,0,15000,null ,null ,0,0,0,0
+SE,SI,1000,2000,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SE,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3000,3000,3000
+SE,TR,null ,null ,null ,0,10000,15000,11000,15000,18000,null ,18000,22000,11000,3000,2000,3000
 SH,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 SI,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 SI,BE,null ,null ,null ,null ,null ,null ,null,null ,0,0,0,0,0,0,0,null 
-SI,BG,null,null,null,0,1,1,1,2,2,1,1,2,1,null,null ,null 
-SI,CZ,1,1,1,3,5,5,7,6,null ,5,3,3,1,1,3,1
-SI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,13,8,null ,null ,18
+SI,BG,null,null,null,0,1000,1000,1000,2000,2000,1000,1000,2000,1000,null,null ,null 
+SI,CZ,1000,1000,1000,3000,5000,5000,7000,6000,null ,5000,3000,3000,1000,1000,3000,1000
+SI,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,13000,8000,null ,null ,18000
 SI,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 SI,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 SI,FR,null ,null ,null ,null ,null ,null ,null ,null ,null,null,0,null ,0,0,0,0
-SI,HR,69,74,65,56,54,62,70,73,74,78,86,89,88,86,87,91
-SI,HU,null,null,null,null,null,8,6,8,15,19,11,14,80,12,12,14
-SI,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,27,29,13,9
+SI,HR,69000,74000,65000,56000,54000,62000,70000,73000,74000,78000,86000,89000,88000,86000,87000,91000
+SI,HU,null,null,null,null,null,8000,6000,8000,15000,19000,11000,14000,80000,12000,12000,14000
+SI,IT,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,27000,29000,13000,9000
 SI,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,null ,0,null,0,0
 SI,LU,0,0,0,0,0,null ,0,0,0,0,null ,0,0,null ,0,0
 SI,MK,0,0,null ,null ,0,null ,null ,0,0,0,0,null ,null ,null ,null ,null 
 SI,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null ,null ,null ,null ,null 
-SI,PL,0,0,0,0,1,1,1,1,1,1,1,2,1,1,1,1
-SI,RO,0,0,0,0,0,0,0,0,0,1,6,5,3,2,2,2
-SI,SK,0,1,1,1,1,1,1,1,2,0,2,2,3,3,3,1
-SI,TR,null ,null ,null ,0,0,0,0,1,1,1,1,0,0,0,0,0
+SI,PL,0,0,0,0,1000,1000,1000,1000,1000,1000,1000,2000,1000,1000,1000,1000
+SI,RO,0,0,0,0,0,0,0,0,0,1000,6000,5000,3000,2000,2000,2000
+SI,SK,0,1000,1000,1000,1000,1000,1000,1000,2000,0,2000,2000,3000,3000,3000,1000
+SI,TR,null ,null ,null ,0,0,0,0,1000,1000,1000,1000,0,0,0,0,0
 SK,AT,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
 SK,BE,null,null,null ,null ,null ,null ,null,null ,0,0,0,null ,null ,0,null ,0
-SK,BG,null,null,null,1,1,3,2,1,1,1,1,1,2,null,null ,null 
-SK,CZ,1771,1763,1424,1182,1109,878,905,773,null ,623,483,680,549,642,333,101
-SK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,8,4,9,6,2
+SK,BG,null,null,null,1000,1000,3000,2000,1000,1000,1000,1000,1000,2000,null,null ,null 
+SK,CZ,1771000,1763000,1424000,1182000,1109000,878000,905000,773000,null ,623000,483000,680000,549000,642000,333000,101000
+SK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,8000,4000,9000,6000,2000
 SK,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
 SK,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0
 SK,FR,null ,null ,null ,null ,null ,null ,null,null ,null ,null,0,null ,0,0,0,0
-SK,HR,0,0,1,0,1,1,1,1,1,1,2,2,2,1,1,1
-SK,HU,null,null,null,null,null,169,157,135,125,121,114,111,41,108,101,84
+SK,HR,0,0,1000,0,1000,1000,1000,1000,1000,1000,2000,2000,2000,1000,1000,1000
+SK,HU,null,null,null,null,null,169000,157000,135000,125000,121000,114000,111000,41000,108000,101000,84000
 SK,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0
 SK,LT,null ,null ,null ,null ,null ,null ,0,0,0,0,0,null ,0,0,0,0
 SK,LU,0,0,0,0,0,null ,0,0,null ,0,null ,0,0,null ,null ,null 
 SK,MK,null ,null ,null ,null ,0,null ,null ,null ,0,0,0,null ,null ,null ,null ,null 
 SK,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
-SK,PL,11,10,10,8,9,9,14,14,17,20,23,29,31,30,27,34
-SK,RO,1,1,1,1,2,2,2,2,1,2,3,4,0,3,4,2
-SK,SI,1,1,2,2,2,2,2,2,2,2,3,2,3,4,4,3
+SK,PL,11000,10000,10000,8000,9000,9000,14000,14000,17000,20000,23000,29000,31000,30000,27000,34000
+SK,RO,1000,1000,1000,1000,2000,2000,2000,2000,1000,2000,3000,4000,0,3000,4000,2000
+SK,SI,1000,1000,2000,2000,2000,2000,2000,2000,2000,2000,3000,2000,3000,4000,4000,3000
 SK,TR,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,0,0,0
-SR,HU,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,41,null ,null 
+SR,HU,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,41000,null ,null 
 TR,AT,null ,null ,null ,null ,null,null,null ,null ,null ,null,null,null,null,null,null,null
-TR,BG,null,null,null,8,12,8,13,9,8,9,7,13,9,null,null ,null 
+TR,BG,null,null,null,8000,12000,8000,13000,9000,8000,9000,7000,13000,9000,null,null ,null 
 TR,CZ,null ,null ,0,null ,null ,null ,0,null ,null ,0,null ,null ,null ,0,null ,0
-TR,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,1,0,0,0
+TR,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,1000,0,0,0
 TR,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-TR,EL,null ,null ,null ,null ,null ,null ,null ,0,1,2,2,0,5,10,4,1
+TR,EL,null ,null ,null ,null ,null ,null ,null ,0,1000,2000,2000,0,5000,10000,4000,1000
 TR,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,0
 TR,HR,null ,null ,null ,null ,null ,null ,0,0,null ,0,null ,null ,null ,0,0,0
-TR,HU,null,null ,null ,null,null,4,3,2,2,1,0,1,null ,null ,null ,0
+TR,HU,null,null ,null ,null,null,4000,3000,2000,2000,1000,0,1000,null ,null ,null ,0
 TR,PL,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0
-TR,RO,2,1,0,0,0,1,0,1,1,3,3,6,2,1,3,1
+TR,RO,2000,1000,0,0,0,1000,0,1000,1000,3000,3000,6000,2000,1000,3000,1000
 TR,SI,null ,null ,null ,null ,0,null ,null ,0,null ,0,null ,null ,null ,null ,null ,0
 TR,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,null ,0,0,0
 UA,AT,null,null,null,null,null,null,null ,null ,null ,null,null,null,null,null,null,null
 UA,BE,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,null 
-UA,BG,null,null,null,null ,0,3,4,5,4,5,4,4,4,null,null ,null 
-UA,CZ,0,0,0,0,0,0,null ,null ,null ,null ,null ,null ,2,5,null ,1
-UA,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,6,1,2,0,6
+UA,BG,null,null,null,null ,0,3000,4000,5000,4000,5000,4000,4000,4000,null,null ,null 
+UA,CZ,0,0,0,0,0,0,null ,null ,null ,null ,null ,null ,2000,5000,null ,1000
+UA,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,6000,1000,2000,0,6000
 UA,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-UA,HR,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,1
-UA,HU,null,null,null,null,null,45,52,54,39,43,37,44,null ,null ,null ,41
+UA,HR,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,0,0,1000
+UA,HU,null,null,null,null,null,45000,52000,54000,39000,43000,37000,44000,null ,null ,null ,41000
 UA,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0
-UA,LT,8,1,null ,null ,null ,null ,null ,null ,3,3,4,8,10,5,9,6
+UA,LT,8000,1000,null ,null ,null ,null ,null ,null ,3000,3000,4000,8000,10000,5000,9000,6000
 UA,LU,0,0,0,0,0,null ,0,null ,0,0,null ,0,null ,null ,null ,null 
-UA,LV,6,1,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3,6,6,6
+UA,LV,6000,1000,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,3000,6000,6000,6000
 UA,MK,null ,null ,null ,null ,0,null ,0,null ,0,0,0,null ,null ,null ,null ,null 
 UA,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
-UA,PL,550,555,298,30,22,24,48,69,80,90,90,115,178,192,178,97
-UA,RO,1,1,1,0,0,0,0,0,0,4,6,2,2,2,3,2
+UA,PL,550000,555000,298000,30000,22000,24000,48000,69000,80000,90000,90000,115000,178000,192000,178000,97000
+UA,RO,1000,1000,1000,0,0,0,0,0,0,4000,6000,2000,2000,2000,3000,2000
 UA,SI,null ,null ,null ,null ,null ,null ,null ,0,0,0,0,0,0,0,0,null 
-UA,SK,14,7,6,5,6,4,5,5,5,null ,1,12,5,11,11,12
+UA,SK,14000,7000,6000,5000,6000,4000,5000,5000,5000,null ,1000,12000,5000,11000,11000,12000
 UK,AT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,null,null,null,null,null
-UK,BE,null,null,null,null,null,null,null,null ,1411,1411,1379,1280,1145,867,814,196
-UK,BG,null,null,null,13,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
-UK,CH,14,12,12,12,12,32,33,34,29,29,26,27,null ,null ,null ,null 
+UK,BE,null,null,null,null,null,null,null,null ,1411000,1411000,1379000,1280000,1145000,867000,814000,196000
+UK,BG,null,null,null,13000,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null 
+UK,CH,14000,12000,12000,12000,12000,32000,33000,34000,29000,29000,26000,27000,null ,null ,null ,null 
 UK,CZ,null ,0,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-UK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,11,10,3,2,1
-UK,DK,null ,null ,null ,null ,null ,null ,null ,2,null ,null ,null ,null ,null ,null ,null ,null 
+UK,DE,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,11000,10000,3000,2000,1000
+UK,DK,null ,null ,null ,null ,null ,null ,null ,2000,null ,null ,null ,null ,null ,null ,null ,null 
 UK,EL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 UK,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
-UK,FR,null,null,null,null,null,null,null,null,null,null,7432,7054,8026,7672,7716,1253
+UK,FR,null,null,null,null,null,null,null,null,null,null,7432000,7054000,8026000,7672000,7716000,1253000
 UK,HR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0
-UK,HU,null,null,null,null,null,2,1,0,1,null ,1,1,1,1,1,3
-UK,IE,0,0,null ,null ,0,307,313,381,396,344,297,397,502,505,444,409
+UK,HU,null,null,null,null,null,2000,1000,0,1000,null ,1000,1000,1000,1000,1000,3000
+UK,IE,0,0,null ,null ,0,307000,313000,381000,396000,344000,297000,397000,502000,505000,444000,409000
 UK,IT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 UK,LT,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
 UK,LU,null ,null ,null ,null ,null ,null ,null ,0,0,null ,null ,null ,null ,null ,null ,null 
 UK,NL,null,null,null,null,null,null ,null ,null ,null ,null,null ,null ,null ,null ,null ,null 
-UK,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,1
-UK,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,null ,null ,0,0,0,0
-UK,SI,0,0,1,0,0,0,null ,0,1,0,0,0,0,0,0,1
-UK,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,1
-UK,TR,null ,null ,null ,0,3,3,null ,null ,null ,null ,null ,null ,null ,null ,null ,2
-UNK,CH,134,122,118,117,122,49,50,52,45,44,39,41,null ,null ,null ,null 
-UNK,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,12,10,15,0,10,220,null 
-UNK,DE,273,169,26,192,122,144,143,264,44,152,134,15,1,2,1,null 
+UK,PL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,0,1000
+UK,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,null ,null ,0,0,0,0
+UK,SI,0,0,1000,0,0,0,null ,0,1000,0,0,0,0,0,0,1000
+UK,SK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,0,1000
+UK,TR,null ,null ,null ,0,3000,3000,null ,null ,null ,null ,null ,null ,null ,null ,null ,2000
+UNK,CH,134000,122000,118000,117000,122000,49000,50000,52000,45000,44000,39000,41000,null ,null ,null ,null 
+UNK,CZ,null ,null ,null ,null ,null ,null ,null ,null ,null ,12000,10000,15000,0,10000,220000,null 
+UNK,DE,273000,169000,26000,192000,122000,144000,143000,264000,44000,152000,134000,15000,1000,2000,1000,null 
 UNK,DK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-UNK,EL,null ,null ,null ,null ,null ,null ,null ,0,3,104,122,143,156,92,75,50
+UNK,EL,null ,null ,null ,null ,null ,null ,null ,0,3000,104000,122000,143000,156000,92000,75000,50000
 UNK,ES,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null 
 UNK,FR,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0
-UNK,HR,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1,null 
-UNK,HU,null ,null ,null ,null ,null,0,null ,null ,null ,1,1,94,51,97,59,1
+UNK,HR,null ,null ,0,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,1000,null 
+UNK,HU,null ,null ,null ,null ,null,0,null ,null ,null ,1000,1000,94000,51000,97000,59000,1000
 UNK,MK,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,null ,null ,null ,null ,null 
-UNK,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,50,122,120,100
-UNK,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,29,0,0
-UNK,SI,38,72,75,104,19,13,26,15,12,6,7,9,4,5,10,null 
-UNK,SK,82,97,96,92,23,93,110,99,95,546,4,null ,13,null ,null ,null 
-UNK,TR,null ,null ,0,155,11,29,null ,1,26,98,68,36,47,71,39,38
+UNK,NL,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null,null,50000,122000,120000,100000
+UNK,RO,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,null ,0,29000,0,0
+UNK,SI,38000,72000,75000,104000,19000,13000,26000,15000,12000,6000,7000,9000,4000,5000,10000,null 
+UNK,SK,82000,97000,96000,92000,23000,93000,110000,99000,95000,546000,4000,null ,13000,null ,null ,null 
+UNK,TR,null ,null ,0,155000,11000,29000,null ,1000,26000,98000,68000,36000,47000,71000,39000,38000
