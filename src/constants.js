@@ -5,7 +5,7 @@ export const DATASETS = {
   train2020: "rail_passengers_2020_cleaned.csv",
   planes: "cleaned_planes.csv",
   train: "rail_trips_cleaned.csv",
-  // "country_codes.csv",
+  codes:"country_codes.csv",
 };
 
 export const TRANSPORT_OPTS = [

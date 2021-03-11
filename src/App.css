@@ -173,6 +173,7 @@ button:focus {
 }
 
 .sidebar {
+  overflow:scroll;
   height: auto;
   height: 100%;
   padding-top: 45px;
@@ -226,6 +227,10 @@ button:focus {
 
 .indicatorContainer div {
   width: 210px;
+}
+
+.sidebar div:last-of-type {
+  padding-bottom: 60px;
 }
 
 /*--------------------------------- AUTOPLAY ---------------------------------*/

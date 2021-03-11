@@ -42,19 +42,36 @@ export const formatData = (dataset) => {
   };
 };
 
+const formatCC = (codesDataset) => {
+  // eslint-disable-next-line no-unused-vars
+  const [_trash, ...data] = codesDataset.content
+  const formatted = Object.values(data).reduce((acc, country) => {
+    acc[country[1]] = country[0];
+    return acc;
+  }, {});
+
+  return { ...codesDataset, content: formatted };
+};
+
 export const mergeDatasets = (datasets) => {
   const planes = datasets.find((ds) => ds.dataset === DATASETS.planes);
   const trainBig = datasets.find((ds) => ds.dataset === DATASETS.train);
   const train2020 = datasets.find((ds) => ds.dataset === DATASETS.train2020);
+  const codes = datasets.find((ds) => ds.dataset === DATASETS.codes);
 
   return {
     plane: planes.content,
     train: { ...trainBig.content, ...train2020.content },
+    codes: codes.content,
   };
 };
 
 export const formatDataSets = (datasets) => {
-  const formated = datasets.map(formatData);
-  const merged = mergeDatasets(formated);
+  const countryCodes = datasets.filter((x) => x.dataset === DATASETS.codes);
+  const rest = datasets.filter((x) => x.dataset !== DATASETS.codes);
+  const formated = rest.map(formatData);
+  const countryCodesFormatted = formatCC(...countryCodes);
+  const all = [countryCodesFormatted, ...formated];
+  const merged = mergeDatasets(all);
   return merged;
 };

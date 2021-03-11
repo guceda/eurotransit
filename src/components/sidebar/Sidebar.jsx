@@ -3,7 +3,7 @@ import chroma from "chroma-js";
 import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
-const Sidebar = ({ countries, transport, year, dataset }) => {
+const Sidebar = ({ countries, transport, year, dataset, codes }) => {
   const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
   const imgUrl = `https://www.countryflags.io/${countryCode}/flat/64.png`;

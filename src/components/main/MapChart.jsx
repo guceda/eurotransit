@@ -14,6 +14,7 @@ const MapChart = ({
   colorSet,
   scale,
   limits,
+  transport,
   selectedCountries,
   setHoveredCountry,
   setSelected,
@@ -138,6 +139,9 @@ const MapChart = ({
                         const targetName = country.properties.ISO_A2;
                         const passengers = dataset[originName][targetName];
                         const thickness = (passengers * 100) / diff;
+                        const lineWidth =
+                          thickness + (transport === 'train' ? 2 : 0);
+                        
 
                         return (
                           <Line
@@ -146,7 +150,7 @@ const MapChart = ({
                             to={getCentroid(targetCoords)}
                             stroke="rgb(75, 192, 192)"
                             opacity={.5}
-                            strokeWidth={thickness}
+                            strokeWidth={lineWidth}
                             strokeLinecap="round"
                           />
                         );
