@@ -30,11 +30,11 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
         </div>
         <div>
           <h5>Outgoing passengers from {countryInfo.NAME}</h5>
-          <DoughnutChart countries={countries} />
+          <DoughnutChart countries={countries} codes={codes} />
         </div>
         <div>
           <h5>Outgoing passengers by year</h5>
-          <StackedBarChart dataset={dataset} countryCode={countryCode} />
+          <StackedBarChart dataset={dataset} countryCode={countryCode} codes={codes} />
         </div>
       </div>
     </div>
