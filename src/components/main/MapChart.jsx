@@ -150,9 +150,9 @@ const MapChart = ({
                             key={target}
                             from={getCentroid(originCoords)}
                             to={getCentroid(targetCoords)}
-                            stroke="rgb(75, 192, 192)"
-                            opacity={0.5}
-                            strokeWidth={lineWidth}
+                            stroke="#A379C9"
+                            opacity={0.8}
+                            strokeWidth={lineWidth * 4}
                             strokeLinecap="round"
                           />
                         );
