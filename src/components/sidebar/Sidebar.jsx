@@ -6,7 +6,8 @@ import StackedBarChart from "./StackedBarChart";
 const Sidebar = ({ countries, transport, year, dataset, codes }) => {
   const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
-  const imgUrl = `https://www.countryflags.io/${countryCode}/flat/64.png`;
+  const cc = countryCode === 'UK' ? 'GB' : countryCode;
+  const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
   return (
     <div className="sidebar">
       <div class="countryNameContainer">
