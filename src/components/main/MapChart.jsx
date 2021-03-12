@@ -152,7 +152,7 @@ const MapChart = ({
                             to={getCentroid(targetCoords)}
                             stroke="#A379C9"
                             opacity={0.8}
-                            strokeWidth={Math.min(Math.max(parseInt(lineWidth), 1), 30)}
+                            strokeWidth={lineWidth < 0.5 ? 0.5 : lineWidth}
                             strokeLinecap="round"
                           />
                         );
