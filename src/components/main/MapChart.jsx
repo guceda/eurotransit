@@ -139,10 +139,10 @@ const MapChart = ({
                         const originName = geo.properties.ISO_A2;
                         const targetName = country.properties.ISO_A2;
                         const passengers = dataset[originName][targetName];
-                        const thickness = (passengers * 100) / diff;
-                        const lineWidth =
-                          transport === "train"
-                            ? thickness / 5 + 2
+                        const thickness = (passengers * 20) / diff;
+                        const lineWidth = 
+                            transport === "train"
+                            ? thickness / 1.8
                             : thickness;
 
                         return (
@@ -152,7 +152,7 @@ const MapChart = ({
                             to={getCentroid(targetCoords)}
                             stroke="#A379C9"
                             opacity={0.8}
-                            strokeWidth={lineWidth * 4}
+                            strokeWidth={Math.min(Math.max(parseInt(lineWidth), 1), 30)}
                             strokeLinecap="round"
                           />
                         );
