@@ -147,7 +147,7 @@ button:focus {
   overflow: hidden;
   position: absolute;
   z-index: 1000;
-  top: 0;
+  top: 45px;
 }
 
 .sidebar-right {
