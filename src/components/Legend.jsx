@@ -5,21 +5,21 @@ import useDatasetsLimits from "../hooks/useDatasetLimits";
 import theme from "../../src/theme.json";
 
 
-const Legend = ({ dataset }) => {
-    const [max, min] = useDatasetsLimits(dataset);
-    const range = [theme.map.plane_trips.min, theme.map.plane_trips.max];
-    const color_range = chroma.scale(range).domain([min, max]).colors(5);
+const Legend = ({ limits, transportation }) => {
+    const [max, min] = limits
+    const range = [theme.map[transportation].min, theme.map[transportation].max];
+    const color_range = chroma.scale(range).domain([min, max]).colors(8);
     return (
         <div>
             <div className="legend">
                 <div className="legend__colors">
                     {color_range.map((opt) => (
-                        <div style={{ backgroundColor: opt, width: "40px", height: "20px" }}></div>
+                        <div style={{ backgroundColor: opt, width: "50px", height: "20px" }}></div>
                     ))}
                 </div>
                 <div className="legend__description">
-                    <div className="legend__text">[Min]</div>
-                    <div className="legend__text">[Max]</div>
+                    <div className="legend__text">{min} Passenger</div>
+                    <div className="legend__text">{(max/1000000).toFixed(2)}M Passengers</div>
                 </div>
             </div>
         </div>

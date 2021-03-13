@@ -11,6 +11,7 @@ import SidebarContainer from "./SidebarContainer";
 import Autoplay from "./main/Autoplay";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet";
+import Legend from "./Legend";
 
 import theme from "../../src/theme.json";
 
@@ -33,12 +34,12 @@ const Main = ({ datasets }) => {
   const scale = useMemo(() => {
     const rangeMin =
       transport == "plane"
-        ? theme.map.plane_trips.min
-        : theme.map.train_trips.min;
+        ? theme.map.plane.min
+        : theme.map.train.min;
     const rangeMax =
       transport == "plane"
-        ? theme.map.plane_trips.max
-        : theme.map.train_trips.max;
+        ? theme.map.plane.max
+        : theme.map.train.max;
     const range = [rangeMin, rangeMax];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
@@ -99,6 +100,7 @@ const Main = ({ datasets }) => {
             setSelected={setYear}
             options={YEAR_OPTS}
           />
+          <Legend limits={[max, min]} theme={theme} transportation={transport}/>
         </div>
       }
     />
