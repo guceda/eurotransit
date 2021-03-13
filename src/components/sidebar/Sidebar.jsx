@@ -1,9 +1,7 @@
-import chroma from "chroma-js";
-
 import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
-const Sidebar = ({ countries, transport, year, dataset, codes }) => {
+const Sidebar = ({ countries, dataset, codes }) => {
   const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
