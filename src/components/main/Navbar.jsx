@@ -3,7 +3,7 @@ import { useCallback } from "react";
 const Navbar = ({ options, selected, setSelected }) => {
   const setClass = useCallback(
     (method) => {
-      return selected === method ? "tab-active" : "tab-btn";
+      return selected === method ? "tab-nav-active" : "tab-nav-btn";
     },
     [selected]
   );
@@ -23,7 +23,7 @@ const Navbar = ({ options, selected, setSelected }) => {
           {opt.label}
         </button>
       ))}
-      {/* <button className="tab-btn">About</button> */}
+      <button className="tab-nav-btn">About</button>
     </div>
   );
 };
