@@ -3,7 +3,7 @@ import { Bar } from "react-chartjs-2";
 import { YEAR_OPTS } from "../../constants";
 import { COUNTRY_COLORS } from "../../constants";
 
-const StackedBarChart = ({ dataset, countryCode, codes }) => {
+const StackedBarChart = ({ dataset, countryCode, codes, transport }) => {
   const countries = Object.keys(dataset[YEAR_OPTS[0].value]);
 
   const datasets = countries.map((country, idx) => {
@@ -43,9 +43,18 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
           },
           stacked: true,
           ticks: {
+            callback: function (value, index, values) {
+              if((value / 1000000) >= 1) return `${value / 1000000}M`;
+              else return `${value / 1000}K`;
+            },
             beginAtZero: true,
             fontColor: "lightgrey"
           },
+          scaleLabel: {
+            display: false,
+            labelString: 'number of passengers',
+            fontColor: "lightgrey"
+          }
         },
       ],
       xAxes: [
