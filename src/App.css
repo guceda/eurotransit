@@ -70,6 +70,10 @@ button:focus {
   width: 100%;
 }
 
+.map-chart:active {
+  cursor: all-scroll;
+}
+
 .map-chart>svg {
   height: 100%;
   width: 100%;
@@ -144,9 +148,9 @@ button:focus {
 
 .tab-btn {
   transition: 0.4s;
-  max-width: 3.4vw;
+  width: 3.1vw;
+  min-width: 48px;
   height: 45px;
-  width: 80px;
   border: none;
   cursor: pointer;
   padding: 15px 0 15px 0;
@@ -162,9 +166,9 @@ button:focus {
 .tab-active {
   outline: none;
   transition: 0.4s;
-  max-width: 3.4vw;
+  width: 3vw;
+  min-width: 48px;
   height: 45px;
-  width: 80px;
   border: none;
   cursor: pointer;
   padding: 15px 0 15px 0;
