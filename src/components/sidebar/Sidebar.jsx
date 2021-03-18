@@ -8,8 +8,11 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
   const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
+  const total = Object.values(countries[0].data).reduce((acc, amount) => {
+    return (acc += amount);
+  }, 0);
   let showing = false;
-
+  
   function ShowDoughnutChart() {
     
     if (year == '2020' && transport == 'train')
@@ -33,7 +36,7 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
             </p>
           </div>
           <div className="indicator">
-            <h2>N/A</h2>
+            <h2>{(total/(countryInfo.POP_EST)).toFixed(2)}M</h2>
             <p>
               Passengers per 1M
             </p>
