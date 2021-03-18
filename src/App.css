@@ -70,6 +70,10 @@ button:focus {
   width: 100%;
 }
 
+.map-chart:active {
+  cursor: all-scroll;
+}
+
 .map-chart>svg {
   height: 100%;
   width: 100%;
