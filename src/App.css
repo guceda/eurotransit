@@ -1,12 +1,12 @@
-
 /*------------------------------------ FONTS ----------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
 /*----------------------------------- GENERAL ---------------------------------*/
 
 body {
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
+  height: 100vh;
 }
 
 #loadingText {
@@ -83,9 +83,12 @@ button:focus {
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
+  height: 45px;
   width: auto;
   z-index: 2000;
   background-color: rgba(0, 0, 0, 0.7);
@@ -93,10 +96,38 @@ button:focus {
   -webkit-backdrop-filter: blur(20px);
 }
 
+.navbar * {
+  margin: 0;
+}
+
+.appTitle>h4 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 2px 20px 0 15px;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
 .year-selector {
   position: absolute;
-  bottom: 3%;
-  right: 2%;
+  bottom: 20px;
+  right: 20px;
+  border: none;
   width: auto;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(20px);
@@ -147,7 +178,7 @@ button:focus {
   overflow: hidden;
   position: absolute;
   z-index: 1000;
-  top: 45px;
+  top: 0;
 }
 
 .sidebar-right {
@@ -184,28 +215,24 @@ button:focus {
 }
 
 .sidebar {
-  overflow: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  height: auto;
-  height: 100%;
-  padding-top: 45px;
+  max-height: 100vh;
+  min-height: 100vh;
+  ;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
-.sidebar::-webkit-scrollbar {
-  display: none;
-}
-
 .countryNameContainer {
-  width: 100%;
+  max-width: 500px;
+  min-width: 470px;
   height: 120px;
   padding-left: 30px;
   background-color: #219AF3;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 45px;
 }
 
 .countryNameContainer>img {
@@ -222,7 +249,16 @@ button:focus {
 }
 
 .sidebarContent {
-  padding: 30px 30px 0 20px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-top: 20vh;
+  max-height: 70vh;
+  padding: 195px 30px 0 20px;
+}
+
+.sidebarContent::-webkit-scrollbar {
+  /* display: none; */
 }
 
 .sidebarContent h5 {
