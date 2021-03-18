@@ -102,14 +102,15 @@ button:focus {
 
 .appTitle>h4 {
   font-family: 'Baloo 2', cursive;
+  color: #f5f5f5;
   font-size: 1.7rem;
   font-weight: 400;
   padding: 2px 20px 0 15px;
-  animation: fadeIn ease 1s;
-  -webkit-animation: fadeIn ease 1s;
-  -moz-animation: fadeIn ease 1s;
-  -o-animation: fadeIn ease 1s;
-  -ms-animation: fadeIn ease 1s;
+  animation: fadeInDownwards ease 800ms;
+  -webkit-animation: fadeInDownwards ease 800ms;
+  -moz-animation: fadeInDownwards ease 800ms;
+  -o-animation: fadeInDownwards ease 800ms;
+  -ms-animation: fadeInDownwards ease 800ms;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -121,6 +122,13 @@ button:focus {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
+}
+
+.verticalBar {
+  width: 1px;
+  background-color: #8c8c8c;
+  height: 60%;
+  margin-right: 15px;
 }
 
 .year-selector {
@@ -258,7 +266,7 @@ button:focus {
 }
 
 .sidebarContent::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }
 
 .sidebarContent h5 {
@@ -286,6 +294,12 @@ button:focus {
   padding-bottom: 100px;
 }
 
+.notAvailable {
+  text-align: center;
+  margin: 144px 10px 144px 10px;
+  opacity: 0.5;
+}
+
 /*--------------------------------- AUTOPLAY ---------------------------------*/
 
 .auto-play {
@@ -309,7 +323,7 @@ button:focus {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
@@ -319,7 +333,7 @@ button:focus {
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
@@ -329,7 +343,7 @@ button:focus {
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
@@ -339,7 +353,7 @@ button:focus {
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
@@ -349,7 +363,57 @@ button:focus {
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDownwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInDownwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInDownwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInDownwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInDownwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
   }
   100% {
     opacity: 1;

@@ -10,9 +10,10 @@ const Navbar = ({ options, selected, setSelected }) => {
 
   return (
     <div className={"tab navbar"}>
-      <div class="appTitle">
+      <div className="appTitle">
         <h4>eurotransit</h4>
       </div>
+      <div className="verticalBar"></div>
       {options.map((opt) => (
         <button
           key={opt.value}

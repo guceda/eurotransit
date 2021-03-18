@@ -8,6 +8,16 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
   const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
+  let showing = false;
+
+  function ShowDoughnutChart() {
+    
+    if (year == '2020' && transport == 'train')
+      return <p className="notAvailable">No data available for train trips in 2020</p>;
+    else
+      return <DoughnutChart countries={countries} codes={codes} />
+  }
+
   return (
     <div className="sidebar">
       <div className="countryNameContainer">
@@ -31,11 +41,11 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
         </div>
         <div>
           <h5>Outgoing passengers from {countryInfo.NAME}</h5>
-          <DoughnutChart countries={countries} codes={codes} />
+          <ShowDoughnutChart />
         </div>
         <div>
           <h5>Outgoing passengers by year</h5>
-          <StackedBarChart dataset={dataset} countryCode={countryCode} codes={codes} />
+          <StackedBarChart dataset={dataset} countryCode={countryCode} codes={codes} transport={transport} />
         </div>
       </div>
     </div>
