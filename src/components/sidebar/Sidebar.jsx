@@ -10,19 +10,19 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
   const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
   return (
     <div className="sidebar">
-      <div class="countryNameContainer">
+      <div className="countryNameContainer">
         <img alt={countryInfo.NAME} src={imgUrl}></img>
         <h2>{countries[0]?.geo.properties.NAME}</h2>
       </div>
-      <div class="sidebarContent">
-        <div class="indicatorContainer">
+      <div className="sidebarContent">
+        <div className="indicatorContainer">
           <div>
             <h2>{(countryInfo.POP_EST / 1000000).toFixed(2)}M</h2>
             <p>
               Population
             </p>
           </div>
-          <div class="indicator">
+          <div className="indicator">
             <h2>N/A</h2>
             <p>
               Passengers per 1M
