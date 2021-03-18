@@ -1,6 +1,6 @@
 /*------------------------------------ FONTS ----------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
 /*----------------------------------- GENERAL ---------------------------------*/
 
 body {
@@ -83,14 +83,44 @@ button:focus {
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
+  height: 45px;
   width: auto;
   z-index: 2000;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+}
+
+.navbar * {
+  margin: 0;
+}
+
+.appTitle>h4 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 2px 20px 0 15px;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .year-selector {
