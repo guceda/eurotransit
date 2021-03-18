@@ -144,7 +144,7 @@ button:focus {
 
 .tab-btn {
   transition: 0.4s;
-  max-width: 3vw;
+  width: 3.1vw;
   min-width: 48px;
   height: 45px;
   border: none;
@@ -162,7 +162,7 @@ button:focus {
 .tab-active {
   outline: none;
   transition: 0.4s;
-  max-width: 3vw;
+  width: 3vw;
   min-width: 48px;
   height: 45px;
   border: none;
