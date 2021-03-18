@@ -16,7 +16,7 @@ const DoughnutChart = ({ countries, codes }) => {
       {
         label: `Outgoing passengers from ${countries[0].geo.properties.NAME}`,
         data: Object.values(countries[0].data).filter((x) => x),
-        datasetKeyProvider: () => countries[0].geo.properties.NAME, 
+        datasetKeyProvider: () => countries[0].geo.properties.NAME,
         backgroundColor: (chart) => COUNTRY_COLORS[filteredCountries[chart.dataIndex]],
         borderColor: (chart) => COUNTRY_COLORS[filteredCountries[chart.dataIndex]],
         borderWidth: 1,
@@ -24,6 +24,9 @@ const DoughnutChart = ({ countries, codes }) => {
     ],
   };
   const options = {
+    animation: {
+      duration: 0
+    },
     legend: { display: false },
   };
 

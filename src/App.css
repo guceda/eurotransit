@@ -294,6 +294,12 @@ button:focus {
   padding-bottom: 100px;
 }
 
+.notAvailable {
+  text-align: center;
+  margin: 144px 10px 144px 10px;
+  opacity: 0.5;
+}
+
 /*--------------------------------- AUTOPLAY ---------------------------------*/
 
 .auto-play {
