@@ -123,6 +123,13 @@ button:focus {
   user-select: none;
 }
 
+.verticalBar {
+  width: 1px;
+  background-color: #8c8c8c;
+  height: 60%;
+  margin-right: 25px;
+}
+
 .year-selector {
   position: absolute;
   bottom: 20px;
@@ -258,7 +265,7 @@ button:focus {
 }
 
 .sidebarContent::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }
 
 .sidebarContent h5 {

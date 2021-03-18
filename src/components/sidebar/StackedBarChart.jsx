@@ -7,21 +7,21 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
   const countries = Object.keys(dataset[YEAR_OPTS[0].value]);
 
   const datasets = countries.map((country, idx) => {
-    
+
     const years = [];
 
     YEAR_OPTS.forEach(({ value }) => {
 
       // Remove own country
-      if(country === countryCode) return;
+      if (country === countryCode) return;
 
-      if(dataset?.[value]?.[countryCode]?.[country]) {
+      if (dataset?.[value]?.[countryCode]?.[country]) {
         years.push(dataset[value][countryCode][country]);
       }
     });
 
     return {
-      key:`${country}-${idx}`,
+      key: `${country}-${idx}`,
       label: codes[country],
       data: years,
       backgroundColor: COUNTRY_COLORS[country],
@@ -38,20 +38,30 @@ const StackedBarChart = ({ dataset, countryCode, codes }) => {
     scales: {
       yAxes: [
         {
+          gridLines: {
+            color: '#404040'
+          },
           stacked: true,
           ticks: {
             beginAtZero: true,
+            fontColor: "lightgrey"
           },
         },
       ],
       xAxes: [
         {
+          gridLines: {
+            color: '#404040'
+          },
           stacked: true,
+          ticks: {
+            fontColor: "lightgrey"
+          },
         },
       ],
     },
   };
-  
+
   return <Bar options={options} data={data} />;
 };
 
