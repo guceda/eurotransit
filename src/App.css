@@ -105,7 +105,7 @@ button:focus {
   color: #f5f5f5;
   font-size: 1.7rem;
   font-weight: 400;
-  padding: 2px 20px 0 15px;
+  padding: 2px 22px 0 15px;
   animation: fadeInDownwards ease 800ms;
   -webkit-animation: fadeInDownwards ease 800ms;
   -moz-animation: fadeInDownwards ease 800ms;
@@ -159,6 +159,43 @@ button:focus {
 .tab-active {
   outline: none;
   transition: 0.4s;
+  border: none;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  float: left;
+  color: #fff;
+  background-color: #219AF3;
+}
+
+.tab-active:active {
+  background-color: #0a75c2;
+}
+
+.tab-nav-btn {
+  transition: 0.4s;
+  width: 105px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 17px 15px 17px;
+  background-color: transparent;
+  float: left;
+  color: #fff;
+}
+
+.tab-nav-btn:hover {
+  background-color: #219AF3;
+}
+
+.tab-nav-active {
+  outline: none;
+  transition: 0.4s;
+  width: 105px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
   border: none;
   cursor: pointer;
   padding: 15px 17px 15px 17px;
