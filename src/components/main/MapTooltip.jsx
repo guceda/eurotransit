@@ -43,7 +43,6 @@ const MapTooltip = ({ country, link, transport, year }) => {
 
   const tooltipLinkContent = () => {
     const { from, to, passengers } = link;
-    debugger;
     return (
       <div>
         <p>

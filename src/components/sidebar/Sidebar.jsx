@@ -34,9 +34,9 @@ const Sidebar = ({ countries, dataset, codes, year, transport }) => {
             </p>
           </div>
           <div className="indicator">
-            <h2>{(total/(countryInfo.POP_EST)).toFixed(2)}M</h2>
+            <h2>{(total/1000000).toFixed(2)}M</h2>
             <p>
-              Passengers per 1M
+              Outgoing passengers
             </p>
           </div>
         </div>
