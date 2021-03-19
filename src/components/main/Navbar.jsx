@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-const Navbar = ({ options, selected, setSelected }) => {
+const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
   const setClass = useCallback(
     (method) => {
       return selected === method ? "tab-nav-active" : "tab-nav-btn";
@@ -18,12 +18,21 @@ const Navbar = ({ options, selected, setSelected }) => {
         <button
           key={opt.value}
           className={setClass(opt.value)}
-          onClick={() => setSelected(opt.value)}
+          onClick={() => {
+            setAbout(false);
+            setSelected(opt.value);
+          }}
         >
           {opt.label}
         </button>
       ))}
-      <button className="tab-nav-btn">About</button>
+      <button
+        key='about'
+        className={`tab-nav-${about ? "active" : "btn"}`}
+        onClick={() => setAbout(true)}
+      >
+        About
+      </button>
     </div>
   );
 };
