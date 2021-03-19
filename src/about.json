@@ -1,53 +1,53 @@
 {
   "people": [
     {
-      "name": "name1 surname1",
-      "email": "email1@kth.se",
-      "image": "/img1",
+      "name": "Fabian Paier",
+      "email": "paier@kth.se",
+      "image": "fabian",
       "contributions": {
-        "design": 2,
-        "ideation": 5,
-        "development": 7,
-        "data cleaning": 1,
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
         "research": 1
       }
 
     },
     {
-      "name": "name2 surname2",
-      "email": "email2@kth.se",
-      "image": "img2",
+      "name": "Yan yu",
+      "email": "yan8@kth.se",
+      "image": "yan",
       "contributions": {
-        "design": 2,
-        "ideation": 5,
-        "development": 7,
-        "data cleaning": 1,
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
         "research": 1
       }
 
     },
     {
-      "name": "name3 surname3",
-      "email": "email3@kth.se",
-      "image": "img3",
+      "name": "David Vargas",
+      "email": "davidvc@kth.se",
+      "image": "david",
       "contributions": {
-        "design": 2,
-        "ideation": 5,
-        "development": 7,
-        "data cleaning": 1,
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
         "research": 1
       }
 
     },
     {
-      "name": "name4 surname4",
-      "email": "emai4@kth.se",
-      "image": "img4",
+      "name": "Gonzalo Uceda",
+      "email": "gouc@kth.se",
+      "image": "gonzalo",
       "contributions": {
-        "design": 2,
-        "ideation": 5,
-        "development": 7,
-        "data cleaning": 1,
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
         "research": 1
       }
 
