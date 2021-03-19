@@ -382,11 +382,14 @@ button:focus {
 .info-container .mail {
   font-size: .6em;
   margin-top: 5px;
-  cursor: pointer;
 }
 
 .sidebarContent .footer {
   font-size: .6em;
+}
+
+.link {
+  color: #fff;
 }
 
 /*--------------------------------- AUTOPLAY ---------------------------------*/

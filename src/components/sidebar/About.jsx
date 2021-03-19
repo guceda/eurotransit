@@ -69,14 +69,9 @@ const About = () => {
                 </div>
                 <div className="info-container">
                   <div className="name">{person.name}</div>
-                  <div
-                    className="mail"
-                    onClick={() =>
-                      (window.location = `mailto: ${person.email}`)
-                    }
-                  >
+                  <a className="mail link" href={`mailto: ${person.email}`}>
                     <u>{person.email}</u>
-                  </div>
+                  </a>
                 </div>
               </div>
               {/* <HorizontalBar
@@ -86,8 +81,36 @@ const About = () => {
             </div>
           ))}
           <div className="footer">
-            Made thanks to React.js and Chart.js. Fork us on our Github
-            repository.
+            <span>Made thanks to </span>
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://reactjs.org/"
+            >
+              React.js
+            </a>
+            <span> and </span>
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.chartjs.org/docs/latest/"
+            >
+              Chart.js
+            </a>
+            .
+            <div>
+              <span>Fork us on our </span>
+              <a
+                className="link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/dvcarrillo/eurotransit"
+              >
+                Github repository.
+              </a>
+            </div>
           </div>
         </div>
       </div>
