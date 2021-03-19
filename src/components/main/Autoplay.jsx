@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaRedo } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 
 import useAutoplay from "../../hooks/useAutoplay";
 import { YEAR_OPTS } from "../../constants";
@@ -23,7 +23,7 @@ const Autoplay = ({ setYear, year, play }) => {
       className={playing ? "tab-active" : "tab-btn"}
       onClick={() => setPlaying(!playing)}
     >
-      <FaRedo />
+      <FaPlay />
     </button>
   );
 };
