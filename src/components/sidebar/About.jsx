@@ -137,7 +137,7 @@ const About = () => {
                 Nižetić, S. Impact of coronavirus (COVID‐19) pandemic on air transport mobility, energy, and environment: A case study. Int J Energy Res. 2020; 44: 10953– 10961. https://doi.org/10.1002/er.5706
               </li>
               <li>
-                Rich Harris, Blacki Migliozzi, and Niraj Chokshi. 2020. 13,000 missing Flights: The global consequences of THE CORONAVIRUS. <br/>Retrieved from https://www.nytimes.com/interactive/2020/02/21/business/coronavirus-airline-travel.html
+                Rich Harris, Blacki Migliozzi, and Niraj Chokshi. 2020. 13,000 missing Flights: The global consequences of THE CORONAVIRUS. Retrieved from https://www.nytimes.com/interactive/2020/02/21/business/coronavirus-airline-travel.html
               </li>
               <li>
                 European Commission. 2018. Atlas of the Sky. Retrieved from https://ec.europa.eu/transport/modes/air/aos/aos_public.html              
