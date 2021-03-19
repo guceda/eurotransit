@@ -22,7 +22,11 @@ const Main = ({ datasets }) => {
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [transport, setTransport] = useState("plane");
-  const [about, setAbout] = useState(false);
+  const [about, setAbout0] = useState(false);
+
+  const setAbout = (flag) => {
+    setAbout0(flag);
+  }
 
   const dataset = useMemo(() => datasets[transport][year], [
     datasets,

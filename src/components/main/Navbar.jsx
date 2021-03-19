@@ -19,8 +19,8 @@ const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
           key={opt.value}
           className={setClass(opt.value)}
           onClick={() => {
-            setSelected(opt.value);
             setAbout(false);
+            setSelected(opt.value);
           }}
         >
           {opt.label}
@@ -28,8 +28,8 @@ const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
       ))}
       <button
         key='about'
-        className="tab-nav-btn"
-        onClick={() => setAbout(!about)}
+        className={`tab-nav-${about ? "active" : "btn"}`}
+        onClick={() => setAbout(true)}
       >
         About
       </button>

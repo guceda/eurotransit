@@ -2,6 +2,9 @@ import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
 const Sidebar = ({ countries, dataset, codes, year, transport }) => {
+  // Do not render if coming from About without any country selected
+  if(countries.length === 0) return false;
+
   const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
