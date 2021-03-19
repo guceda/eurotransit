@@ -1,0 +1,56 @@
+{
+  "people": [
+    {
+      "name": "Fabian Paier",
+      "email": "paier@kth.se",
+      "image": "fabian",
+      "contributions": {
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "Yan yu",
+      "email": "yan8@kth.se",
+      "image": "yan",
+      "contributions": {
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "David Vargas",
+      "email": "davidvc@kth.se",
+      "image": "david",
+      "contributions": {
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "Gonzalo Uceda",
+      "email": "gouc@kth.se",
+      "image": "gonzalo",
+      "contributions": {
+        "design": 1,
+        "ideation": 2,
+        "development": 4,
+        "data cleaning": 2,
+        "research": 1
+      }
+
+    }
+  ]
+}

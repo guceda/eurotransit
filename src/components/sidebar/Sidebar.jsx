@@ -1,21 +1,22 @@
-import chroma from "chroma-js";
-
 import DoughnutChart from "./DoughnutChart";
 import StackedBarChart from "./StackedBarChart";
 
-const Sidebar = ({ countries, transport, year, dataset, codes }) => {
+const Sidebar = ({ countries, dataset, codes, year, transport }) => {
+  // Do not render if coming from About without any country selected
+  if(countries.length === 0) return false;
+
   const countryInfo = countries[0]?.geo.properties;
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
   const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
-  let showing = false;
-
+  const total = Object.values(countries[0].data).reduce((acc, amount) => {
+    return (acc += amount);
+  }, 0);
+  
   function ShowDoughnutChart() {
-    
-    if (year == '2020' && transport == 'train')
-      return <p className="notAvailable">No data available for train trips in 2020</p>;
-    else
-      return <DoughnutChart countries={countries} codes={codes} />
+    return (year === 2020 && transport === 'train') ?
+      <p className="notAvailable">No data available for train trips in 2020</p> :
+      <DoughnutChart countries={countries} codes={codes} />
   }
 
   return (
@@ -33,7 +34,7 @@ const Sidebar = ({ countries, transport, year, dataset, codes }) => {
             </p>
           </div>
           <div className="indicator">
-            <h2>N/A</h2>
+            <h2>{(total/(countryInfo.POP_EST)).toFixed(2)}M</h2>
             <p>
               Passengers per 1M
             </p>
