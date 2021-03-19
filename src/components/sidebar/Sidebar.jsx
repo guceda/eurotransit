@@ -6,22 +6,35 @@ const Sidebar = ({ countries, dataset, codes }) => {
   const countryCode = countries[0]?.ISO;
   const cc = countryCode === 'UK' ? 'GB' : countryCode;
   const imgUrl = `https://www.countryflags.io/${cc}/flat/64.png`;
+  const total = Object.values(countries[0].data).reduce((acc, amount) => {
+    return (acc += amount);
+  }, 0);
+  let showing = false;
+  
+  function ShowDoughnutChart() {
+    
+    if (year == '2020' && transport == 'train')
+      return <p className="notAvailable">No data available for train trips in 2020</p>;
+    else
+      return <DoughnutChart countries={countries} codes={codes} />
+  }
+
   return (
     <div className="sidebar">
-      <div class="countryNameContainer">
+      <div className="countryNameContainer">
         <img alt={countryInfo.NAME} src={imgUrl}></img>
         <h2>{countries[0]?.geo.properties.NAME}</h2>
       </div>
-      <div class="sidebarContent">
-        <div class="indicatorContainer">
+      <div className="sidebarContent">
+        <div className="indicatorContainer">
           <div>
             <h2>{(countryInfo.POP_EST / 1000000).toFixed(2)}M</h2>
             <p>
               Population
             </p>
           </div>
-          <div class="indicator">
-            <h2>N/A</h2>
+          <div className="indicator">
+            <h2>{(total/(countryInfo.POP_EST)).toFixed(2)}M</h2>
             <p>
               Passengers per 1M
             </p>
@@ -29,11 +42,11 @@ const Sidebar = ({ countries, dataset, codes }) => {
         </div>
         <div>
           <h5>Outgoing passengers from {countryInfo.NAME}</h5>
-          <DoughnutChart countries={countries} codes={codes} />
+          <ShowDoughnutChart />
         </div>
         <div>
           <h5>Outgoing passengers by year</h5>
-          <StackedBarChart dataset={dataset} countryCode={countryCode} codes={codes} />
+          <StackedBarChart dataset={dataset} countryCode={countryCode} codes={codes} transport={transport} />
         </div>
       </div>
     </div>

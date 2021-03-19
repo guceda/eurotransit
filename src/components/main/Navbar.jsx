@@ -3,13 +3,17 @@ import { useCallback } from "react";
 const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
   const setClass = useCallback(
     (method) => {
-      return selected === method ? "tab-active" : "tab-btn";
+      return selected === method ? "tab-nav-active" : "tab-nav-btn";
     },
     [selected]
   );
 
   return (
-    <div className="tab navbar">
+    <div className={"tab navbar"}>
+      <div className="appTitle">
+        <h4>eurotransit</h4>
+      </div>
+      <div className="verticalBar"></div>
       {options.map((opt) => (
         <button
           key={opt.value}
@@ -24,7 +28,7 @@ const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
       ))}
       <button
         key='about'
-        className={`tab-btn ${about ? "tab-active" : "tab-btn"}`}
+        className="tab-nav-btn"
         onClick={() => setAbout(!about)}
       >
         About
