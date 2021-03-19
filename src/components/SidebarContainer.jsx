@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FiChevronLeft } from "react-icons/fi";
 
-const SidebarContainer = ({ open, onClose, sidebarContent, mainContent }) => {
+const SidebarContainer = ({ open, onClose, sidebarContent, mainContent, about }) => {
   const [opened, setOpened] = useState(false);
 
   useEffect(() => {
@@ -17,9 +17,9 @@ const SidebarContainer = ({ open, onClose, sidebarContent, mainContent }) => {
     <div className="sidebar-container">
       {opened && (
         <div className="sidebar-left">
-          <div className="close" onClick={close}>
+          {!about && <div className="close" onClick={close}>
             <FiChevronLeft />
-          </div>
+          </div>}
           {sidebarContent}
         </div>
       )}

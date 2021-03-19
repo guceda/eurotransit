@@ -3,9 +3,9 @@ import { useCallback } from "react";
 const Navbar = ({ options, selected, setSelected, setAbout, about}) => {
   const setClass = useCallback(
     (method) => {
-      return selected === method ? "tab-nav-active" : "tab-nav-btn";
+      return (!about && selected === method) ? "tab-nav-active" : "tab-nav-btn";
     },
-    [selected]
+    [selected, about]
   );
 
   return (

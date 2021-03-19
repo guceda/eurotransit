@@ -347,6 +347,27 @@ button:focus {
   opacity: 0.5;
 }
 
+/*--------------------------------- LEGEND ---------------------------------*/
+
+.legend {
+max-width: 300px;
+position: fixed;
+right: 2%;
+bottom: 15%;
+}
+
+.legend__colors {
+  display: flex;
+}
+
+.legend__description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+
 /*----------------------------------- ABOUT ----------------------------------*/
 .people-container {
   margin-bottom: 40px;
@@ -384,7 +405,7 @@ button:focus {
   margin-top: 5px;
 }
 
-.sidebarContent .footer {
+.sidebarContent .text {
   font-size: .6em;
 }
 
