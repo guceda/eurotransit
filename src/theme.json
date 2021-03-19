@@ -28,6 +28,10 @@
         "accent": {
             "plane" : "#219AF3",
             "train" : "#39DB67"
+        },
+        "text": {
+            "light": "#333333",
+            "dark": "#ffffff"
         }
     }
 }

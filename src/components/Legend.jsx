@@ -1,6 +1,7 @@
 import React from "react";
 import chroma from "chroma-js";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
+import useColorSet from "../hooks/useColorSet";
 
 import theme from "../../src/theme.json";
 
