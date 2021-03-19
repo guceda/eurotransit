@@ -16,6 +16,7 @@ const MapChart = ({
   transport,
   selectedCountries,
   setHoveredCountry,
+  setHoveredLink,
   setSelected,
 }) => {
   const getAcc = (data) => {
@@ -139,11 +140,9 @@ const MapChart = ({
                         const originName = geo.properties.ISO_A2;
                         const targetName = country.properties.ISO_A2;
                         const passengers = dataset[originName][targetName];
-                        const thickness = (passengers * 20) / diff;
-                        const lineWidth = 
-                            transport === "train"
-                            ? thickness / 1.8
-                            : thickness;
+                        const thickness = (passengers * 50) / diff;
+                        const lineWidth =
+                          transport === "train" ? thickness / 1.8 : thickness;
 
                         return (
                           <Line
@@ -152,7 +151,15 @@ const MapChart = ({
                             to={getCentroid(targetCoords)}
                             stroke="#A379C9"
                             opacity={0.8}
-                            strokeWidth={lineWidth < 0.5 ? 0.5 : lineWidth}
+                            onMouseEnter={() =>
+                              setHoveredLink({
+                                from: geo.properties,
+                                to: country.properties,
+                                passengers: passengers,
+                              })
+                            }
+                            onMouseLeave={() => setHoveredLink(null)}
+                            strokeWidth={lineWidth < 1 ? 1 : lineWidth}
                             strokeLinecap="round"
                           />
                         );

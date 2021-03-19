@@ -1,5 +1,5 @@
 import ReactTooltip from "react-tooltip";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ReactTooltipStyled = styled(ReactTooltip)`
   &.type-dark.place-top {
@@ -9,9 +9,8 @@ export const ReactTooltipStyled = styled(ReactTooltip)`
   }
 `;
 
-const MapTooltip = ({ country, transport, year }) => {
-  const tootipContent = () => {
-    if (!country) return;
+const MapTooltip = ({ country, link, transport, year }) => {
+  const tooltipCountryContent = () => {
     const name = country?.geo.properties.NAME;
     if (!country.data) {
       return (
@@ -42,7 +41,32 @@ const MapTooltip = ({ country, transport, year }) => {
     );
   };
 
-  return <ReactTooltipStyled>{tootipContent()}</ReactTooltipStyled>;
+  const tooltipLinkContent = () => {
+    const { from, to, passengers } = link;
+    debugger;
+    return (
+      <div>
+        <p>
+          From <b>{from.NAME}</b> to <b>{to.NAME}</b>
+        </p>
+        <p>
+          Number of passengers: <b>{(passengers / 1000000).toFixed(2)}M</b>
+        </p>
+      </div>
+    );
+  };
+
+  const getContent = () => {
+    if (link) {
+      return tooltipLinkContent();
+    } else if (country) {
+      return tooltipCountryContent();
+    } else {
+      return;
+    }
+  };
+
+  return <ReactTooltipStyled>{getContent()}</ReactTooltipStyled>;
 };
 
 export default MapTooltip;

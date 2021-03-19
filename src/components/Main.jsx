@@ -5,11 +5,9 @@ import Navbar from "./main/Navbar";
 import YearSelector from "./main/YearSelector";
 import Sidebar from "./sidebar/Sidebar";
 import About from "./sidebar/About";
-import Header from "./main/Header";
 import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
-import Autoplay from "./main/Autoplay";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet";
 
@@ -21,6 +19,7 @@ const Main = ({ datasets }) => {
   const [year, setYear] = useState(YEAR_OPTS[YEAR_OPTS.length - 1].value);
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
+  const [hoveredLink, setHoveredLink] = useState(null);
   const [transport, setTransport] = useState("plane");
   const [about, setAbout0] = useState(false);
 
@@ -99,6 +98,7 @@ const Main = ({ datasets }) => {
             scale={scale}
             transport={transport}
             limits={[max, min]}
+            setHoveredLink={setHoveredLink}
             hoveredCountry={hoveredCountry}
             selectedCountries={selectedCountries}
             setHoveredCountry={setHoveredCountry}
@@ -106,6 +106,7 @@ const Main = ({ datasets }) => {
           />
           <MapTooltip
             country={hoveredCountry}
+            link={hoveredLink}
             transport={transport}
             year={year}
           />
