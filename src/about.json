@@ -1,0 +1,56 @@
+{
+  "people": [
+    {
+      "name": "name1 surname1",
+      "email": "email1@kth.se",
+      "image": "/img1",
+      "contributions": {
+        "design": 2,
+        "ideation": 5,
+        "development": 7,
+        "data cleaning": 1,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "name2 surname2",
+      "email": "email2@kth.se",
+      "image": "img2",
+      "contributions": {
+        "design": 2,
+        "ideation": 5,
+        "development": 7,
+        "data cleaning": 1,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "name3 surname3",
+      "email": "email3@kth.se",
+      "image": "img3",
+      "contributions": {
+        "design": 2,
+        "ideation": 5,
+        "development": 7,
+        "data cleaning": 1,
+        "research": 1
+      }
+
+    },
+    {
+      "name": "name4 surname4",
+      "email": "emai4@kth.se",
+      "image": "img4",
+      "contributions": {
+        "design": 2,
+        "ideation": 5,
+        "development": 7,
+        "data cleaning": 1,
+        "research": 1
+      }
+
+    }
+  ]
+}
