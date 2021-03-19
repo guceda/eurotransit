@@ -109,7 +109,7 @@ button:focus {
   color: #f5f5f5;
   font-size: 1.7rem;
   font-weight: 400;
-  padding: 2px 25px 0 27px;
+  padding: 2px 26px 0 27px;
   animation: fadeInDownwards ease 800ms;
   -webkit-animation: fadeInDownwards ease 800ms;
   -moz-animation: fadeInDownwards ease 800ms;
