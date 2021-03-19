@@ -24,6 +24,7 @@ const Main = ({ datasets }) => {
   const [about, setAbout0] = useState(false);
 
   const setAbout = (flag) => {
+    setSelectedCountries([]);
     setAbout0(flag);
   }
 
@@ -64,6 +65,7 @@ const Main = ({ datasets }) => {
   return (
     <SidebarContainer
       open={about || selectedCountries.length > 0}
+      about={about}
       onClose={() => {
         setSelectedCountries([]);
         setAbout(false);
@@ -83,6 +85,11 @@ const Main = ({ datasets }) => {
       }
       mainContent={
         <div className="main">
+          {about && <div style={{
+          backgroundColor: 'rgba(0,0,0,0.3)',
+          position: 'absolute',
+          width: '100%',
+          height: '100%'}} />}
           {/* <Header /> */}
           <Navbar
             selected={transport}
