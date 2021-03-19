@@ -11,7 +11,7 @@ const Sidebar = ({ countries, dataset, codes, year, transport }) => {
   }, 0);
   
   function ShowDoughnutChart() {
-    return (year === '2020' && transport === 'train') ?
+    return (year === 2020 && transport === 'train') ?
       <p className="notAvailable">No data available for train trips in 2020</p> :
       <DoughnutChart countries={countries} codes={codes} />
   }

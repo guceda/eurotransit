@@ -347,6 +347,48 @@ button:focus {
   opacity: 0.5;
 }
 
+/*----------------------------------- ABOUT ----------------------------------*/
+.people-container {
+  margin-bottom: 40px;
+}
+
+.people-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 5px solid #A379C9;
+}
+
+.img-container > img {
+  width: inherit;
+  height: inherit;
+  border-radius: 100px;
+}
+
+.info-container {
+  padding: 20px;
+}
+
+.info-container .name {
+  font-size: 1em;
+}
+
+.info-container .mail {
+  font-size: .6em;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sidebarContent .footer {
+  font-size: .6em;
+}
+
 /*--------------------------------- AUTOPLAY ---------------------------------*/
 
 .auto-play {
