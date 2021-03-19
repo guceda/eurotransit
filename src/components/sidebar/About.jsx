@@ -1,7 +1,4 @@
-import { HorizontalBar } from "react-chartjs-2";
-import { useCallback } from "react";
 import data from "../../about.json";
-import { COUNTRY_COLORS } from "../../constants";
 
 import fabian from "../../assets/imgs/fabian.png";
 import david from "../../assets/imgs/david.png";
@@ -50,7 +47,7 @@ const About = () => {
   return (
     <div className="sidebar">
       <div className="countryNameContainer">
-        <h2>Eurotransit team</h2>
+        <h2>About</h2>
       </div>
       <div className="sidebarContent">
         <div
@@ -61,6 +58,7 @@ const About = () => {
             paddingLeft: "10px",
           }}
         >
+          <h3>Eurotransit team</h3>
           {data.people.map((person) => (
             <div key={person.name} className="people-container">
               <div>
@@ -80,7 +78,56 @@ const About = () => {
             /> */}
             </div>
           ))}
-          <div className="footer">
+          <h3>Description</h3>
+          <div className="text">
+            Travelling within the European Union has become a major part of
+            citizen’s lives. With more and more routes and connections being
+            available, it has become very easy for people to travel from and to
+            different countries. Eurotransit is an interactive web application
+            that visualizes this air and rail passenger data between EU
+            countries. The goal of this project not only was to explore
+            different correlations and relationships among states within the
+            European Union in regard to travel preferences but also to display
+            changes in international passenger flows over the course of the last
+            couple of years.
+          </div>
+          <h3>Data provenance</h3>
+          <div className="text">
+            <ul>
+              <li>
+                <a
+                  className="link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://ec.europa.eu/eurostat/databrowser/view/avia_paocc/default/table?lang=en"
+                >
+                  Air passenger transport
+                </a>
+              </li>
+              <li>
+                <a
+                  className="link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://ec.europa.eu/eurostat/databrowser/view/rail_pa_intgong/default/table?lang=en"
+                >
+                  Rail passenger transport
+                </a>
+              </li>
+              <li>
+                <a
+                  className="link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://ec.europa.eu/eurostat/databrowser/view/rail_pa_quartal/default/table?lang=en"
+                >
+                  Rail passenger transport 2020
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h3>Third party libraries</h3>
+          <div className="text">
             <span>Made thanks to </span>
             <a
               className="link"
@@ -90,7 +137,7 @@ const About = () => {
             >
               React.js
             </a>
-            <span> and </span>
+            <span>, </span>
             <a
               className="link"
               target="_blank"
@@ -99,18 +146,28 @@ const About = () => {
             >
               Chart.js
             </a>
-            .
-            <div>
-              <span>Fork us on our </span>
-              <a
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/dvcarrillo/eurotransit"
-              >
-                Github repository.
-              </a>
-            </div>
+            <span> and </span>
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.react-simple-maps.io/"
+            >
+              React Simple Maps
+            </a>
+            .<span>Fork us on our </span>
+          </div>
+          <h3>Our repo</h3>
+          <div className="text">
+            <span>Fork us on our </span>
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/dvcarrillo/eurotransit"
+            >
+              Github repository.
+            </a>
           </div>
         </div>
       </div>
