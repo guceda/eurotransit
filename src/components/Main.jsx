@@ -7,6 +7,7 @@ import Sidebar from "./sidebar/Sidebar";
 import About from "./sidebar/About";
 import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
+import Overlay from "./main/Overlay";
 import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet";
@@ -27,7 +28,7 @@ const Main = ({ datasets }) => {
   const setAbout = (flag) => {
     setSelectedCountries([]);
     setAbout0(flag);
-  }
+  };
 
   const dataset = useMemo(() => datasets[transport][year], [
     datasets,
@@ -39,13 +40,9 @@ const Main = ({ datasets }) => {
 
   const scale = useMemo(() => {
     const rangeMin =
-      transport == "plane"
-        ? theme.map.plane.min
-        : theme.map.train.min;
+      transport == "plane" ? theme.map.plane.min : theme.map.train.min;
     const rangeMax =
-      transport == "plane"
-        ? theme.map.plane.max
-        : theme.map.train.max;
+      transport == "plane" ? theme.map.plane.max : theme.map.train.max;
     const range = [rangeMin, rangeMax];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
@@ -86,11 +83,7 @@ const Main = ({ datasets }) => {
       }
       mainContent={
         <div className="main">
-          {about && <div style={{
-          backgroundColor: 'rgba(0,0,0,0.3)',
-          position: 'absolute',
-          width: '100%',
-          height: '100%'}} />}
+          {about && <Overlay />}
           {/* <Header /> */}
           <Navbar
             selected={transport}
@@ -118,12 +111,20 @@ const Main = ({ datasets }) => {
             transport={transport}
             year={year}
           />
-          <YearSelector
-            selected={year}
-            setSelected={setYear}
-            options={YEAR_OPTS}
-          />
-          <Legend limits={[max, min]} theme={theme} transportation={transport}/>
+          {!about && (
+            <>
+              <YearSelector
+                selected={year}
+                setSelected={setYear}
+                options={YEAR_OPTS}
+              />
+              <Legend
+                limits={[max, min]}
+                theme={theme}
+                transportation={transport}
+              />
+            </>
+          )}
         </div>
       }
     />
