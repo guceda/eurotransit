@@ -4,11 +4,10 @@ import chroma from "chroma-js";
 import Navbar from "./main/Navbar";
 import YearSelector from "./main/YearSelector";
 import Sidebar from "./sidebar/Sidebar";
-import Header from "./main/Header";
+import About from "./sidebar/About";
 import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
 import SidebarContainer from "./SidebarContainer";
-import Autoplay from "./main/Autoplay";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet";
 import Legend from "./Legend";
@@ -21,7 +20,13 @@ const Main = ({ datasets }) => {
   const [year, setYear] = useState(YEAR_OPTS[YEAR_OPTS.length - 1].value);
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [hoveredCountry, setHoveredCountry] = useState(null);
+  const [hoveredLink, setHoveredLink] = useState(null);
   const [transport, setTransport] = useState("plane");
+  const [about, setAbout0] = useState(false);
+
+  const setAbout = (flag) => {
+    setAbout0(flag);
+  }
 
   const dataset = useMemo(() => datasets[transport][year], [
     datasets,
@@ -59,25 +64,34 @@ const Main = ({ datasets }) => {
 
   return (
     <SidebarContainer
-      open={selectedCountries.length > 0}
-      onClose={() => setSelectedCountries([])}
+      open={about || selectedCountries.length > 0}
+      onClose={() => {
+        setSelectedCountries([]);
+        setAbout(false);
+      }}
       sidebarContent={
-        <Sidebar
-          dataset={datasets[transport]}
-          countries={selectedCountries}
-          year={year}
-          transport={transport}
-          codes={datasets.codes}
-        />
+        about ? (
+          <About />
+        ) : (
+          <Sidebar
+            dataset={datasets[transport]}
+            countries={selectedCountries}
+            year={year}
+            transport={transport}
+            codes={datasets.codes}
+          />
+        )
       }
       mainContent={
         <div className="main">
           {/* <Header /> */}
           <Navbar
             selected={transport}
-            setSelected={setTransport}
+            setSelected={(method) => setTransport(method)}
             options={TRANSPORT_OPTS}
             colorSet={colorSet}
+            setAbout={setAbout}
+            about={about}
           />
           <MapChart
             dataset={dataset}
@@ -85,6 +99,7 @@ const Main = ({ datasets }) => {
             scale={scale}
             transport={transport}
             limits={[max, min]}
+            setHoveredLink={setHoveredLink}
             hoveredCountry={hoveredCountry}
             selectedCountries={selectedCountries}
             setHoveredCountry={setHoveredCountry}
@@ -92,6 +107,7 @@ const Main = ({ datasets }) => {
           />
           <MapTooltip
             country={hoveredCountry}
+            link={hoveredLink}
             transport={transport}
             year={year}
           />
