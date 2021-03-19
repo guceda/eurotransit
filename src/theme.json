@@ -7,13 +7,13 @@
         "oxford_blue": "#091540"
     },
     "map": {
-        "plane_trips": {
+        "plane": {
             "disabled_light": "#EBEBEB",
             "disabled_dark": "#2F3032",
             "min": "#DEEBF7",
             "max": "#3182BD"
         },
-        "train_trips": {
+        "train": {
             "disabled_light": "#EBEBEB",
             "disabled_dark": "#2F3032",
             "min": "#E5F5E0",
@@ -26,8 +26,12 @@
     },
     "UI": {
         "accent": {
-            "plane_trips" : "#219AF3",
-            "train_trips" : "#39DB67"
+            "plane" : "#219AF3",
+            "train" : "#39DB67"
+        },
+        "text": {
+            "light": "#333333",
+            "dark": "#ffffff"
         }
     }
 }
